@@ -1,0 +1,32 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Kanvara">
+  <defs>
+    <!-- The "after" side: light being pushed through the curve. -->
+    <linearGradient id="kv-warm" x1="48" y1="0" x2="8" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFC46B"/>
+      <stop offset="0.42" stop-color="#FF9E2C"/>
+      <stop offset="1" stop-color="#7C5CFF"/>
+    </linearGradient>
+    <!-- The "before" side: untouched, deliberately inert. -->
+    <linearGradient id="kv-raw" x1="0" y1="0" x2="34" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3A3A42"/>
+      <stop offset="1" stop-color="#232329"/>
+    </linearGradient>
+    <linearGradient id="kv-seam" x1="0" y1="48" x2="48" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.15"/>
+    </linearGradient>
+    <clipPath id="kv-frame">
+      <rect width="48" height="48" rx="12.5"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#kv-frame)">
+    <!-- Upper-left: the source image, unedited. -->
+    <path d="M0 48 C14 44 12 26 24 24 C36 22 34 4 48 0 L0 0 Z" fill="url(#kv-raw)"/>
+    <!-- Lower-right: the same image after the curve is applied. -->
+    <path d="M0 48 C14 44 12 26 24 24 C36 22 34 4 48 0 L48 48 Z" fill="url(#kv-warm)"/>
+    <!-- The tone curve itself, which is what divides them. -->
+    <path d="M0 48 C14 44 12 26 24 24 C36 22 34 4 48 0" stroke="url(#kv-seam)" stroke-width="2.1" stroke-linecap="round"/>
+  </g>
+</svg>

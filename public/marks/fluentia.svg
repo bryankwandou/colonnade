@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="fl-a" x1="6" y1="42" x2="42" y2="6" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10b981"/>
+      <stop offset="0.55" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#7de6bd"/>
+    </linearGradient>
+    <linearGradient id="fl-b" x1="10" y1="10" x2="38" y2="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f5a524"/>
+      <stop offset="1" stop-color="#ff6b5b"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="46" height="46" rx="13" fill="#0b1815" stroke="rgba(255,255,255,0.1)"/>
+  <rect x="12" y="11" width="5" height="11" rx="2.5" fill="url(#fl-a)"/>
+  <rect x="12" y="25" width="5" height="12" rx="2.5" fill="url(#fl-a)"/>
+  <rect x="20" y="30" width="8" height="5" rx="2.5" fill="url(#fl-a)" opacity="0.55"/>
+  <rect x="20" y="21" width="13" height="5" rx="2.5" fill="url(#fl-a)" opacity="0.8"/>
+  <rect x="20" y="12" width="17" height="5" rx="2.5" fill="url(#fl-a)"/>
+  <circle cx="36.5" cy="33.5" r="4" fill="url(#fl-b)"/>
+</svg>

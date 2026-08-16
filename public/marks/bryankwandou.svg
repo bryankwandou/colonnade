@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="iris" x1="10" y1="4" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F7AE7B"/>
+      <stop offset="0.45" stop-color="#E4703A"/>
+      <stop offset="1" stop-color="#A8431F"/>
+    </linearGradient>
+    <radialGradient id="field" cx="0.28" cy="0.2" r="0.95">
+      <stop offset="0" stop-color="#26221F"/>
+      <stop offset="1" stop-color="#121110"/>
+    </radialGradient>
+    <clipPath id="clip"><circle cx="32" cy="32" r="26"/></clipPath>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#field)"/>
+  <g clip-path="url(#clip)">
+    <path d="M 32 6 A 26 26 0 0 0 16.71 53.03 Z" fill="url(#iris)" fill-opacity="1"/>
+    <path d="M 7.27 23.96 A 26 26 0 0 0 47.29 53.03 Z" fill="url(#iris)" fill-opacity="0.82"/>
+    <path d="M 16.71 53.03 A 26 26 0 0 0 56.73 23.96 Z" fill="url(#iris)" fill-opacity="0.66"/>
+    <path d="M 47.29 53.03 A 26 26 0 0 0 32 6 Z" fill="url(#iris)" fill-opacity="0.74"/>
+    <path d="M 56.73 23.96 A 26 26 0 0 0 7.27 23.96 Z" fill="url(#iris)" fill-opacity="0.92"/>
+  </g>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#F7AE7B" stroke-opacity="0.32" stroke-width="1.1"/>
+</svg>

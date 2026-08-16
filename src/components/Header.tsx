@@ -7,7 +7,8 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Search, X } from "lucide-react";
 import { Lockup } from "@/components/Logo";
 import { WalletPill } from "@/components/WalletPill";
-import { entries, counts, initials, accentFor, type Entry } from "@/lib/catalog";
+import { ListingMark } from "@/components/Mark";
+import { entries, counts, type Entry } from "@/lib/catalog";
 
 const NAV = [
   { href: "/tools", label: "Tools" },
@@ -98,13 +99,7 @@ function SearchPanel({ onClose }: { onClose: () => void }) {
                   onClick={onClose}
                   className="flex items-center gap-3 rounded-xl px-3 py-2.5 transition hover:bg-white/6"
                 >
-                  <span
-                    aria-hidden
-                    className="grid size-8 shrink-0 place-items-center rounded-lg text-[0.68rem] font-medium text-stone-50"
-                    style={{ background: `linear-gradient(150deg, oklch(0.40 0.07 ${accentFor(e.slug)}), oklch(0.20 0.03 ${accentFor(e.slug)}))` }}
-                  >
-                    {initials(e.name)}
-                  </span>
+                  <ListingMark entry={e} size={32} />
                   <span className="min-w-0 flex-1">
                     <span className="block truncate text-[0.87rem] text-stone-50">{e.name}</span>
                     <span className="block truncate text-[0.74rem] text-stone-300">

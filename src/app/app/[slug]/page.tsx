@@ -4,15 +4,8 @@ import { notFound } from "next/navigation";
 import { ArrowUpRight, Lock, Calendar, Code2, Star } from "lucide-react";
 import { GithubGlyph } from "@/components/icons";
 import { EntryCard } from "@/components/EntryCard";
-import {
-  entries,
-  findEntry,
-  byCategory,
-  accentFor,
-  initials,
-  relativeDate,
-  hostOf,
-} from "@/lib/catalog";
+import { ListingMark } from "@/components/Mark";
+import { entries, findEntry, byCategory, accentFor, relativeDate, hostOf } from "@/lib/catalog";
 
 export function generateStaticParams() {
   return entries.map((e) => ({ slug: e.slug }));
@@ -80,16 +73,7 @@ export default async function EntryPage({ params }: { params: Promise<{ slug: st
           </nav>
 
           <div className="flex flex-wrap items-start gap-6">
-            <div
-              aria-hidden
-              className="grid size-20 shrink-0 place-items-center rounded-[22px] border border-white/10 font-display text-[1.5rem] text-stone-50"
-              style={{
-                background: `linear-gradient(155deg, oklch(0.44 0.08 ${hue}), oklch(0.20 0.04 ${hue}))`,
-                boxShadow: "inset 0 1px 0 rgba(255,255,255,0.12), 0 18px 40px -22px rgba(0,0,0,0.9)",
-              }}
-            >
-              {initials(entry.name)}
-            </div>
+            <ListingMark entry={entry} size={80} className="rounded-[22px] shadow-[0_18px_40px_-22px_rgba(0,0,0,0.9)]" />
 
             <div className="min-w-0 flex-1">
               <h1 className="font-display text-[clamp(1.9rem,4.4vw,2.9rem)] font-light leading-tight tracking-[-0.025em] text-stone-50">

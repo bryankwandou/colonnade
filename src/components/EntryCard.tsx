@@ -4,25 +4,11 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowUpRight, Lock } from "lucide-react";
 import { GithubGlyph } from "@/components/icons";
-import { accentFor, initials, relativeDate, hostOf, type Entry } from "@/lib/catalog";
+import { accentFor, relativeDate, hostOf, type Entry } from "@/lib/catalog";
+import { ListingMark } from "@/components/Mark";
 
-/** The tile glyph: initials over a hue derived from the slug, so it never shifts. */
 function Tile({ entry, size = 52 }: { entry: Entry; size?: number }) {
-  const hue = accentFor(entry.slug);
-  return (
-    <div
-      aria-hidden
-      className="grid shrink-0 place-items-center rounded-[14px] border border-white/8 font-display text-[0.95rem] tracking-tight text-stone-50"
-      style={{
-        width: size,
-        height: size,
-        background: `linear-gradient(155deg, oklch(0.42 0.07 ${hue}), oklch(0.22 0.04 ${hue}))`,
-        boxShadow: `inset 0 1px 0 rgba(255,255,255,0.10), 0 6px 18px -10px oklch(0.42 0.09 ${hue})`,
-      }}
-    >
-      {initials(entry.name)}
-    </div>
-  );
+  return <ListingMark entry={entry} size={size} />;
 }
 
 export function EntryCard({ entry, index = 0 }: { entry: Entry; index?: number }) {
