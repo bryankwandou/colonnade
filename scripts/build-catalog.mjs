@@ -442,6 +442,44 @@ function main() {
     });
   }
 
+  /*
+   * Deployments that never had a repository of their own. The Keelstack
+   * verticals are the case in point: sixteen running applications compiled out
+   * of one corpus, each with a live URL and no source tree behind it. Leaving
+   * them off would hide sixteen shipped things.
+   */
+  const extras = readJson(join(root, "src", "data", "extra-listings.json"), []);
+  for (const extra of extras) {
+    const project = deployments.find((p) => p.name === extra.vercelProject);
+    const live = normaliseUrl(extra.live ?? project?.latestProductionUrl);
+    if (!live) {
+      console.warn(`  extra listing "${extra.slug}" has no deployment; skipped`);
+      continue;
+    }
+    const rule = CATEGORY_RULES.find((c) => c.id === extra.category);
+    const updatedAt = project?.updatedAt ? new Date(project.updatedAt).toISOString() : new Date().toISOString();
+
+    entries.push({
+      slug: extra.slug,
+      name: extra.name,
+      repoName: extra.vercelProject,
+      tagline: extra.tagline ?? null,
+      live,
+      source: null,
+      private: false,
+      archived: false,
+      language: extra.language ?? null,
+      stars: 0,
+      topics: [],
+      shelf: extra.shelf ?? rule?.shelf ?? "tools",
+      category: extra.category,
+      categoryLabel: rule?.label ?? extra.category,
+      featured: Boolean(extra.featured),
+      updatedAt,
+      createdAt: updatedAt,
+    });
+  }
+
   entries.sort((a, b) => {
     if (a.featured !== b.featured) return a.featured ? -1 : 1;
     if (Boolean(a.live) !== Boolean(b.live)) return a.live ? -1 : 1;

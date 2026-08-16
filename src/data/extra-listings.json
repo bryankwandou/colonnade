@@ -1,0 +1,146 @@
+[
+  {
+    "slug": "keelstack-ads",
+    "name": "Keelstack Ads",
+    "vercelProject": "keelstack-ads",
+    "tagline": "Campaign and placement rules compiled out of the advertising shard, so every rejection cites the line that caused it.",
+    "shelf": "tools",
+    "category": "developer",
+    "language": "TypeScript"
+  },
+  {
+    "slug": "keelstack-commerce",
+    "name": "Keelstack Commerce",
+    "vercelProject": "keelstack-commerce",
+    "tagline": "Checkout, refunds, and fulfilment states read straight from the commerce shard at build time.",
+    "shelf": "tools",
+    "category": "developer",
+    "language": "TypeScript"
+  },
+  {
+    "slug": "keelstack-creator",
+    "name": "Keelstack Creator",
+    "vercelProject": "keelstack-creator",
+    "tagline": "Payout tiers and content permissions for creator platforms, generated rather than hand-written.",
+    "shelf": "tools",
+    "category": "developer",
+    "language": "TypeScript"
+  },
+  {
+    "slug": "keelstack-food",
+    "name": "Keelstack Food",
+    "vercelProject": "keelstack-food",
+    "tagline": "Ordering and delivery states compiled from the food shard, with each decision traceable to its spec line.",
+    "shelf": "tools",
+    "category": "developer",
+    "language": "TypeScript"
+  },
+  {
+    "slug": "keelstack-gaming",
+    "name": "Keelstack Gaming",
+    "vercelProject": "keelstack-gaming",
+    "tagline": "Match, inventory, and entitlement rules for games, lifted out of the gaming shard.",
+    "shelf": "tools",
+    "category": "developer",
+    "language": "TypeScript"
+  },
+  {
+    "slug": "keelstack-health",
+    "name": "Keelstack Health",
+    "vercelProject": "keelstack-health",
+    "tagline": "Consent and record-access rules where citing the governing line is the whole point.",
+    "shelf": "tools",
+    "category": "developer",
+    "language": "TypeScript"
+  },
+  {
+    "slug": "keelstack-identity",
+    "name": "Keelstack Identity",
+    "vercelProject": "keelstack-identity",
+    "tagline": "Authentication and authorisation matrices compiled from the identity shard instead of assembled by hand.",
+    "shelf": "tools",
+    "category": "developer",
+    "language": "TypeScript"
+  },
+  {
+    "slug": "keelstack-lending",
+    "name": "Keelstack Lending",
+    "vercelProject": "keelstack-lending",
+    "tagline": "Underwriting and collections states drawn from the lending shard, each refusal pointing at its rule.",
+    "shelf": "tools",
+    "category": "developer",
+    "language": "TypeScript"
+  },
+  {
+    "slug": "keelstack-logistics",
+    "name": "Keelstack Logistics",
+    "vercelProject": "keelstack-logistics",
+    "tagline": "Routing, custody, and exception handling generated from the logistics shard.",
+    "shelf": "tools",
+    "category": "developer",
+    "language": "TypeScript"
+  },
+  {
+    "slug": "keelstack-messaging",
+    "name": "Keelstack Messaging",
+    "vercelProject": "keelstack-messaging",
+    "tagline": "Delivery guarantees and moderation states compiled out of the messaging shard.",
+    "shelf": "tools",
+    "category": "developer",
+    "language": "TypeScript"
+  },
+  {
+    "slug": "keelstack-mobility",
+    "name": "Keelstack Mobility",
+    "vercelProject": "keelstack-mobility",
+    "tagline": "Trip lifecycle and driver eligibility rules read from the mobility shard at build time.",
+    "shelf": "tools",
+    "category": "developer",
+    "language": "TypeScript"
+  },
+  {
+    "slug": "keelstack-payments",
+    "name": "Keelstack Payments",
+    "vercelProject": "keelstack-payments",
+    "tagline": "Settlement, chargeback, and hold states compiled from the payments shard rather than reimplemented.",
+    "shelf": "tools",
+    "category": "developer",
+    "language": "TypeScript"
+  },
+  {
+    "slug": "keelstack-search",
+    "name": "Keelstack Search",
+    "vercelProject": "keelstack-search",
+    "tagline": "Ranking and visibility rules generated from the search shard, with the governing line always in reach.",
+    "shelf": "tools",
+    "category": "developer",
+    "language": "TypeScript"
+  },
+  {
+    "slug": "keelstack-social",
+    "name": "Keelstack Social",
+    "vercelProject": "keelstack-social",
+    "tagline": "Follow graphs, blocks, and reporting flows compiled from the social shard.",
+    "shelf": "tools",
+    "category": "developer",
+    "language": "TypeScript"
+  },
+  {
+    "slug": "keelstack-travel",
+    "name": "Keelstack Travel",
+    "vercelProject": "keelstack-travel",
+    "tagline": "Booking, change, and cancellation states lifted out of the travel shard.",
+    "shelf": "tools",
+    "category": "developer",
+    "language": "TypeScript"
+  },
+  {
+    "slug": "keelstack-video",
+    "name": "Keelstack Video",
+    "vercelProject": "keelstack-video",
+    "tagline": "Upload, transcode, and rights states compiled from the video shard.",
+    "shelf": "tools",
+    "category": "developer",
+    "language": "TypeScript"
+  }
+]
