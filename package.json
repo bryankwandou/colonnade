@@ -7,7 +7,10 @@
                     "build":  "next build",
                     "start":  "next start",
                     "lint":  "eslint",
-                    "catalog":  "node scripts/build-catalog.mjs"
+                    "catalog":  "node scripts/build-catalog.mjs",
+                    "marks":  "node scripts/fetch-marks.mjs",
+                    "readmes":  "node scripts/fetch-readmes.mjs",
+                    "audit":  "node scripts/audit-taglines.mjs"
                 },
     "dependencies":  {
                          "@solana/wallet-adapter-base":  "^0.9.27",

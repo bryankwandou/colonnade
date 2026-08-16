@@ -31,6 +31,7 @@
   "inkfold": {
     "name": "Inkfold",
     "tagline": "A comics library stocked only with work that is provably free to share.",
+    "live": "https://inkfold.vercel.app",
     "category": "creative-tools"
   },
   "glyphra": {
@@ -52,7 +53,8 @@
   },
   "tallystick": {
     "name": "Tallystick",
-    "tagline": "Settlement for agents that spend on their own, with identity and a confidential compute trail.",
+    "tagline": "Settlement for agents that spend on their own, with identity attached and a confidential compute trail behind it.",
+    "live": "https://tallystick.vercel.app",
     "category": "agent-infra"
   },
   "forewrit": {
@@ -68,12 +70,14 @@
   },
   "veylock": {
     "name": "Veylock",
-    "tagline": "An execution firewall standing between autonomous capital and a bad transaction.",
+    "tagline": "An execution firewall standing between autonomous capital and a transaction it should not sign.",
+    "live": "https://veylock.vercel.app",
     "category": "agent-infra"
   },
   "x402gate": {
     "name": "X402gate",
-    "tagline": "HTTP 402, put to work. Agents pay per API call over Solana devnet.",
+    "tagline": "HTTP 402 put to work: agents pay per API call across Solana devnet.",
+    "live": "https://x402gate.vercel.app",
     "category": "agent-infra"
   },
   "aval-rail": {
@@ -90,6 +94,7 @@
   "keelstack": {
     "name": "Keelstack",
     "tagline": "A spec compiler sitting on five million addressable specification lines.",
+    "live": "https://keelstack.vercel.app",
     "category": "developer"
   },
   "loomstack": {
@@ -106,6 +111,7 @@
   "mettle": {
     "name": "Mettle",
     "tagline": "Single-use developer assessments that adapt as you answer, so the score means something.",
+    "live": "https://mettlehq.vercel.app",
     "category": "developer"
   },
   "tokenwatt": {
@@ -147,7 +153,8 @@
   },
   "stele": {
     "name": "Stele",
-    "tagline": "An on-chain record of scripture reading, with a token deliberately built to be worth nothing.",
+    "tagline": "An on-chain record of scripture reading, carrying a token deliberately built to be worth nothing.",
+    "live": "https://stele-gamma.vercel.app",
     "category": "web3"
   },
   "wayproof": {
@@ -159,11 +166,13 @@
   "kinferry": {
     "name": "Kinferry",
     "tagline": "Remittance by agent, with recipient checks and a policy gate before any lamport moves.",
+    "live": "https://kinferry.vercel.app",
     "category": "web3"
   },
   "anamneon": {
     "name": "Anamneon",
-    "tagline": "Illness history anchored to Solana devnet. Hashes go on chain, records never do.",
+    "tagline": "Riwayat penyakit yang ditambatkan ke Solana devnet. Sidik digitalnya naik ke rantai, isinya tidak pernah.",
+    "live": "https://anamneon.vercel.app",
     "category": "web3"
   },
   "kithra": {
@@ -200,7 +209,7 @@
   },
   "bryankwandou": {
     "name": "Bryan Kwandou",
-    "tagline": "Curriculum vitae dan catatan kerja, dalam satu halaman yang enak dicetak.",
+    "tagline": "Builder in Makassar. Software that leaves a trail, with the shipped work listed rather than described.",
     "category": "consumer"
   },
   "veilo-privacy-pool-assessment": {
@@ -218,7 +227,6 @@
     "tagline": "Investment judgement without manufactured consensus. Four lenses, kept apart on purpose.",
     "category": "research"
   },
-
   "kubantara": {
     "name": "Kubantara",
     "tagline": "Pulau kubus prosedural untuk anak: membangun, merawat peliharaan, menjelajah gua. Tanpa musuh, tanpa iklan, tanpa obrolan dengan orang asing.",
@@ -242,33 +250,30 @@
   },
   "blockblast": {
     "name": "Blockblast",
-    "tagline": "A block-clearing arcade game, rebuilt from scratch to study how the originals keep a run tense.",
     "category": "games"
   },
   "proofofplay": {
     "name": "Proof of Play",
-    "tagline": "A dungeon crawl where the run itself is the record — what you cleared is what you can show.",
     "category": "games"
   },
-
   "smashgo": {
     "name": "SmashGO",
-    "tagline": "Pesan lapangan bulutangkis: pilih venue, pilih jam, bayar, selesai.",
-    "category": "civic"
+    "tagline": "Pengelolaan bulutangkis kantoran yang jalan tanpa server: pemeringkatan ELO dan koordinasi lewat WhatsApp.",
+    "category": "consumer"
   },
   "nusaharvest": {
     "name": "NusaHarvest",
-    "tagline": "Rantai pasok hasil tani desa, dari petani sampai pembeli tanpa lapisan tengah yang tidak perlu.",
-    "category": "civic"
+    "tagline": "Asuransi panen parametrik dan pinjaman lumbung hasil di Solana, disiapkan untuk 73 juta petani Indonesia.",
+    "category": "web3"
   },
   "kopedu": {
     "name": "KopEdu",
-    "tagline": "Koperasi sekolah yang dijalankan siswa, dengan pembukuan yang bisa diperiksa guru.",
+    "tagline": "Pahami koperasi, kuasai ekonomimu. Bahan belajar yang menerangkan cara kerja koperasi dari dalam.",
     "category": "civic"
   },
   "kopedu-nft-solana": {
     "name": "KopEdu NFT",
-    "tagline": "Keanggotaan koperasi sekolah diterbitkan sebagai token di Solana, bukan sebagai kartu yang gampang hilang.",
+    "tagline": "Belajar koperasi, lalu buktikan capaiannya di rantai alih-alih pada selembar sertifikat.",
     "category": "web3"
   },
   "tanki-request": {
@@ -281,10 +286,9 @@
     "tagline": "Pendamping usaha untuk UMKM Indonesia: mencatat transaksi, lalu membacakan artinya.",
     "category": "civic"
   },
-
   "springboot-login-jwt": {
     "name": "Spring Boot JWT Login",
-    "tagline": "Autentikasi JWT di Spring Boot, ditulis untuk memahami lapisan security-nya dari dalam.",
+    "tagline": "Autentikasi bearer token di Spring Boot, disusun sebagai bahan evaluasi teknis praktik dasar.",
     "category": "coursework"
   },
   "semester3dan4": {
@@ -299,7 +303,6 @@
   },
   "computervision-project1": {
     "name": "Computer Vision Project 1",
-    "tagline": "Tugas pertama mata kuliah visi komputer.",
     "category": "coursework"
   },
   "coffeeshop-enterprisefinaltest": {
@@ -309,40 +312,38 @@
   },
   "solidity-personal-vault-mancer": {
     "name": "Personal Vault",
-    "tagline": "Kontrak brankas pribadi di Solidity, latihan memahami pola penyimpanan dana di EVM.",
-    "category": "coursework"
+    "tagline": "Penggalangan dana terdesentralisasi di Solana dengan Anchor. Namanya menyebut Solidity, isinya tidak.",
+    "category": "web3"
   },
   "qr-code-generator": {
     "name": "QR Code Generator",
-    "tagline": "Pembangkit kode QR, latihan awal menangani encoding dan render.",
+    "tagline": "Aplikasi Flutter yang membangkitkan kode QR dari teks atau tautan apa pun.",
     "category": "coursework"
   },
   "portfolio-cv": {
     "name": "Portfolio CV",
-    "tagline": "Halaman CV pertama, disimpan sebagai penanda dari mana portofolio ini berangkat.",
-    "category": "coursework"
+    "tagline": "Portofolio tersaring Vincentius Bryan Kwandou, memisahkan kerja formal dari kerja Web3.",
+    "category": "consumer"
   },
-
   "atlas-quant": {
     "name": "Atlas Quant",
-    "tagline": "Riset perdagangan kuantitatif berikut papan pantau yang membacakan hasilnya.",
+    "tagline": "Quantitative market analysis with no state and no server to keep warm — it scales by having nothing to scale.",
     "live": "https://atlas-quant.vercel.app",
     "category": "measurement"
   },
   "pocketledger-offline-expense-tracker": {
     "name": "PocketLedger",
-    "tagline": "Pencatat pengeluaran di Flutter yang tetap bekerja penuh tanpa koneksi sama sekali.",
+    "tagline": "Pencatat keuangan pribadi yang sepenuhnya luring. Tidak ada data yang keluar karena tidak ada yang dikirim.",
     "category": "measurement"
   },
   "chainops-dashboard-ui-kit": {
     "name": "ChainOps UI Kit",
-    "tagline": "Perangkat komponen papan pantau untuk operasi on-chain, siap disalin ke proyek lain.",
+    "tagline": "Sistem desain papan pantau untuk produk Web3 dan AI, disiapkan matang untuk dijual atau langsung dipakai.",
     "category": "measurement"
   },
-
   "focusforge-pomodoro": {
     "name": "FocusForge",
-    "tagline": "Penghitung waktu Pomodoro di Flutter, tanpa tambahan yang mengalihkan perhatian.",
+    "tagline": "Penghitung waktu Pomodoro di Flutter, dibuat agar satu sesi benar-benar utuh.",
     "category": "consumer"
   },
   "habitforge": {
@@ -352,12 +353,12 @@
   },
   "flowtask-smart-todo-app": {
     "name": "FlowTask",
-    "tagline": "Daftar tugas di Flutter, disusun agar yang mendesak naik sendiri ke atas.",
+    "tagline": "Mengubah kekacauan harian jadi kemajuan yang terarah, bukan sekadar daftar yang makin panjang.",
     "category": "consumer"
   },
   "hydraflow-water-reminder": {
     "name": "HydraFlow",
-    "tagline": "Pengingat minum air di Flutter, dengan jadwal yang Anda atur sendiri.",
+    "tagline": "Pengingat minum yang bekerja luring sepenuhnya, menjaga asupan tanpa menuntut koneksi.",
     "category": "consumer"
   },
   "movv-bmi": {
@@ -367,22 +368,20 @@
   },
   "fluentia": {
     "name": "Fluentia",
-    "tagline": "Latihan bahasa yang menekan pada penggunaan sehari-hari, bukan pada hafalan daftar kata.",
+    "tagline": "Language study that leaves a record, so progress is something you can look back at rather than feel.",
     "live": "https://fluentia.vercel.app",
     "category": "consumer"
   },
   "everanima": {
     "name": "Everanima",
-    "tagline": "Ruang baca dan tonton animasi, disusun agar mudah dijelajah tanpa tersesat.",
+    "tagline": "The AI memory you actually own — kept where you can read it, edit it, and take it away.",
     "live": "https://everanima.vercel.app",
-    "category": "consumer"
+    "category": "agent-infra"
   },
   "nng-game-topup": {
     "name": "NNG Game Topup",
-    "tagline": "Isi ulang saldo game untuk pemain Indonesia, dengan harga yang terbaca jelas di muka.",
     "category": "consumer"
   },
-
   "solgig": {
     "name": "SolGig",
     "tagline": "Pekerjaan lepas yang diselesaikan dan dibayar di Solana, tanpa perantara memegang dana.",
@@ -391,7 +390,7 @@
   },
   "solgig-mainnet": {
     "name": "SolGig Mainnet",
-    "tagline": "Penyebaran SolGig ke mainnet, terpisah dari versi percobaan agar riwayatnya tetap bersih.",
+    "tagline": "Lapak sosial untuk kreator Solana: jual karya digital, bagikan di lini masa, terima bayaran langsung ke dompet.",
     "live": "https://solgig-mainnet.vercel.app",
     "category": "web3"
   },
@@ -403,49 +402,23 @@
   },
   "trustpay-sea": {
     "name": "TrustPay SEA",
-    "tagline": "Pembayaran lintas negara Asia Tenggara yang menyelesaikan di rantai, bukan lewat koresponden bank.",
+    "tagline": "Escrow bertahap untuk pekerja lepas dan UKM Asia Tenggara, dengan bantuan AI menilai penyelesaian tiap tahap.",
     "category": "web3"
   },
   "diafund": {
     "name": "Diafund",
-    "tagline": "Penggalangan dana yang setiap penyalurannya tercatat dan bisa ditelusuri penyumbang.",
+    "tagline": "Donasi yang bisa diikuti sampai ujung. Dana ditahan di escrow dan dilepas per tahap, bukan sekaligus.",
     "live": "https://diafund.vercel.app",
     "category": "web3"
   },
   "quantcoin": {
     "name": "QuantCoin",
-    "tagline": "Token dan program pendukungnya di Rust, ditulis untuk mendalami model akun Solana.",
     "category": "web3"
   },
   "nng-protocol": {
     "name": "NNG Protocol",
     "tagline": "Token utilitas untuk komunitas NNG, beserta aturan peredarannya.",
     "category": "web3"
-  },
-  "anamneon": {
-    "name": "Anamneon",
-    "tagline": "Riwayat penyakit yang ditambatkan ke Solana devnet. Sidik digitalnya naik ke rantai, isinya tidak pernah.",
-    "live": "https://anamneon.vercel.app",
-    "category": "web3"
-  },
-
-  "veylock": {
-    "name": "Veylock",
-    "tagline": "An execution firewall standing between autonomous capital and a transaction it should not sign.",
-    "live": "https://veylock.vercel.app",
-    "category": "agent-infra"
-  },
-  "x402gate": {
-    "name": "X402gate",
-    "tagline": "HTTP 402 put to work: agents pay per API call across Solana devnet.",
-    "live": "https://x402gate.vercel.app",
-    "category": "agent-infra"
-  },
-  "tallystick": {
-    "name": "Tallystick",
-    "tagline": "Settlement for agents that spend on their own, with identity attached and a confidential compute trail behind it.",
-    "live": "https://tallystick.vercel.app",
-    "category": "agent-infra"
   },
   "nng-tiktok-live-agent": {
     "name": "NNG TikTok Live Agent",
@@ -463,43 +436,12 @@
     "live": "https://removix.vercel.app",
     "category": "creative-tools"
   },
-  "keelstack": {
-    "name": "Keelstack",
-    "tagline": "A spec compiler sitting on five million addressable specification lines.",
-    "live": "https://keelstack.vercel.app",
-    "category": "developer"
-  },
-  "mettle": {
-    "name": "Mettle",
-    "tagline": "Single-use developer assessments that adapt as you answer, so the score means something.",
-    "live": "https://mettlehq.vercel.app",
-    "category": "developer"
-  },
-  "kinferry": {
-    "name": "Kinferry",
-    "tagline": "Remittance by agent, with recipient checks and a policy gate before any lamport moves.",
-    "live": "https://kinferry.vercel.app",
-    "category": "web3"
-  },
-  "stele": {
-    "name": "Stele",
-    "tagline": "An on-chain record of scripture reading, carrying a token deliberately built to be worth nothing.",
-    "live": "https://stele-gamma.vercel.app",
-    "category": "web3"
-  },
-  "inkfold": {
-    "name": "Inkfold",
-    "tagline": "A comics library stocked only with work that is provably free to share.",
-    "live": "https://inkfold.vercel.app",
-    "category": "creative-tools"
-  },
   "matchmind": {
     "name": "Matchmind",
-    "tagline": "Mempertemukan orang berdasarkan cara berpikirnya, bukan berdasarkan daftar minat yang diisi sendiri.",
+    "tagline": "Mengubah tiap momen Piala Dunia 2026 jadi percakapan: gol tercipta, peluang bergeser, obrolan ikut berbelok.",
     "live": "https://matchmind-omega.vercel.app",
     "category": "consumer"
   },
-
   "veilspire": {
     "name": "Veilspire",
     "tagline": "An open world where every character will actually pick up the phone when you call them.",
