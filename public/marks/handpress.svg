@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
-  <rect width="48" height="48" rx="11" fill="#14120e"/>
-  <g transform="translate(-2.6 -2.6)" opacity="0.92" fill="#f04e23">
-    <rect x="11" y="10" width="7.5" height="28" rx="3.75"/>
-    <rect x="29.5" y="10" width="7.5" height="28" rx="3.75"/>
-    <rect x="11" y="20.25" width="26" height="7.5" rx="3.75"/>
-  </g>
-  <g fill="#faf7f0">
-    <rect x="11" y="10" width="7.5" height="28" rx="3.75"/>
-    <rect x="29.5" y="10" width="7.5" height="28" rx="3.75"/>
-    <rect x="11" y="20.25" width="26" height="7.5" rx="3.75"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 48 48" role="img" aria-label="Handpress" color="#E8E2D6"><style>.fill-foreground,.fill-current,.fill-primary,.fill-background{fill:currentColor}.stroke-foreground,.stroke-current,.stroke-primary{stroke:currentColor}.text-foreground,.text-primary{color:currentColor}</style><g transform="translate(-2.6 -2.6)" opacity="0.92"><g fill="var(--color-press-500, #f04e23)"><rect x="8" y="7" width="9" height="34" rx="4.5"></rect><rect x="31" y="7" width="9" height="34" rx="4.5"></rect><rect x="8" y="19.5" width="32" height="9" rx="4.5"></rect></g></g><g fill="currentColor"><rect x="8" y="7" width="9" height="34" rx="4.5"></rect><rect x="31" y="7" width="9" height="34" rx="4.5"></rect><rect x="8" y="19.5" width="32" height="9" rx="4.5"></rect></g></svg>

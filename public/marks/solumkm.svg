@@ -1,16 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-  <defs>
-    <linearGradient id="f" x1="0" y1="32" x2="32" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0E8F62"/>
-      <stop offset="0.55" stop-color="#1FA97D"/>
-      <stop offset="1" stop-color="#7C3AED"/>
-    </linearGradient>
-    <linearGradient id="s" x1="6" y1="24" x2="26" y2="8" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#EAFBF3"/>
-      <stop offset="1" stop-color="#FFFFFF"/>
-    </linearGradient>
-  </defs>
-  <rect x="1" y="1" width="30" height="30" rx="9" fill="url(#f)"/>
-  <path d="M6.5 21.5 L12 21.5 L15.5 16 L19 19 L25.5 9.5" stroke="url(#s)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="25.5" cy="9.5" r="2.1" fill="#ffffff"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" class="brand-mark" width="26" height="26" viewBox="0 0 32 32" fill="none" aria-hidden="true" focusable="false" color="#E8E2D6"><style>.fill-foreground,.fill-current,.fill-primary,.fill-background{fill:currentColor}.stroke-foreground,.stroke-current,.stroke-primary{stroke:currentColor}.text-foreground,.text-primary{color:currentColor}</style><defs><linearGradient id="solumkm-fill" x1="0" y1="32" x2="32" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#0E8F62"></stop><stop offset="0.55" stop-color="#1FA97D"></stop><stop offset="1" stop-color="#7C3AED"></stop></linearGradient><linearGradient id="solumkm-stroke" x1="6" y1="24" x2="26" y2="8" gradientUnits="userSpaceOnUse"><stop stop-color="#EAFBF3"></stop><stop offset="1" stop-color="#FFFFFF"></stop></linearGradient></defs><rect x="1" y="1" width="30" height="30" rx="9" fill="url(#solumkm-fill)"></rect><rect x="1.75" y="1.75" width="28.5" height="28.5" rx="8.25" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1.5"></rect><path d="M6.5 21.5 L12 21.5 L15.5 16 L19 19 L25.5 9.5" stroke="url(#solumkm-stroke)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21.4 12.9 L19 19" stroke="url(#solumkm-stroke)" stroke-width="2.6" stroke-linecap="round" stroke-opacity="0"></path><circle cx="25.5" cy="9.5" r="2.1" fill="#ffffff"></circle></svg>

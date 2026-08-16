@@ -1,52 +1,73 @@
 {
   "kithra": {
     "file": "kithra.svg",
-    "source": "https://kithra.vercel.app/icon.svg?icon.2_j-hk0mv9p2c.svg",
-    "kind": "svg",
-    "bytes": 907,
-    "digest": "6362ebfa0ec7967666429bccf666efae7521d4662b26115a3467856ed78e90cd"
+    "source": "https://kithra.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1222,
+    "digest": "1916995e14ceb7d212fd3162863844c2770c859007076b187dfeb83703879469"
+  },
+  "assaykit": {
+    "file": "assaykit.svg",
+    "source": "https://assaykit.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1530,
+    "digest": "2784ebc15f62b7c2d152b3349aaf83ccaf6e4b46b3727bfa0577641b3f4956a7"
   },
   "handpress": {
     "file": "handpress.svg",
-    "source": "https://handpress.vercel.app/icon.svg",
-    "kind": "svg",
-    "bytes": 621,
-    "digest": "848074f242c299c72fbd6aed351376188ba7e3d2646a4355c5db516321e7cd66"
+    "source": "https://handpress.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 827,
+    "digest": "9533f33b1feb4c77a1c78d2f8d15b869fade382bd1ad0e04d79f8edd34787699"
   },
   "marque": {
     "file": "marque.svg",
-    "source": "https://marque-eight-ruddy.vercel.app/icon.svg?icon.0k1s4vcz7mmjb.svg",
-    "kind": "svg",
-    "bytes": 680,
-    "digest": "09c53cface80b45428c2b4eea1333d4c21acbfeb3c7af07c5b5396e2cc60ea80"
+    "source": "https://marque-eight-ruddy.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1104,
+    "digest": "065613dbfb79b11b1dc7ab7cc6fde80b8ba94aea4a7448d5a82ffd58760e886d"
   },
   "grainroom": {
     "file": "grainroom.svg",
-    "source": "https://grainroom-seven.vercel.app/icon.svg",
-    "kind": "svg",
-    "bytes": 1720,
-    "digest": "57b400b10070b41ec631cc32a4571ee99b3ccc86053d769424d27c2c75ee0f60"
+    "source": "https://grainroom-seven.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 5422,
+    "digest": "1b353765b088f08d903db5fd6ab4de3d0b50ea13444a061cb45f322fa813e2b9"
+  },
+  "nullstamp": {
+    "file": "nullstamp.svg",
+    "source": "https://nullstamp.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 770,
+    "digest": "16ff2524c38c835fcfd0fd0c6accda8bf501f61f569f689d215f99ac49524f51"
+  },
+  "kernly": {
+    "file": "kernly.svg",
+    "source": "https://kernly.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 858,
+    "digest": "112d8bbd0b339ce7b3fdf74600e6159fb6d0a28f7025588a0ecd4169e1d1d842"
   },
   "solera": {
     "file": "solera.svg",
-    "source": "https://solera-one.vercel.app/brand/solera-mark.svg",
-    "kind": "svg",
-    "bytes": 1252,
-    "digest": "5bc4c4650b7f2f16144b949e78ee56422c14d11deed44cd3e534a802f8ff4d61"
+    "source": "https://solera-one.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1153,
+    "digest": "bccff6652cae29e8a7e69c20066e341ddf69592f956a8125f9804ccb9b07c435"
   },
   "stemloom": {
     "file": "stemloom.svg",
-    "source": "https://stemloom.vercel.app/icon.svg",
-    "kind": "svg",
-    "bytes": 800,
-    "digest": "030df83cc0d6b31fdedb8f5ea8992ea9c3e3eed0fc127783f5a1e712e9c238d8"
+    "source": "https://stemloom.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1687,
+    "digest": "7ec3eb73f4e4d402b7f617289e38b345979e544cfc24c916eedaa9bf10821162"
   },
   "cutwright": {
     "file": "cutwright.svg",
-    "source": "https://cutwright.vercel.app/icon.svg",
-    "kind": "svg",
-    "bytes": 1231,
-    "digest": "314b110b623dd7474e947d9b30a21070197e79074b366853cca3abecea34f857"
+    "source": "https://cutwright.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1655,
+    "digest": "0bd3918efb9d152927dc6fcaa3d3988c35c7a91c4c3323619054ba36606238cc"
   },
   "meadowfar": {
     "file": "meadowfar.svg",
@@ -57,31 +78,45 @@
   },
   "cadensa": {
     "file": "cadensa.svg",
-    "source": "https://cadensa.vercel.app/logo.svg",
-    "kind": "svg",
-    "bytes": 2059,
-    "digest": "bdeea87396734661d2529e164e6fe809427b08e0c5a62483809fab0c9b2a7fce"
+    "source": "https://cadensa.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 4326,
+    "digest": "7b4cc774e58a5584f2d23eebd631e5d49e79066b905c32a8d4899e689ec3d471"
+  },
+  "arbiter": {
+    "file": "arbiter.svg",
+    "source": "https://dashboard-web-gamma-peach.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 981,
+    "digest": "9a8c6120ecc25abd80d883f432dfc413e4c8e2aa2b0c9852fb62858039f0d327"
   },
   "colonnade": {
     "file": "colonnade.svg",
-    "source": "https://colonnade.vercel.app/icon.svg",
-    "kind": "svg",
-    "bytes": 1586,
-    "digest": "00f3d8e3fa5d5809985c6807d317286b5cedbb4bfefb25fa036ffbdcb1158ee6"
+    "source": "https://colonnade.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 2473,
+    "digest": "d7c8ec1cf256ea39e3809239d23efad760fc4a208bdc97b87c3b9bf90964a5d1"
   },
   "bryankwandou": {
     "file": "bryankwandou.svg",
-    "source": "https://bryankwandou.vercel.app/icon.svg?icon.3j2-9uonxfnr7.svg",
-    "kind": "svg",
-    "bytes": 1270,
-    "digest": "fc0e7cd33a2b92c0d28809bbbb3566c04350e18813b6d02bf1c3ec59d0dcc085"
+    "source": "https://bryankwandou.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1695,
+    "digest": "07307b02a0a822157c3b2cbf68f11129d7ecfb3e7ebce80d6be2006d97a13034"
+  },
+  "forkroot": {
+    "file": "forkroot.svg",
+    "source": "https://forkroot.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 2289,
+    "digest": "2e3af1b6929edeaf953c681ebceabf8e572380d9f7e19df48d6e76b5f196987b"
   },
   "vinbryyt": {
     "file": "vinbryyt.svg",
-    "source": "https://vinbryyt.vercel.app/icon.svg?icon.2ubmhql6fq1vd.svg",
-    "kind": "svg",
-    "bytes": 847,
-    "digest": "883a8f989bb5f8b89a32d0c2a1ead044e6372734cf08aaaae4850a33d2ec585d"
+    "source": "https://vinbryyt.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1313,
+    "digest": "8eb86f5707fb731195020aa8a619b1af962f0e47fbb972f49fa0ce145008d155"
   },
   "keelstack-search": {
     "file": "keelstack-search.svg",
@@ -148,10 +183,10 @@
   },
   "stele": {
     "file": "stele.svg",
-    "source": "https://stele-gamma.vercel.app/mark.svg",
-    "kind": "svg",
-    "bytes": 2743,
-    "digest": "eb82b0518dd22e98f64c1eb9c9452eb2953993c339091961b7e3be34dedb81a4"
+    "source": "https://stele-gamma.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 3976,
+    "digest": "51af93617d63913050aa9b8a82d7ba1f0d6df7fc9548d473e2175373cbc2cc6d"
   },
   "keelstack-logistics": {
     "file": "keelstack-logistics.svg",
@@ -176,10 +211,10 @@
   },
   "tokenwatt": {
     "file": "tokenwatt.svg",
-    "source": "https://tokenwatt.vercel.app/icon.svg",
-    "kind": "svg",
-    "bytes": 1011,
-    "digest": "382412c58383f287d74dfc6edbb2f6de8d091b3c191a26559c5670ab2758a9e3"
+    "source": "https://tokenwatt.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1161,
+    "digest": "084bde2e0859c05c03b315723f16c6c791d83f8cda96246156971f5c223a3ce2"
   },
   "nngesport": {
     "file": "nngesport.svg",
@@ -187,6 +222,13 @@
     "kind": "svg",
     "bytes": 1569,
     "digest": "779ceb4f081a194fe00990f64bad50bcea123c85beef5b84771f1258cbc380b5"
+  },
+  "larasa": {
+    "file": "larasa.svg",
+    "source": "https://larasa.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1714,
+    "digest": "34cd6b782b5cf81957e5b6596a59ee81ef9e456076efb2c5065cacc37377b4cd"
   },
   "keelstack-gaming": {
     "file": "keelstack-gaming.svg",
@@ -218,17 +260,24 @@
   },
   "fluentia": {
     "file": "fluentia.svg",
-    "source": "https://fluentia.vercel.app/logo.svg",
-    "kind": "svg",
-    "bytes": 1111,
-    "digest": "6cef02d213a7fa995c6387782c657312f12ff1be1b190fcf66ff5a5fce75c93d"
+    "source": "https://fluentia.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1345,
+    "digest": "cb99cf55848254a28a87b46a06ae02691a6606b21e484782a6260f223ee7a79c"
+  },
+  "tallystick": {
+    "file": "tallystick.svg",
+    "source": "https://tallystick.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1024,
+    "digest": "2130a33e44fa2c968069aee051dc689dad46c9b2e519a6ea90c3e239bc313e34"
   },
   "mettle": {
     "file": "mettle.svg",
-    "source": "https://mettlehq.vercel.app/mark.svg",
-    "kind": "svg",
-    "bytes": 2511,
-    "digest": "1523b62699999a88f6fab41e25c4af04661ed54b49646cb45f8f14a2660d149a"
+    "source": "https://mettlehq.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 2351,
+    "digest": "debbae4e362fbf768f9f51d703276ef004763f59038a7cf8645f0a0b7538a4aa"
   },
   "inkfold": {
     "file": "inkfold.svg",
@@ -239,17 +288,24 @@
   },
   "kanvara": {
     "file": "kanvara.svg",
-    "source": "https://kanvara.vercel.app/mark.svg",
-    "kind": "svg",
-    "bytes": 1684,
-    "digest": "3054f49a7a772ea4eb3ca53527c5e7ddb1fac9acccd675c0df13efbfe213cad0"
+    "source": "https://kanvara.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1612,
+    "digest": "e3a82d69833bdc9e3623901363a9093166aacb2be1cc9c665d1c0101c1d6a516"
   },
   "keelstack": {
     "file": "keelstack.svg",
-    "source": "https://keelstack.vercel.app/keelstack-mark.svg",
-    "kind": "svg",
-    "bytes": 1121,
-    "digest": "a83df0214e0cf62c8cec71aee24e7393c0819d81513a6ce256c772a341d3866b"
+    "source": "https://keelstack.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1009,
+    "digest": "5501765a27dbb8ae2d9f55818213f30bc30e76e9b1de9baefdab5d32716ebaa2"
+  },
+  "loomstack": {
+    "file": "loomstack.svg",
+    "source": "https://web-phi-three-70.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 708,
+    "digest": "d0e3ca2b7bc745cf9d89904b517f48d226edb9ab4228e29fac4650432e35ca76"
   },
   "antigravity-ide-frontend": {
     "file": "antigravity-ide-frontend.png",
@@ -258,12 +314,40 @@
     "bytes": 745,
     "digest": "004f0e08cdbab6da3f70ae43ebc8353b12320c68e1162337718febcac3c1ee75"
   },
+  "altercast": {
+    "file": "altercast.svg",
+    "source": "https://altercast.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 909,
+    "digest": "2da9e317a5740ef081a9289666ebd057c31423def80c2e80f6e844b7c71eb00f"
+  },
+  "veylock": {
+    "file": "veylock.svg",
+    "source": "https://veylock.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 603,
+    "digest": "76a05f4ff9f8d402e5704f5d36c79c72036f68a52e91aaba0fd18879e83706e4"
+  },
+  "kinferry": {
+    "file": "kinferry.svg",
+    "source": "https://kinferry.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 733,
+    "digest": "97ec916a1e53741f5e2e9bd533c86cc4fc39d5e3691f1f977722928d164f5f35"
+  },
   "mirrorqa-ai": {
     "file": "mirrorqa-ai.svg",
     "source": "https://mirrorqa-ai.vercel.app/icon.svg?icon.0ybhtlqlzecvg.svg",
     "kind": "svg",
     "bytes": 453,
     "digest": "dfade5689ff5c22606d0e39a72b29fbf5f8a3932a44a57269167279fcc1d1991"
+  },
+  "servetrace": {
+    "file": "servetrace.svg",
+    "source": "https://servetrace.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 630,
+    "digest": "841d7a28932990c09254963199dcf74b4e2cc825166fb354ce5c95cd55d71040"
   },
   "galleryos": {
     "file": "galleryos.svg",
@@ -272,6 +356,34 @@
     "bytes": 206,
     "digest": "35786b4c55cab3f2e45effd909dccc89c1c3128d559837e8554623c392b76a5d"
   },
+  "dissentgrid": {
+    "file": "dissentgrid.svg",
+    "source": "https://dissentgrid.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 687,
+    "digest": "a081bb359861b4f1fc18add075c48b83f1f2d0c368731e0067ffb41a4bdef78f"
+  },
+  "accordos-ai": {
+    "file": "accordos-ai.svg",
+    "source": "https://accordos-ai.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 721,
+    "digest": "c8b83e2d76737f457eefd9e9d9778566fd1ddd368e3868e3523bc9cfe44897f7"
+  },
+  "childcareos": {
+    "file": "childcareos.svg",
+    "source": "https://childcareos-phi.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 613,
+    "digest": "106b65cba840acdc17b0cf8cce46f61f2d99ad0a67d189355b34dc830b98cd09"
+  },
+  "vowrail": {
+    "file": "vowrail.svg",
+    "source": "https://vowrail.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 653,
+    "digest": "b900f4b02b2ff9ef81e6789a82539a7166f738e0537dc728148c94e209a3cde9"
+  },
   "tanki-request": {
     "file": "tanki-request.ico",
     "source": "https://tanki-request-87c0dd3.vercel.app/favicon.ico?favicon.3yee9xnslfldw.ico",
@@ -279,19 +391,40 @@
     "bytes": 15406,
     "digest": "e70868a71869e852bb072346c2cea9dccc9a979225bb6d7152b8d24a09510376"
   },
+  "lineproof": {
+    "file": "lineproof.svg",
+    "source": "https://lineproof-rho.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 719,
+    "digest": "a15eb7c543eaa7b6f2ef1edb3efcf065a2b8f372c0edd969b8e70500dd2cfc92"
+  },
   "solumkm": {
     "file": "solumkm.svg",
-    "source": "https://solumkm.vercel.app/icon.svg?icon.2tpbtv15o7kiz.svg",
-    "kind": "svg",
-    "bytes": 818,
-    "digest": "1719018c425a170e0693a8d0f180dad60b4c84037c538a1224f5443eb44d4231"
+    "source": "https://solumkm.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1396,
+    "digest": "506865f9b97dcb594eb8e63e5a19902d75bfde33d87e44ff97abcbac643ea8e3"
   },
   "proofcast": {
     "file": "proofcast.svg",
-    "source": "https://proofcast-theta.vercel.app/icon.svg?icon.0lz-mrlhro3tm.svg",
-    "kind": "svg",
-    "bytes": 467,
-    "digest": "5ecaf0da74477c04e7dc3cb858951f803f0c64eb3c89962ab260e87990338ecc"
+    "source": "https://proofcast-theta.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1044,
+    "digest": "89f802e9da22df1c049425de9eb09477dbed5c353a01abf382886dba991bd692"
+  },
+  "anamneon": {
+    "file": "anamneon.svg",
+    "source": "https://anamneon.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 650,
+    "digest": "21770992e0babf4032ed0947d96b3ff1f55c56bca4725debcf77529b2b664fd9"
+  },
+  "superteam-ukraine": {
+    "file": "superteam-ukraine.svg",
+    "source": "https://superteam-ukraine.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 2306,
+    "digest": "21f86ee055139084b93068790db6d7eb4ad6646ca70905205a666f3beef6ab78"
   },
   "stake-to-done": {
     "file": "stake-to-done.svg",
@@ -302,17 +435,17 @@
   },
   "solgig-mainnet": {
     "file": "solgig-mainnet.svg",
-    "source": "https://solgig-mainnet.vercel.app/icon.svg?e97a8be567850922",
-    "kind": "svg",
-    "bytes": 1142,
-    "digest": "873c978a64827e41e889247405504294c4ae4f61f41bb71f26e1ddcc1a6b789c"
+    "source": "https://solgig-mainnet.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1302,
+    "digest": "5be9512d23efc2a606ee97006864c81f1b80f449122ef0744669ba4a891c4fb8"
   },
   "solgig": {
     "file": "solgig.svg",
-    "source": "https://solgig.vercel.app/icon.svg?e97a8be567850922",
-    "kind": "svg",
-    "bytes": 1142,
-    "digest": "873c978a64827e41e889247405504294c4ae4f61f41bb71f26e1ddcc1a6b789c"
+    "source": "https://solgig.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1302,
+    "digest": "5be9512d23efc2a606ee97006864c81f1b80f449122ef0744669ba4a891c4fb8"
   },
   "removix-ai": {
     "file": "removix-ai.svg",
@@ -323,10 +456,17 @@
   },
   "everanima": {
     "file": "everanima.svg",
-    "source": "https://everanima.vercel.app/icon.svg?4d4e23e235b49707",
-    "kind": "svg",
-    "bytes": 735,
-    "digest": "3bb7aedda3303289be06e6d1704434f12626f62af05d61562336aa971350c461"
+    "source": "https://everanima.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 924,
+    "digest": "792749702d05cb5d5039e1fc9cc933d28323699639a0fdf6e656cb1c8958113e"
+  },
+  "diafund": {
+    "file": "diafund.svg",
+    "source": "https://diafund.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 871,
+    "digest": "36d95872ea3caf1dad76c32abfb324cbc2f7accb129376a31a00821451a6b609"
   },
   "blockbite-xyz": {
     "file": "blockbite-xyz.png",
@@ -351,10 +491,38 @@
   },
   "atlas-quant": {
     "file": "atlas-quant.svg",
-    "source": "https://atlas-quant.vercel.app/icon.svg?icon.34c89f13.svg",
-    "kind": "svg",
-    "bytes": 251,
-    "digest": "517998385781aceec1b4dddf1410059a8611f9b63dcbbac0c86ecd4747a79bbf"
+    "source": "https://atlas-quant.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 455,
+    "digest": "df7dd28ea0618ef4d8fb82adf34b7f43cce20bc3a496a7469853c2ea807f0df1"
+  },
+  "antigravity-prime-hunter": {
+    "file": "antigravity-prime-hunter.svg",
+    "source": "https://antigravity-prime-hunter.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 2132,
+    "digest": "a82e2ba79ea90a8f33bbdcf5af3def09681df9069525a8dedc5cfb832815bf9a"
+  },
+  "anchor-debugger-skill": {
+    "file": "anchor-debugger-skill.svg",
+    "source": "https://anchor-debugger-skill.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1126,
+    "digest": "ac26a5b05a4eaab292dbb4070fd489fbf7a278f047f14bc5b4749f387e45bc74"
+  },
+  "veztra": {
+    "file": "veztra.svg",
+    "source": "https://vestraid.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 706,
+    "digest": "83fec91498472d9f25759d2609617644c327f28ce36f65dc515459c24f8858c1"
+  },
+  "smashgo": {
+    "file": "smashgo.svg",
+    "source": "https://smashgo.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 648,
+    "digest": "f88fbe025b9df7321ffb1a31555a533172e5169a2afd83706ed54a267781a1b6"
   },
   "escrowkita": {
     "file": "escrowkita.svg",
