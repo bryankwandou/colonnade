@@ -11,7 +11,8 @@
  *   SVG > apple-touch-icon > sized PNG > og:image > favicon.ico
  */
 
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { dirname, join, extname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -112,10 +113,56 @@ async function markFor(entry) {
 
     const ext = extensionFor(candidate.url, asset.type);
     const file = `${entry.slug}${ext}`;
+    const digest = createHash("sha256").update(asset.body).digest("hex");
     writeFileSync(join(MARK_DIR, file), asset.body);
-    return { file, source: candidate.url, kind: candidate.note, bytes: asset.body.length };
+    return {
+      file,
+      source: candidate.url,
+      kind: candidate.note,
+      bytes: asset.body.length,
+      digest,
+    };
   }
   return null;
+}
+
+/**
+ * Throws out icons that are not the project's own.
+ *
+ * A site that never set a favicon still answers /favicon.ico — the host serves
+ * its own. Thirty-three listings came back wearing the identical Vercel
+ * triangle, which looked like thirty-three logos and was one. The tell is that
+ * the bytes repeat: a real logo belongs to one product, so anything worn by
+ * more than a couple of listings is a platform or framework default.
+ *
+ * Two listings sharing a mark is left alone, because sibling deployments of one
+ * product legitimately share a logo (solgig and solgig-mainnet, for instance).
+ */
+const SHARED_LIMIT = 2;
+
+function rejectSharedDefaults(marks) {
+  const byDigest = new Map();
+  for (const [slug, mark] of Object.entries(marks)) {
+    if (!mark.digest) continue;
+    if (!byDigest.has(mark.digest)) byDigest.set(mark.digest, []);
+    byDigest.get(mark.digest).push(slug);
+  }
+
+  const kept = {};
+  const rejected = [];
+
+  for (const [slug, mark] of Object.entries(marks)) {
+    const sharers = mark.digest ? byDigest.get(mark.digest) ?? [slug] : [slug];
+    if (sharers.length > SHARED_LIMIT) {
+      rejected.push({ slug, count: sharers.length });
+      const path = join(MARK_DIR, mark.file);
+      if (existsSync(path)) rmSync(path);
+      continue;
+    }
+    kept[slug] = mark;
+  }
+
+  return { kept, rejected, byDigest };
 }
 
 async function main() {
@@ -134,9 +181,15 @@ async function main() {
     const slice = live.slice(i, i + BATCH);
     const results = await Promise.all(
       slice.map(async (entry) => {
-        // Keep a mark already on disk rather than re-downloading it.
+        // Keep a mark already on disk rather than re-downloading it, but make
+        // sure it carries a digest so the shared-default check can see it.
         const prior = existing[entry.slug];
-        if (prior && existsSync(join(MARK_DIR, prior.file))) return [entry, prior, true];
+        const priorPath = prior && join(MARK_DIR, prior.file);
+        if (prior && existsSync(priorPath)) {
+          const digest =
+            prior.digest ?? createHash("sha256").update(readFileSync(priorPath)).digest("hex");
+          return [entry, { ...prior, digest }, true];
+        }
         return [entry, await markFor(entry), false];
       })
     );
@@ -152,8 +205,25 @@ async function main() {
     }
   }
 
-  writeFileSync(MAP, JSON.stringify(marks, null, 2) + "\n");
-  console.log(`\n${recovered} of ${live.length} listings have a real icon`);
+  const { kept, rejected, byDigest } = rejectSharedDefaults(marks);
+
+  if (rejected.length) {
+    const groups = new Map();
+    for (const r of rejected) groups.set(r.count, (groups.get(r.count) ?? 0) + 1);
+    console.log(`\nrejected ${rejected.length} icons that were not the project's own:`);
+    for (const [digest, slugs] of byDigest) {
+      if (slugs.length <= SHARED_LIMIT) continue;
+      console.log(`  ${slugs.length} listings shared ${digest.slice(0, 12)} — a platform default, not a logo`);
+    }
+  }
+
+  writeFileSync(MAP, JSON.stringify(kept, null, 2) + "\n");
+
+  const distinct = new Set(Object.values(kept).map((m) => m.digest)).size;
+  console.log(
+    `\n${Object.keys(kept).length} of ${live.length} listings carry their own icon ` +
+      `(${distinct} distinct designs); the rest fall back to a generated mark`
+  );
 }
 
 main();
