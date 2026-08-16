@@ -24,6 +24,24 @@ const OUT = join(root, "src", "data", "catalog.json");
 const OVERRIDES = join(root, "src", "data", "overrides.json");
 const REPO_SNAPSHOT = join(root, "src", "data", "repos.snapshot.json");
 const DEPLOY_SNAPSHOT = join(root, "src", "data", "deployments.json");
+const DISCOVERED = join(root, "src", "data", "discovered.json");
+
+/**
+ * Deployments whose subdomain drifted away from the repository name, usually
+ * because the plain name was already taken on vercel.app. Verified by
+ * scripts/discover-links.mjs before they land here.
+ */
+const HOST_ALIASES = {
+  "matchmind-omega": "matchmind",
+  "stele-gamma": "stele",
+  "marque-eight-ruddy": "marque",
+  mettlehq: "mettle",
+  getkernly: "kernly",
+  removix: "removix-ai",
+  kopedux: "kopedu",
+  "solq-demo": "solq",
+  "blockbite-tdp": "BLOCKBITE-TDP",
+};
 
 const isWindows = process.platform === "win32";
 
@@ -175,10 +193,45 @@ const CATEGORY_RULES = [
     names: ["veilo-audit-bryan", "veilo-cleanroom-audit", "veilo-security-assessment", "veilo-privacy-pool-assessment", "veilo-v01-report", "veilo-v01-finding", "veristart-agentic-feasibility", "feasiflow-ai", "dissentgrid", "phiechyan-arsip", "ssfti-arsip", "quorumai"],
   },
   {
-    id: "ventures",
+    id: "games",
     shelf: "projects",
-    label: "Ventures & Studies",
-    blurb: "Company-shaped work: entities, launches, coursework, and pitches.",
+    label: "Games & Play",
+    blurb: "Worlds, arcades, and dungeons — the work built to be played rather than used.",
+    match: /\bgame\b|arcade|dungeon|rogue|quest|isles|adventure/i,
+    names: [
+      "skyseed-isles", "kubantara", "meadowfar", "blockblast", "proofofplay",
+      "blockbite-corporation", "blockbite-game", "waliplay", "tapwali", "keelstack-gaming",
+    ],
+  },
+  {
+    id: "civic",
+    shelf: "projects",
+    label: "Civic & Local Economy",
+    blurb: "Public services, cooperatives, and small businesses in Indonesia.",
+    match: /pdam|desa|umkm|koperasi|kopedu|nusantara|satudata|pemda|warung|civic|harvest/i,
+    names: [
+      "tanki-request", "tanki-request-87c0dd3", "tugas-tahap-0-satudata-sulsel", "nusaharvest",
+      "kopedu", "kubantara", "solumkm", "umkm-pintar", "warungpay", "kopedu-rintiskop",
+    ],
+  },
+  {
+    id: "coursework",
+    shelf: "projects",
+    label: "Coursework & Exercises",
+    blurb: "University assignments and the drills that came with learning a stack.",
+    match: /tugas|semester|kuliah|kelompok|project\d|finaltest|latihan|bootcamp|batches/i,
+    names: [
+      "springboot-login-jwt", "semester3dan4", "machinelearning-project3-kelompok2",
+      "computervision-project1", "coffeeshop-enterprisefinaltest", "qrcode1",
+      "qr-code-generator", "qrcodefail-1", "solidity-personal-vault-mancer",
+      "portfolio-cv", "phiechyan-arsip", "ssfti-arsip",
+    ],
+  },
+  {
+    id: "early",
+    shelf: "projects",
+    label: "Early Work & Archive",
+    blurb: "Starts that were parked, renamed, or folded into something later.",
     match: /.*/,
     names: [],
   },
@@ -225,7 +278,10 @@ function normaliseUrl(url) {
 }
 
 function main() {
-  const overrides = readJson(OVERRIDES, {});
+  const rawOverrides = readJson(OVERRIDES, {});
+  // Repo names carry every casing style there is (SmashGO, QUANTCOIN, MOVV-BMI),
+  // so curation is keyed case-insensitively rather than demanding an exact match.
+  const overrides = new Map(Object.entries(rawOverrides).map(([k, v]) => [k.toLowerCase(), v]));
   const repos = readRepos();
   const deployments = readDeployments();
 
@@ -234,19 +290,47 @@ function main() {
     if (p.latestProductionUrl) deployByName.set(p.name.toLowerCase(), normaliseUrl(p.latestProductionUrl));
   }
 
+  /*
+   * Links harvested from project READMEs and verified over HTTP. Root addresses
+   * beat deep links, since a listing should open the front door rather than
+   * drop someone halfway inside.
+   */
+  const discovered = readJson(DISCOVERED, { live: {} });
+  const discoveredByName = new Map();
+  for (const url of Object.keys(discovered.live ?? {})) {
+    let host;
+    let path;
+    try {
+      const parsed = new URL(url);
+      host = parsed.host;
+      path = parsed.pathname;
+    } catch {
+      continue;
+    }
+    const sub = host.split(".")[0].toLowerCase();
+    const key = (HOST_ALIASES[sub] ?? sub).toLowerCase();
+    const isRoot = path === "/" || path === "";
+    const existing = discoveredByName.get(key);
+    // Keep the shallowest URL seen for any given project.
+    if (!existing || (isRoot && !existing.isRoot)) {
+      discoveredByName.set(key, { url: `https://${host}${isRoot ? "" : path}`, isRoot });
+    }
+  }
+
   const entries = [];
   let withheld = 0;
 
   for (const repo of repos) {
-    if (repo.isArchived && !overrides[repo.name]) {
+    if (repo.isArchived && !overrides.has(repo.name.toLowerCase())) {
       // Archived work stays out unless it was deliberately curated back in.
     }
-    const override = overrides[repo.name] ?? null;
+    const override = overrides.get(repo.name.toLowerCase()) ?? null;
 
     const live =
       normaliseUrl(override?.live) ??
       normaliseUrl(repo.homepageUrl) ??
       deployByName.get(repo.name.toLowerCase()) ??
+      discoveredByName.get(repo.name.toLowerCase())?.url ??
       null;
 
     const source = repo.isPrivate ? null : repo.url;
