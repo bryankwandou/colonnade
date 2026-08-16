@@ -7,7 +7,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Search, X } from "lucide-react";
 import { Lockup } from "@/components/Logo";
 import { WalletPill } from "@/components/WalletPill";
-import { entries, initials, accentFor, type Entry } from "@/lib/catalog";
+import { entries, counts, initials, accentFor, type Entry } from "@/lib/catalog";
 
 const NAV = [
   { href: "/tools", label: "Tools" },
@@ -77,7 +77,7 @@ function SearchPanel({ onClose }: { onClose: () => void }) {
             ref={inputRef}
             value={q}
             onChange={(e) => setQ(e.target.value)}
-            placeholder="Search 130 listings by name, category, or what it does"
+            placeholder={`Search ${counts.listed} listings by name, category, or what it does`}
             className="w-full bg-transparent py-3.5 text-[0.9rem] text-stone-50 outline-none placeholder:text-stone-300/70"
           />
           <button onClick={onClose} aria-label="Close search" className="text-stone-300 hover:text-stone-50">

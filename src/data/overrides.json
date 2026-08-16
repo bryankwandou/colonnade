@@ -217,5 +217,415 @@
     "name": "Dissentgrid",
     "tagline": "Investment judgement without manufactured consensus. Four lenses, kept apart on purpose.",
     "category": "research"
+  },
+
+  "kubantara": {
+    "name": "Kubantara",
+    "tagline": "Pulau kubus prosedural untuk anak: membangun, merawat peliharaan, menjelajah gua. Tanpa musuh, tanpa iklan, tanpa obrolan dengan orang asing.",
+    "live": "https://kubantara.vercel.app",
+    "category": "games",
+    "featured": true
+  },
+  "meadowfar": {
+    "name": "Meadowfar",
+    "tagline": "A calm 3D open world for children, one click from the browser. Nothing to lose, nothing to buy, nothing to be frightened of.",
+    "live": "https://meadowfar.vercel.app",
+    "category": "games",
+    "featured": true
+  },
+  "skyseed-isles": {
+    "name": "Skyseed Isles",
+    "tagline": "Miru drifts between floating islands that never run out, gathering sparks and raising slimes until they grow wings. No timers, no game over.",
+    "live": "https://skyseed-isles.vercel.app/play/",
+    "category": "games",
+    "featured": true
+  },
+  "blockblast": {
+    "name": "Blockblast",
+    "tagline": "A block-clearing arcade game, rebuilt from scratch to study how the originals keep a run tense.",
+    "category": "games"
+  },
+  "proofofplay": {
+    "name": "Proof of Play",
+    "tagline": "A dungeon crawl where the run itself is the record — what you cleared is what you can show.",
+    "category": "games"
+  },
+
+  "smashgo": {
+    "name": "SmashGO",
+    "tagline": "Pesan lapangan bulutangkis: pilih venue, pilih jam, bayar, selesai.",
+    "category": "civic"
+  },
+  "nusaharvest": {
+    "name": "NusaHarvest",
+    "tagline": "Rantai pasok hasil tani desa, dari petani sampai pembeli tanpa lapisan tengah yang tidak perlu.",
+    "category": "civic"
+  },
+  "kopedu": {
+    "name": "KopEdu",
+    "tagline": "Koperasi sekolah yang dijalankan siswa, dengan pembukuan yang bisa diperiksa guru.",
+    "category": "civic"
+  },
+  "kopedu-nft-solana": {
+    "name": "KopEdu NFT",
+    "tagline": "Keanggotaan koperasi sekolah diterbitkan sebagai token di Solana, bukan sebagai kartu yang gampang hilang.",
+    "category": "web3"
+  },
+  "tanki-request": {
+    "name": "Tanki Jene",
+    "tagline": "Permintaan layanan tangki air PDAM Kota Makassar, dari pengajuan sampai penjadwalan.",
+    "category": "civic"
+  },
+  "solumkm": {
+    "name": "SolUMKM",
+    "tagline": "Pendamping usaha untuk UMKM Indonesia: mencatat transaksi, lalu membacakan artinya.",
+    "category": "civic"
+  },
+
+  "springboot-login-jwt": {
+    "name": "Spring Boot JWT Login",
+    "tagline": "Autentikasi JWT di Spring Boot, ditulis untuk memahami lapisan security-nya dari dalam.",
+    "category": "coursework"
+  },
+  "semester3dan4": {
+    "name": "Semester 3 & 4",
+    "tagline": "Kumpulan tugas dua semester, disimpan utuh apa adanya.",
+    "category": "coursework"
+  },
+  "machinelearning-project3-kelompok2": {
+    "name": "Machine Learning Project 3",
+    "tagline": "Tugas kelompok mata kuliah pembelajaran mesin, proyek ketiga.",
+    "category": "coursework"
+  },
+  "computervision-project1": {
+    "name": "Computer Vision Project 1",
+    "tagline": "Tugas pertama mata kuliah visi komputer.",
+    "category": "coursework"
+  },
+  "coffeeshop-enterprisefinaltest": {
+    "name": "Coffee Shop System",
+    "tagline": "Sistem kedai kopi yang ditulis sebagai ujian akhir pemrograman enterprise.",
+    "category": "coursework"
+  },
+  "solidity-personal-vault-mancer": {
+    "name": "Personal Vault",
+    "tagline": "Kontrak brankas pribadi di Solidity, latihan memahami pola penyimpanan dana di EVM.",
+    "category": "coursework"
+  },
+  "qr-code-generator": {
+    "name": "QR Code Generator",
+    "tagline": "Pembangkit kode QR, latihan awal menangani encoding dan render.",
+    "category": "coursework"
+  },
+  "portfolio-cv": {
+    "name": "Portfolio CV",
+    "tagline": "Halaman CV pertama, disimpan sebagai penanda dari mana portofolio ini berangkat.",
+    "category": "coursework"
+  },
+
+  "atlas-quant": {
+    "name": "Atlas Quant",
+    "tagline": "Riset perdagangan kuantitatif berikut papan pantau yang membacakan hasilnya.",
+    "live": "https://atlas-quant.vercel.app",
+    "category": "measurement"
+  },
+  "pocketledger-offline-expense-tracker": {
+    "name": "PocketLedger",
+    "tagline": "Pencatat pengeluaran di Flutter yang tetap bekerja penuh tanpa koneksi sama sekali.",
+    "category": "measurement"
+  },
+  "chainops-dashboard-ui-kit": {
+    "name": "ChainOps UI Kit",
+    "tagline": "Perangkat komponen papan pantau untuk operasi on-chain, siap disalin ke proyek lain.",
+    "category": "measurement"
+  },
+
+  "focusforge-pomodoro": {
+    "name": "FocusForge",
+    "tagline": "Penghitung waktu Pomodoro di Flutter, tanpa tambahan yang mengalihkan perhatian.",
+    "category": "consumer"
+  },
+  "habitforge": {
+    "name": "HabitForge",
+    "tagline": "Pencatat kebiasaan harian di Flutter.",
+    "category": "consumer"
+  },
+  "flowtask-smart-todo-app": {
+    "name": "FlowTask",
+    "tagline": "Daftar tugas di Flutter, disusun agar yang mendesak naik sendiri ke atas.",
+    "category": "consumer"
+  },
+  "hydraflow-water-reminder": {
+    "name": "HydraFlow",
+    "tagline": "Pengingat minum air di Flutter, dengan jadwal yang Anda atur sendiri.",
+    "category": "consumer"
+  },
+  "movv-bmi": {
+    "name": "MOVV BMI",
+    "tagline": "Penghitung indeks massa tubuh di Flutter.",
+    "category": "consumer"
+  },
+  "fluentia": {
+    "name": "Fluentia",
+    "tagline": "Latihan bahasa yang menekan pada penggunaan sehari-hari, bukan pada hafalan daftar kata.",
+    "live": "https://fluentia.vercel.app",
+    "category": "consumer"
+  },
+  "everanima": {
+    "name": "Everanima",
+    "tagline": "Ruang baca dan tonton animasi, disusun agar mudah dijelajah tanpa tersesat.",
+    "live": "https://everanima.vercel.app",
+    "category": "consumer"
+  },
+  "nng-game-topup": {
+    "name": "NNG Game Topup",
+    "tagline": "Isi ulang saldo game untuk pemain Indonesia, dengan harga yang terbaca jelas di muka.",
+    "category": "consumer"
+  },
+
+  "solgig": {
+    "name": "SolGig",
+    "tagline": "Pekerjaan lepas yang diselesaikan dan dibayar di Solana, tanpa perantara memegang dana.",
+    "live": "https://solgig.vercel.app",
+    "category": "web3"
+  },
+  "solgig-mainnet": {
+    "name": "SolGig Mainnet",
+    "tagline": "Penyebaran SolGig ke mainnet, terpisah dari versi percobaan agar riwayatnya tetap bersih.",
+    "live": "https://solgig-mainnet.vercel.app",
+    "category": "web3"
+  },
+  "escrowkita": {
+    "name": "EscrowKita",
+    "tagline": "Rekening bersama untuk transaksi antarorang di Indonesia, dijaga kontrak dan bukan janji.",
+    "live": "https://escrowkita.vercel.app",
+    "category": "web3"
+  },
+  "trustpay-sea": {
+    "name": "TrustPay SEA",
+    "tagline": "Pembayaran lintas negara Asia Tenggara yang menyelesaikan di rantai, bukan lewat koresponden bank.",
+    "category": "web3"
+  },
+  "diafund": {
+    "name": "Diafund",
+    "tagline": "Penggalangan dana yang setiap penyalurannya tercatat dan bisa ditelusuri penyumbang.",
+    "live": "https://diafund.vercel.app",
+    "category": "web3"
+  },
+  "quantcoin": {
+    "name": "QuantCoin",
+    "tagline": "Token dan program pendukungnya di Rust, ditulis untuk mendalami model akun Solana.",
+    "category": "web3"
+  },
+  "nng-protocol": {
+    "name": "NNG Protocol",
+    "tagline": "Token utilitas untuk komunitas NNG, beserta aturan peredarannya.",
+    "category": "web3"
+  },
+  "anamneon": {
+    "name": "Anamneon",
+    "tagline": "Riwayat penyakit yang ditambatkan ke Solana devnet. Sidik digitalnya naik ke rantai, isinya tidak pernah.",
+    "live": "https://anamneon.vercel.app",
+    "category": "web3"
+  },
+
+  "veylock": {
+    "name": "Veylock",
+    "tagline": "An execution firewall standing between autonomous capital and a transaction it should not sign.",
+    "live": "https://veylock.vercel.app",
+    "category": "agent-infra"
+  },
+  "x402gate": {
+    "name": "X402gate",
+    "tagline": "HTTP 402 put to work: agents pay per API call across Solana devnet.",
+    "live": "https://x402gate.vercel.app",
+    "category": "agent-infra"
+  },
+  "tallystick": {
+    "name": "Tallystick",
+    "tagline": "Settlement for agents that spend on their own, with identity attached and a confidential compute trail behind it.",
+    "live": "https://tallystick.vercel.app",
+    "category": "agent-infra"
+  },
+  "nng-tiktok-live-agent": {
+    "name": "NNG TikTok Live Agent",
+    "tagline": "Pendamping siaran langsung TikTok yang membaca obrolan penonton dan menanggapinya.",
+    "category": "agent-infra"
+  },
+  "anchor-debugger-skill": {
+    "name": "Anchor Debugger",
+    "tagline": "An agent skill that reads Anchor program failures and says what actually went wrong.",
+    "category": "developer"
+  },
+  "removix-ai": {
+    "name": "Removix",
+    "tagline": "Menghapus latar gambar langsung di peramban, berkas tidak dikirim ke mana-mana.",
+    "live": "https://removix.vercel.app",
+    "category": "creative-tools"
+  },
+  "keelstack": {
+    "name": "Keelstack",
+    "tagline": "A spec compiler sitting on five million addressable specification lines.",
+    "live": "https://keelstack.vercel.app",
+    "category": "developer"
+  },
+  "mettle": {
+    "name": "Mettle",
+    "tagline": "Single-use developer assessments that adapt as you answer, so the score means something.",
+    "live": "https://mettlehq.vercel.app",
+    "category": "developer"
+  },
+  "kinferry": {
+    "name": "Kinferry",
+    "tagline": "Remittance by agent, with recipient checks and a policy gate before any lamport moves.",
+    "live": "https://kinferry.vercel.app",
+    "category": "web3"
+  },
+  "stele": {
+    "name": "Stele",
+    "tagline": "An on-chain record of scripture reading, carrying a token deliberately built to be worth nothing.",
+    "live": "https://stele-gamma.vercel.app",
+    "category": "web3"
+  },
+  "inkfold": {
+    "name": "Inkfold",
+    "tagline": "A comics library stocked only with work that is provably free to share.",
+    "live": "https://inkfold.vercel.app",
+    "category": "creative-tools"
+  },
+  "matchmind": {
+    "name": "Matchmind",
+    "tagline": "Mempertemukan orang berdasarkan cara berpikirnya, bukan berdasarkan daftar minat yang diisi sendiri.",
+    "live": "https://matchmind-omega.vercel.app",
+    "category": "consumer"
+  },
+
+  "veilspire": {
+    "name": "Veilspire",
+    "tagline": "An open world where every character will actually pick up the phone when you call them.",
+    "category": "games"
+  },
+  "veritair": {
+    "name": "Veritair",
+    "tagline": "Drone delivery for places the roads never reached, booked and settled one devnet transaction at a time.",
+    "live": "https://veritair.vercel.app",
+    "category": "operations"
+  },
+  "arbiter": {
+    "name": "Arbiter",
+    "tagline": "A quantitative bot that trades political prediction markets and shows its reasoning rather than its confidence.",
+    "category": "measurement"
+  },
+  "lineproof": {
+    "name": "Lineproof",
+    "tagline": "Watches World Cup betting lines, strips out the bookmaker's margin, and reports the fair price hiding underneath.",
+    "category": "measurement"
+  },
+  "proofcast": {
+    "name": "Proofcast",
+    "tagline": "Analysts seal a football prediction before kickoff and post a bond against a public accuracy floor. Being wrong costs something.",
+    "category": "web3"
+  },
+  "zynqio": {
+    "name": "Zynqio",
+    "tagline": "A quiz platform built for the moment several thousand people all answer at once.",
+    "category": "consumer"
+  },
+  "x-autopilot": {
+    "name": "X Autopilot",
+    "tagline": "Scheduled posting tight enough to find out what actually earns attention, rather than guessing at it.",
+    "category": "agent-infra"
+  },
+  "vinbryyt-drip-revival": {
+    "name": "Drip Revival",
+    "tagline": "Creative infrastructure that keeps running on Solana without someone holding its hand.",
+    "category": "web3"
+  },
+  "vibe": {
+    "name": "Vibe",
+    "tagline": "A social graph assembled from encounters that happened in person, recorded on Solana.",
+    "category": "web3"
+  },
+  "verichain": {
+    "name": "Verichain",
+    "tagline": "Pemeriksaan keaslian konten untuk Indonesia, ditopang rantai sebagai penangkal disinformasi.",
+    "category": "web3"
+  },
+  "stake-to-done": {
+    "name": "Stake to Done",
+    "tagline": "Put money behind a commitment on chain. The only way to get it back is to finish.",
+    "category": "web3"
+  },
+  "solq": {
+    "name": "SOLQ",
+    "tagline": "A non-custodial payment orchestrator for Solana, routing value across rails without ever holding it.",
+    "live": "https://solq.vercel.app",
+    "category": "web3"
+  },
+  "solq.my.id": {
+    "name": "SOLQ Site",
+    "tagline": "The public face of SOLQ, explaining the routing layer to people who will never read the contract.",
+    "category": "web3"
+  },
+  "quorumai": {
+    "name": "Quorum",
+    "tagline": "Deliberation that keeps opposing readings apart on purpose, instead of averaging them into mush.",
+    "category": "research"
+  },
+  "feasiflow-ai": {
+    "name": "Feasiflow",
+    "tagline": "Clinical practice management handled by twelve agents that each own one part of the round.",
+    "category": "operations"
+  },
+  "clinicflow-ai": {
+    "name": "Clinicflow",
+    "tagline": "Clinic scheduling and intake, arranged so the front desk stops being the bottleneck.",
+    "category": "operations"
+  },
+  "botcall-protocol": {
+    "name": "Bot-Call",
+    "tagline": "Robots and agents take on tasks and get paid per action completed, settled on chain.",
+    "category": "web3"
+  },
+  "blockbite-xyz": {
+    "name": "BlockBite XYZ",
+    "tagline": "Token vesting on Solana that releases against milestones rather than against a calendar.",
+    "category": "web3"
+  },
+  "veztra": {
+    "name": "Veztra",
+    "tagline": "Vesting infrastructure that can still be adjusted after the schedule has been signed.",
+    "category": "web3"
+  },
+  "basedrop": {
+    "name": "Basedrop",
+    "tagline": "An airdrop protocol with its contract deployed on Base and its claims open to inspection.",
+    "live": "https://basedrop-protocol.vercel.app",
+    "category": "web3"
+  },
+  "omnia": {
+    "name": "Omnia",
+    "tagline": "One instruction, many models: an orchestrator that decides which engine should answer.",
+    "category": "agent-infra"
+  },
+  "nngpt": {
+    "name": "NNGPT",
+    "tagline": "Antarmuka obrolan yang di-hosting sendiri, dibangun dengan Next.js 15 dan disambungkan ke balancer Jatevo.",
+    "category": "agent-infra"
+  },
+  "inspiraverse": {
+    "name": "InspiraVerse",
+    "tagline": "Satu kutipan setiap hari, dikirim ke layar ponsel tanpa perlu dibuka-buka.",
+    "category": "consumer"
+  },
+  "qrcode1": {
+    "name": "QR Code",
+    "tagline": "Titik awal sebuah aplikasi Flutter, berangkat dari latihan membaca kode QR.",
+    "category": "coursework"
+  },
+  "qrcodefail-1": {
+    "name": "QR Code (gagal)",
+    "tagline": "Percobaan yang tidak berhasil, disimpan apa adanya sebagai catatan kesalahan.",
+    "category": "coursework"
   }
 }
