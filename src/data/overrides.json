@@ -1,0 +1,221 @@
+{
+  "grainroom": {
+    "name": "Grainroom",
+    "tagline": "A darkroom in a browser tab. WebGL2 grading, film emulation, and looks you can carry between machines.",
+    "category": "creative-tools",
+    "featured": true
+  },
+  "cutwright": {
+    "name": "Cutwright",
+    "tagline": "Cut video without uploading it anywhere. No watermark, no account, no round trip to a server.",
+    "category": "creative-tools",
+    "featured": true
+  },
+  "stemloom": {
+    "name": "Stemloom",
+    "tagline": "Multitrack audio editing that never leaves the tab. Your stems stay on your disk.",
+    "category": "creative-tools",
+    "featured": true
+  },
+  "kanvara": {
+    "name": "Kanvara",
+    "tagline": "Layers, masks, and curves in a photo editor that loads instantly and asks for nothing.",
+    "category": "creative-tools"
+  },
+  "handpress": {
+    "name": "Handpress",
+    "tagline": "A type and poster studio with real text effects and per-layer control, running client side.",
+    "category": "creative-tools",
+    "featured": true
+  },
+  "inkfold": {
+    "name": "Inkfold",
+    "tagline": "A comics library stocked only with work that is provably free to share.",
+    "category": "creative-tools"
+  },
+  "glyphra": {
+    "name": "Glyphra",
+    "tagline": "A cipher arena. Over a hundred techniques, generated challenges, and no hints you did not earn.",
+    "category": "creative-tools"
+  },
+  "assaykit": {
+    "name": "Assaykit",
+    "tagline": "Scan an MCP server or agent skill before you trust it with your machine.",
+    "category": "agent-infra",
+    "featured": true
+  },
+  "kernly": {
+    "name": "Kernly",
+    "tagline": "Squeeze an agent's context down to what matters, and keep a receipt showing what was dropped.",
+    "category": "agent-infra",
+    "featured": true
+  },
+  "tallystick": {
+    "name": "Tallystick",
+    "tagline": "Settlement for agents that spend on their own, with identity and a confidential compute trail.",
+    "category": "agent-infra"
+  },
+  "forewrit": {
+    "name": "Forewrit",
+    "tagline": "Seal what an agent intends to do inside a TEE, then check the action against the seal.",
+    "category": "agent-infra"
+  },
+  "nullstamp": {
+    "name": "Nullstamp",
+    "tagline": "A verifiable stamp on every agent call that touches personal data.",
+    "category": "agent-infra",
+    "featured": true
+  },
+  "veylock": {
+    "name": "Veylock",
+    "tagline": "An execution firewall standing between autonomous capital and a bad transaction.",
+    "category": "agent-infra"
+  },
+  "x402gate": {
+    "name": "X402gate",
+    "tagline": "HTTP 402, put to work. Agents pay per API call over Solana devnet.",
+    "category": "agent-infra"
+  },
+  "aval-rail": {
+    "name": "Aval Rail",
+    "tagline": "A shop till inside the owner's chat. Durable nonces keep an agent's spend reviewable.",
+    "category": "agent-infra"
+  },
+  "marque": {
+    "name": "Marque",
+    "tagline": "A browser IDE that signs its own output. Every AI-written patch carries a hash you can check.",
+    "category": "developer",
+    "featured": true
+  },
+  "keelstack": {
+    "name": "Keelstack",
+    "tagline": "A spec compiler sitting on five million addressable specification lines.",
+    "category": "developer"
+  },
+  "loomstack": {
+    "name": "Loomstack",
+    "tagline": "The specification corpus behind Keelstack, plus the router that makes it searchable.",
+    "category": "developer"
+  },
+  "spigot": {
+    "name": "Spigot",
+    "tagline": "Which Solana devnet faucet is actually paying out right now, checked continuously.",
+    "category": "developer",
+    "featured": true
+  },
+  "mettle": {
+    "name": "Mettle",
+    "tagline": "Single-use developer assessments that adapt as you answer, so the score means something.",
+    "category": "developer"
+  },
+  "tokenwatt": {
+    "name": "TokenWatt",
+    "tagline": "A personal meter for what your model calls actually cost, counted honestly.",
+    "category": "measurement"
+  },
+  "visitrail": {
+    "name": "Visitrail",
+    "tagline": "Home care operations where every visit leaves evidence, signed and on chain.",
+    "category": "operations",
+    "featured": true
+  },
+  "servetrace": {
+    "name": "Servetrace",
+    "tagline": "Restaurant compliance with hard blocks on unsafe service and labor-legal scheduling.",
+    "category": "operations"
+  },
+  "freightlatch": {
+    "name": "Freightlatch",
+    "tagline": "Hours of service enforced by the server, not by the driver's memory.",
+    "category": "operations"
+  },
+  "axleveto": {
+    "name": "Axleveto",
+    "tagline": "A dispatch interlock that refuses to release an unsafe vehicle, and proves it refused.",
+    "category": "operations"
+  },
+  "dwellnerve": {
+    "name": "Dwellnerve",
+    "tagline": "Early warning for rental portfolios: maintenance, rent, and compliance before they turn into disputes.",
+    "category": "operations"
+  },
+  "solera": {
+    "name": "Solera",
+    "tagline": "An art marketplace where the artist keeps the keys and carries the body of work with them.",
+    "category": "web3",
+    "featured": true
+  },
+  "stele": {
+    "name": "Stele",
+    "tagline": "An on-chain record of scripture reading, with a token deliberately built to be worth nothing.",
+    "category": "web3"
+  },
+  "wayproof": {
+    "name": "Wayproof",
+    "tagline": "DePIN without hardware. A driving game in the browser that returns real road geometry.",
+    "category": "web3",
+    "featured": true
+  },
+  "kinferry": {
+    "name": "Kinferry",
+    "tagline": "Remittance by agent, with recipient checks and a policy gate before any lamport moves.",
+    "category": "web3"
+  },
+  "anamneon": {
+    "name": "Anamneon",
+    "tagline": "Illness history anchored to Solana devnet. Hashes go on chain, records never do.",
+    "category": "web3"
+  },
+  "kithra": {
+    "name": "Kithra",
+    "tagline": "A chat companion with a fixed personality and a memory ledger you are allowed to edit.",
+    "category": "consumer",
+    "featured": true
+  },
+  "larasa": {
+    "name": "Larasa",
+    "tagline": "Bacaan fiksi dewasa berbahasa Indonesia, ditata seperti perpustakaan dan bukan seperti forum.",
+    "category": "consumer"
+  },
+  "cairin": {
+    "name": "Cairin",
+    "tagline": "Cairkan kripto jadi rupiah, langsung ke rekening bank atau dompet elektronik.",
+    "category": "consumer",
+    "featured": true
+  },
+  "cadensa": {
+    "name": "Cadensa",
+    "tagline": "Pencatat ritme kesehatan reproduksi, lengkap dengan indeks siklus dan sinyal yang bisa dibaca.",
+    "category": "consumer"
+  },
+  "nngesport": {
+    "name": "NNG Esport",
+    "tagline": "Situs resmi organisasi esport asal Abepura, Jayapura, Papua.",
+    "category": "consumer"
+  },
+  "vinbryyt": {
+    "name": "VinBryYT",
+    "tagline": "Portofolio pribadi Vincentius Bryan Kwandou, disusun dari data yang diperbarui sendiri.",
+    "category": "consumer"
+  },
+  "bryankwandou": {
+    "name": "Bryan Kwandou",
+    "tagline": "Curriculum vitae dan catatan kerja, dalam satu halaman yang enak dicetak.",
+    "category": "consumer"
+  },
+  "veilo-privacy-pool-assessment": {
+    "name": "Veilo Privacy Pool",
+    "tagline": "A private security assessment of a mainnet privacy pool, written for the bounty programme.",
+    "category": "research"
+  },
+  "veristart-agentic-feasibility": {
+    "name": "Veristart",
+    "tagline": "Nine agents argue about whether a startup idea holds up, then hand you the disagreement.",
+    "category": "research"
+  },
+  "dissentgrid": {
+    "name": "Dissentgrid",
+    "tagline": "Investment judgement without manufactured consensus. Four lenses, kept apart on purpose.",
+    "category": "research"
+  }
+}

@@ -1,0 +1,2226 @@
+[
+  {
+    "createdAt": "2026-07-14T17:50:44Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "arbiter",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-16T04:19:05Z",
+    "url": "https://github.com/bryankwandou/arbiter"
+  },
+  {
+    "createdAt": "2026-08-07T23:28:02Z",
+    "description": "Situs portofolio Vincentius Bryan Kwandou (VinBryYT) — Next.js 15, data ditarik dari sumber publik yang bisa diperiksa",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "vinbryyt",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-16T04:11:39Z",
+    "url": "https://github.com/bryankwandou/vinbryyt"
+  },
+  {
+    "createdAt": "2026-08-12T00:54:20Z",
+    "description": "Catatan on-chain atas praktik membaca teks suci. Token yang sengaja tidak bernilai — ia tanda terima, bukan upah. Solana devnet.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "stele",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-16T01:13:27Z",
+    "url": "https://github.com/bryankwandou/stele"
+  },
+  {
+    "createdAt": "2026-08-15T11:47:45Z",
+    "description": "A game platform where every fork records the work it grew from, and revenue settles back along that chain on Solana.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "forkroot",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-15T17:25:34Z",
+    "url": "https://github.com/bryankwandou/forkroot"
+  },
+  {
+    "createdAt": "2026-08-14T09:59:06Z",
+    "description": "A personal meter for AI coding-agent token usage. Reads Claude Code and Codex logs, prices them at published API rates, publishes one page.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "tokenwatt",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-15T17:14:38Z",
+    "url": "https://github.com/bryankwandou/tokenwatt"
+  },
+  {
+    "createdAt": "2026-08-12T07:36:50Z",
+    "description": "A chat companion with a fixed personality and an open memory - every fact it keeps about you is a row you can read, edit, or erase.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "kithra",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-15T17:12:09Z",
+    "url": "https://github.com/bryankwandou/kithra"
+  },
+  {
+    "createdAt": "2026-08-03T16:58:14Z",
+    "description": "Cadensa — pencatat ritme kesehatan reproduksi. Cadence Index, sinyal on-device, brankas terenkripsi ujung-ke-ujung.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "cadensa",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-15T17:00:09Z",
+    "url": "https://github.com/bryankwandou/cadensa"
+  },
+  {
+    "createdAt": "2026-07-15T01:35:00Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "bryankwandou",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-15T16:54:22Z",
+    "url": "https://github.com/bryankwandou/bryankwandou"
+  },
+  {
+    "createdAt": "2026-08-07T17:28:53Z",
+    "description": "Situs resmi NNG Esport. Organisasi esport dari Abepura, Jayapura, Papua, berdiri sejak 2010.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "nngesport",
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-15T06:32:42Z",
+    "url": "https://github.com/bryankwandou/nngesport"
+  },
+  {
+    "createdAt": "2026-08-14T10:04:42Z",
+    "description": "Parlore - the room where remote teams actually meet. Spatial 3D meetings with customizable avatars, live screen boards, and on-chain room ownership.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "parlore",
+    "primaryLanguage": null,
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-14T10:04:43Z",
+    "url": "https://github.com/bryankwandou/parlore"
+  },
+  {
+    "createdAt": "2026-08-06T17:36:20Z",
+    "description": "Trust layer for the AI agent supply chain. Scan MCP servers, agent skills, and AI-suggested packages for tool poisoning, prompt injection, and slopsquatting - then publish verifiable attestations.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "assaykit",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-14T03:06:28Z",
+    "url": "https://github.com/bryankwandou/assaykit"
+  },
+  {
+    "createdAt": "2026-08-13T13:51:15Z",
+    "description": "A design studio that runs in your browser. Real text effects, per-layer motion, in-tab background cutouts, and export with no watermark or resolution cap.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "handpress",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-14T03:03:41Z",
+    "url": "https://github.com/bryankwandou/handpress"
+  },
+  {
+    "createdAt": "2026-08-09T04:09:54Z",
+    "description": "A browser IDE that signs its own work. Every AI-authored patch is hashed, signed in-tab, and anchored on Solana.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "marque",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-13T18:24:22Z",
+    "url": "https://github.com/bryankwandou/marque"
+  },
+  {
+    "createdAt": "2026-08-13T13:32:15Z",
+    "description": "Tempat baca novel bertema dewasa dalam bahasa Indonesia. Ketegangan dibangun lewat perasaan, bukan lewat vulgar. 100 judul, sepuluh genre, gerbang usia 18+/21+.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "larasa",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-13T13:55:15Z",
+    "url": "https://github.com/bryankwandou/larasa"
+  },
+  {
+    "createdAt": "2026-08-08T06:34:22Z",
+    "description": "A darkroom that runs in your browser. WebGL2 photo editor with portable, content-addressed Look recipes. Nothing uploads.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "grainroom",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-13T13:51:29Z",
+    "url": "https://github.com/bryankwandou/grainroom"
+  },
+  {
+    "createdAt": "2026-08-13T11:02:17Z",
+    "description": "Cairin - cairkan crypto jadi rupiah, langsung ke rekening dan e-wallet mana pun. IDRX di Base.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "cairin",
+    "primaryLanguage": null,
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-13T11:02:18Z",
+    "url": "https://github.com/bryankwandou/cairin"
+  },
+  {
+    "createdAt": "2026-08-12T07:44:38Z",
+    "description": "Bukti terverifikasi untuk panggilan agent yang menyentuh data pribadi. TEE contract di atas Terminal 3 ADK; digest receipt bisa dihitung ulang di luar node.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "nullstamp",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-13T09:58:45Z",
+    "url": "https://github.com/bryankwandou/nullstamp"
+  },
+  {
+    "createdAt": "2026-08-12T07:12:37Z",
+    "description": "Private security assessment of Veilo privacy_pool (mainnet bounty). Do not make public.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": true,
+    "name": "veilo-privacy-pool-assessment",
+    "primaryLanguage": {
+      "name": "Rust"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-13T04:42:41Z",
+    "url": "https://github.com/bryankwandou/veilo-privacy-pool-assessment"
+  },
+  {
+    "createdAt": "2026-08-05T12:28:52Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "fluentia",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-11T16:09:45Z",
+    "url": "https://github.com/bryankwandou/fluentia"
+  },
+  {
+    "createdAt": "2026-08-04T14:06:30Z",
+    "description": "Deterministic context compression for LLM agents, with a verifiable receipt for every run.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "kernly",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-11T15:46:41Z",
+    "url": "https://github.com/bryankwandou/kernly"
+  },
+  {
+    "createdAt": "2026-07-24T09:25:58Z",
+    "description": "Tanki Jene - PDAM Kota Makassar - Sistem Permintaan Layanan Mobil Tangki",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "tanki-request",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-24T09:27:32Z",
+    "url": "https://github.com/bryankwandou/tanki-request"
+  },
+  {
+    "createdAt": "2026-08-11T05:55:51Z",
+    "description": "Zero-hardware DePIN for road geometry. A browser driving game that turns every lap into a verifiable OpenStreetMap defect report, staked and settled on Solana.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "wayproof",
+    "primaryLanguage": null,
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-11T05:58:29Z",
+    "url": "https://github.com/bryankwandou/wayproof"
+  },
+  {
+    "createdAt": "2026-08-11T04:26:52Z",
+    "description": "Seal an agent's intent inside a TEE before the action runs. When the incident review starts, the record is already written.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "forewrit",
+    "primaryLanguage": {
+      "name": "Rust"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-11T04:27:24Z",
+    "url": "https://github.com/bryankwandou/forewrit"
+  },
+  {
+    "createdAt": "2026-08-10T06:16:53Z",
+    "description": "Verifiable settlement for autonomous agents. T3N DID identity + TEE contracts, settled on Solana.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "tallystick",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-11T04:06:54Z",
+    "url": "https://github.com/bryankwandou/tallystick"
+  },
+  {
+    "createdAt": "2026-08-08T16:08:36Z",
+    "description": "Which Solana devnet faucet is actually paying, right now. Pooled health signal plus a personal cooldown clock.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "spigot",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-10T16:32:27Z",
+    "url": "https://github.com/bryankwandou/spigot"
+  },
+  {
+    "createdAt": "2026-08-10T11:37:54Z",
+    "description": "BlockBite XYZ Persero (Indonesia) — protocol site",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": true,
+    "name": "blockbite-xyz-persero",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-10T11:40:08Z",
+    "url": "https://github.com/bryankwandou/blockbite-xyz-persero"
+  },
+  {
+    "createdAt": "2026-08-10T11:37:49Z",
+    "description": "BlockBite TDP Incorporated (USA) — token distribution protocol",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": true,
+    "name": "blockbite-tdp-usa",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-10T11:40:21Z",
+    "url": "https://github.com/bryankwandou/blockbite-tdp-usa"
+  },
+  {
+    "createdAt": "2026-08-10T11:37:45Z",
+    "description": "BlockBite Corporation — game/arcade",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": true,
+    "name": "blockbite-corporation",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-10T11:39:57Z",
+    "url": "https://github.com/bryankwandou/blockbite-corporation"
+  },
+  {
+    "createdAt": "2026-08-10T06:36:05Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": true,
+    "name": "veilo-v01-report",
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-10T07:06:14Z",
+    "url": "https://github.com/bryankwandou/veilo-v01-report"
+  },
+  {
+    "createdAt": "2026-08-09T14:32:02Z",
+    "description": "Proof you can actually do it. Adversarial, single-use developer assessments signed onto Solana and owned by the candidate.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "mettle",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-09T15:39:09Z",
+    "url": "https://github.com/bryankwandou/mettle"
+  },
+  {
+    "createdAt": "2026-08-09T11:52:51Z",
+    "description": "Glyphra - cryptography challenge arena: 100+ cipher techniques, auto-generated practice problems, verifiable proof-of-skill.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "glyphra",
+    "primaryLanguage": null,
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-09T11:52:51Z",
+    "url": "https://github.com/bryankwandou/glyphra"
+  },
+  {
+    "createdAt": "2026-08-07T17:42:26Z",
+    "description": "Solera - a sovereign art marketplace on Solana. Carry a body of work across chains with its provenance intact, priced in USDC or SOL at locked parity.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "solera",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-09T11:46:05Z",
+    "url": "https://github.com/bryankwandou/solera"
+  },
+  {
+    "createdAt": "2026-08-08T06:39:14Z",
+    "description": "A comics library built only from work that is provably free to share. No ad scripts, no trackers, enforced in the CSP.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "inkfold",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-09T11:40:51Z",
+    "url": "https://github.com/bryankwandou/inkfold"
+  },
+  {
+    "createdAt": "2026-08-09T04:09:16Z",
+    "description": "A multitrack audio editor that runs entirely in your browser. Files are decoded, edited, and rendered on your own machine. No account, no upload, no watermark.",
+    "homepageUrl": "https://stemloom.vercel.app",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "stemloom",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-09T04:42:49Z",
+    "url": "https://github.com/bryankwandou/stemloom"
+  },
+  {
+    "createdAt": "2026-08-08T22:53:45Z",
+    "description": "A video editor that runs entirely in your browser. No watermark, no upload, no account.",
+    "homepageUrl": "https://cutwright.vercel.app",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "cutwright",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": [
+      {
+        "name": "browser"
+      },
+      {
+        "name": "canvas"
+      },
+      {
+        "name": "nextjs"
+      },
+      {
+        "name": "video-editor"
+      },
+      {
+        "name": "webcodecs"
+      }
+    ],
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-09T04:09:17Z",
+    "url": "https://github.com/bryankwandou/cutwright"
+  },
+  {
+    "createdAt": "2026-08-08T22:53:45Z",
+    "description": "A complete photo editor that runs entirely in your browser. No watermark, no account, nothing uploaded.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "kanvara",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-08T22:54:37Z",
+    "url": "https://github.com/bryankwandou/kanvara"
+  },
+  {
+    "createdAt": "2026-08-04T18:15:21Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": true,
+    "name": "understudy",
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-08T16:29:24Z",
+    "url": "https://github.com/bryankwandou/understudy"
+  },
+  {
+    "createdAt": "2026-08-08T15:50:42Z",
+    "description": "A spec compiler. 5,001,816 addressable specification lines, every one between 1,089 and 1,426 characters, zero duplicates, routed into context packs an agent can build from.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "keelstack",
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-08T16:14:22Z",
+    "url": "https://github.com/bryankwandou/keelstack"
+  },
+  {
+    "createdAt": "2026-07-14T17:51:18Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": true,
+    "name": "SOLQV2",
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-14T17:52:23Z",
+    "url": "https://github.com/bryankwandou/SOLQV2"
+  },
+  {
+    "createdAt": "2026-08-06T15:10:09Z",
+    "description": "A shop till in the owner's chat. Durable nonce keeps an agent's Solana payment valid while a human approves it — proved on devnet: control expired, nonce finalized 4h29m later. Limits enforced in Rust, not prompts. Custody T0.",
+    "homepageUrl": "https://aval-site.vercel.app",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "aval-rail",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": [
+      {
+        "name": "ai-agents"
+      },
+      {
+        "name": "rust"
+      },
+      {
+        "name": "solana"
+      },
+      {
+        "name": "solana-pay"
+      },
+      {
+        "name": "webassembly"
+      },
+      {
+        "name": "zeroclaw"
+      }
+    ],
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-06T18:17:53Z",
+    "url": "https://github.com/bryankwandou/aval-rail"
+  },
+  {
+    "createdAt": "2026-08-04T14:01:41Z",
+    "description": "A five million line specification corpus, plus the router that makes it usable",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "loomstack",
+    "primaryLanguage": {
+      "name": "PLpgSQL"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-05T07:16:19Z",
+    "url": "https://github.com/bryankwandou/loomstack"
+  },
+  {
+    "createdAt": "2026-08-03T13:14:54Z",
+    "description": "Arsip materi kuliah Claroline phiechyan.org (login-gated)",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": true,
+    "name": "phiechyan-arsip",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-03T13:21:18Z",
+    "url": "https://github.com/bryankwandou/phiechyan-arsip"
+  },
+  {
+    "createdAt": "2026-08-03T13:11:35Z",
+    "description": "Arsip pribadi data akademik SSFTI UAJM (login-gated)",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": true,
+    "name": "ssfti-arsip",
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-03T13:17:49Z",
+    "url": "https://github.com/bryankwandou/ssfti-arsip"
+  },
+  {
+    "createdAt": "2026-07-20T07:25:32Z",
+    "description": "Landing page for Aval — the co-sign rail for autonomous agents (ZeroClaw x Solana bounty)",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "aval-site",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-03T13:05:49Z",
+    "url": "https://github.com/bryankwandou/aval-site"
+  },
+  {
+    "createdAt": "2026-08-03T09:48:42Z",
+    "description": "Antigravity IDE frontend clone — full VS Code-style workbench with AI chat, terminal, and file explorer",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "antigravity-ide-frontend",
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-03T10:37:18Z",
+    "url": "https://github.com/bryankwandou/antigravity-ide-frontend"
+  },
+  {
+    "createdAt": "2026-07-31T07:51:10Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": true,
+    "name": "ssc2026-workbench",
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-31T09:40:59Z",
+    "url": "https://github.com/bryankwandou/ssc2026-workbench"
+  },
+  {
+    "createdAt": "2026-07-14T17:48:38Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "kubantara",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-31T07:49:53Z",
+    "url": "https://github.com/bryankwandou/kubantara"
+  },
+  {
+    "createdAt": "2026-07-14T17:48:19Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "skyseed-isles",
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-31T03:29:21Z",
+    "url": "https://github.com/bryankwandou/skyseed-isles"
+  },
+  {
+    "createdAt": "2026-07-30T09:56:24Z",
+    "description": "LinkedIn publication pack — 21 shipped products with captions, logos, screenshots, and verified live links",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "product-catalog",
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-30T11:43:50Z",
+    "url": "https://github.com/bryankwandou/product-catalog"
+  },
+  {
+    "createdAt": "2026-07-24T04:12:17Z",
+    "description": "Evidence-first home care operations with live Groq tools, wallet signing, and Solana devnet proofs",
+    "homepageUrl": "https://visitrail.vercel.app",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "visitrail",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-30T10:38:09Z",
+    "url": "https://github.com/bryankwandou/visitrail"
+  },
+  {
+    "createdAt": "2026-07-24T01:25:03Z",
+    "description": "Execution firewall for autonomous capital on Solana",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "veylock",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-30T10:37:52Z",
+    "url": "https://github.com/bryankwandou/veylock"
+  },
+  {
+    "createdAt": "2026-07-26T15:58:50Z",
+    "description": "Agentic AI feasibility analysis for startup ideas — nine-agent pipeline, Business Model Canvas, and a seven-factor weighted score. Frontend research prototype.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "veristart-agentic-feasibility",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-30T10:37:54Z",
+    "url": "https://github.com/bryankwandou/veristart-agentic-feasibility"
+  },
+  {
+    "createdAt": "2026-07-24T03:27:49Z",
+    "description": "Compliance-first household CRM and advisor-owned AI drafting workflow",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "stewardlane",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-30T10:37:16Z",
+    "url": "https://github.com/bryankwandou/stewardlane"
+  },
+  {
+    "createdAt": "2026-07-24T02:43:32Z",
+    "description": "Restaurant compliance controls, safety hard blocks, labor-safe scheduling, and tamper-evident operational proof",
+    "homepageUrl": "https://servetrace.vercel.app",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "servetrace",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-30T10:36:41Z",
+    "url": "https://github.com/bryankwandou/servetrace"
+  },
+  {
+    "createdAt": "2026-07-28T11:13:19Z",
+    "description": "Evidence-backed synthetic customer testing with deterministic safety and Solana devnet proof",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "mirrorqa-ai",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-30T10:36:48Z",
+    "url": "https://github.com/bryankwandou/mirrorqa-ai"
+  },
+  {
+    "createdAt": "2026-07-23T19:04:13Z",
+    "description": "Guarded Solana devnet remittance agent with recipient verification, policy caps, quote locks, and duplicate protection",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "kinferry",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-30T10:36:50Z",
+    "url": "https://github.com/bryankwandou/kinferry"
+  },
+  {
+    "createdAt": "2026-07-28T10:59:39Z",
+    "description": "Photography studio culling, gallery, and delivery workflow",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "galleryos",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-30T10:36:17Z",
+    "url": "https://github.com/bryankwandou/galleryos"
+  },
+  {
+    "createdAt": "2026-07-24T03:22:12Z",
+    "description": "Server-enforced HOS, vehicle safety, grounded AI documents, and Solana devnet evidence for freight fleets.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "freightlatch",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-30T10:36:35Z",
+    "url": "https://github.com/bryankwandou/freightlatch"
+  },
+  {
+    "createdAt": "2026-07-28T10:44:48Z",
+    "description": "Live event operations with real AI workflows and Solana devnet proofs",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "evercue",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-30T10:36:24Z",
+    "url": "https://github.com/bryankwandou/evercue"
+  },
+  {
+    "createdAt": "2026-07-24T02:08:06Z",
+    "description": "Rental operations early warning for maintenance, rent, compliance, and Solana devnet evidence.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "dwellnerve",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-30T10:37:39Z",
+    "url": "https://github.com/bryankwandou/dwellnerve"
+  },
+  {
+    "createdAt": "2026-07-28T11:13:42Z",
+    "description": "Investment judgment without false consensus — four-lens deliberation with deterministic dissent preservation.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "dissentgrid",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-30T10:36:15Z",
+    "url": "https://github.com/bryankwandou/dissentgrid"
+  },
+  {
+    "createdAt": "2026-07-24T01:48:15Z",
+    "description": "AI-triaged municipal service requests with public SLA accountability",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "civiflow",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-30T10:36:09Z",
+    "url": "https://github.com/bryankwandou/civiflow"
+  },
+  {
+    "createdAt": "2026-07-24T01:58:26Z",
+    "description": "Safety operations for childcare centers: ratio hard blocks, pickup authorization, and grounded incident reporting.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "childcareos",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-30T10:35:29Z",
+    "url": "https://github.com/bryankwandou/childcareos"
+  },
+  {
+    "createdAt": "2026-07-24T04:16:02Z",
+    "description": "Approval-to-cash integrity for independent creative agencies",
+    "homepageUrl": "https://briefrail.vercel.app",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "briefrail",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-30T10:35:22Z",
+    "url": "https://github.com/bryankwandou/briefrail"
+  },
+  {
+    "createdAt": "2026-07-24T01:47:48Z",
+    "description": "Verifiable fleet dispatch safety interlock",
+    "homepageUrl": "https://axleveto.vercel.app",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "axleveto",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-30T10:35:51Z",
+    "url": "https://github.com/bryankwandou/axleveto"
+  },
+  {
+    "createdAt": "2026-07-24T03:57:53Z",
+    "description": "Approval-gated repair orders, live Groq diagnostic agent, and Solana devnet verification",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "autorepairos",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-30T10:36:45Z",
+    "url": "https://github.com/bryankwandou/autorepairos"
+  },
+  {
+    "createdAt": "2026-07-28T10:27:22Z",
+    "description": "Autonomous B2B negotiation with deterministic authority rails and Solana proof anchoring",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "accordos-ai",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-30T10:35:31Z",
+    "url": "https://github.com/bryankwandou/accordos-ai"
+  },
+  {
+    "createdAt": "2026-07-23T17:21:25Z",
+    "description": "Binding integrity, grounded claims intake, and renewal lapse prevention for independent insurance agencies",
+    "homepageUrl": "https://vowrail.vercel.app",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "vowrail",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-30T10:24:51Z",
+    "url": "https://github.com/bryankwandou/vowrail"
+  },
+  {
+    "createdAt": "2026-07-28T04:51:34Z",
+    "description": "HTTP 402 agent-to-API micropayment gateway on Solana devnet",
+    "homepageUrl": "https://x402gate.vercel.app",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "x402gate",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-28T09:28:42Z",
+    "url": "https://github.com/bryankwandou/x402gate"
+  },
+  {
+    "createdAt": "2026-07-14T17:48:30Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "springboot-login-jwt",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-25T07:33:01Z",
+    "url": "https://github.com/bryankwandou/springboot-login-jwt"
+  },
+  {
+    "createdAt": "2026-07-24T16:08:18Z",
+    "description": "Isolated recovery of NusaKarya Systems from source commit 2b333e3",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "nusakarya-recovery-2b333e3",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-24T16:09:21Z",
+    "url": "https://github.com/bryankwandou/nusakarya-recovery-2b333e3"
+  },
+  {
+    "createdAt": "2026-07-24T16:07:16Z",
+    "description": "Private forensic preservation of commit 2b333e3 from July 17, 2026",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": true,
+    "name": "springboot-login-jwt-evidence-2b333e3",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-24T16:07:55Z",
+    "url": "https://github.com/bryankwandou/springboot-login-jwt-evidence-2b333e3"
+  },
+  {
+    "createdAt": "2026-07-14T17:49:03Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "meadowfar",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-23T09:47:46Z",
+    "url": "https://github.com/bryankwandou/meadowfar"
+  },
+  {
+    "createdAt": "2026-07-14T17:48:46Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "lineproof",
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-23T04:51:34Z",
+    "url": "https://github.com/bryankwandou/lineproof"
+  },
+  {
+    "createdAt": "2026-07-22T00:30:43Z",
+    "description": "AI Business Copilot for UMKM Indonesia — records & analyses transactions from plain Indonesian, with SHA-256 verifiable business records. IDCamp Developer Challenge #2.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "solumkm",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-22T13:58:51Z",
+    "url": "https://github.com/bryankwandou/solumkm"
+  },
+  {
+    "createdAt": "2026-07-21T18:25:00Z",
+    "description": "Submission Tahap 0 - Pengumpulan Data Portal Satu Data Sulawesi Selatan",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "tugas-tahap-0-satudata-sulsel",
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-22T09:03:17Z",
+    "url": "https://github.com/bryankwandou/tugas-tahap-0-satudata-sulsel"
+  },
+  {
+    "createdAt": "2026-07-14T17:48:01Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "proofcast",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-20T18:19:28Z",
+    "url": "https://github.com/bryankwandou/proofcast"
+  },
+  {
+    "createdAt": "2026-07-20T05:47:38Z",
+    "description": "Official plugin registry for ZeroClaw — zeroclaw plugin search/install",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "zeroclaw-plugins",
+    "primaryLanguage": {
+      "name": "Rust"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-20T05:47:38Z",
+    "url": "https://github.com/bryankwandou/zeroclaw-plugins"
+  },
+  {
+    "createdAt": "2026-07-20T13:58:05Z",
+    "description": "SDK-less Solana substrate for wasm32-wasip2 agent plugins: durable nonces, hand-rolled tx encoding, injectable RPC (canonical source for the Aval suite)",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "aval-core",
+    "primaryLanguage": {
+      "name": "Rust"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-20T13:59:47Z",
+    "url": "https://github.com/bryankwandou/aval-core"
+  },
+  {
+    "createdAt": "2026-07-14T17:47:51Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "matchmind",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-17T18:15:46Z",
+    "url": "https://github.com/bryankwandou/matchmind"
+  },
+  {
+    "createdAt": "2026-07-16T09:17:29Z",
+    "description": "Patient illness history anchored on Solana devnet - hash on-chain, encrypted data off-chain",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "anamneon",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-17T12:43:54Z",
+    "url": "https://github.com/bryankwandou/anamneon"
+  },
+  {
+    "createdAt": "2026-07-14T17:55:40Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "vericodeai",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T03:25:47Z",
+    "url": "https://github.com/bryankwandou/vericodeai"
+  },
+  {
+    "createdAt": "2026-07-14T17:47:15Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "atlas-quant",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:52:35Z",
+    "url": "https://github.com/bryankwandou/atlas-quant"
+  },
+  {
+    "createdAt": "2026-07-14T18:07:23Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "verichain",
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:56:34Z",
+    "url": "https://github.com/bryankwandou/verichain"
+  },
+  {
+    "createdAt": "2026-07-14T18:07:14Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "qrcode1",
+    "primaryLanguage": {
+      "name": "CMake"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:55:09Z",
+    "url": "https://github.com/bryankwandou/qrcode1"
+  },
+  {
+    "createdAt": "2026-07-14T18:07:05Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "qrcodefail-1",
+    "primaryLanguage": null,
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:55:17Z",
+    "url": "https://github.com/bryankwandou/qrcodefail-1"
+  },
+  {
+    "createdAt": "2026-07-14T18:06:57Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "QR-CODE-GENERATOR",
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:51:20Z",
+    "url": "https://github.com/bryankwandou/QR-CODE-GENERATOR"
+  },
+  {
+    "createdAt": "2026-07-14T18:06:47Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "NNG-TIKTOK-LIVE-AGENT",
+    "primaryLanguage": {
+      "name": "Dart"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:50:57Z",
+    "url": "https://github.com/bryankwandou/NNG-TIKTOK-LIVE-AGENT"
+  },
+  {
+    "createdAt": "2026-07-14T18:06:39Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "trustpay-sea",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:56:17Z",
+    "url": "https://github.com/bryankwandou/trustpay-sea"
+  },
+  {
+    "createdAt": "2026-07-14T18:06:30Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "EscrowKita",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:26:10Z",
+    "url": "https://github.com/bryankwandou/EscrowKita"
+  },
+  {
+    "createdAt": "2026-07-14T18:06:20Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "MOVV-BMI",
+    "primaryLanguage": {
+      "name": "Dart"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:41:27Z",
+    "url": "https://github.com/bryankwandou/MOVV-BMI"
+  },
+  {
+    "createdAt": "2026-07-14T18:06:11Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": true,
+    "name": "proof-of-work-agent",
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-14T18:06:39Z",
+    "url": "https://github.com/bryankwandou/proof-of-work-agent"
+  },
+  {
+    "createdAt": "2026-07-14T18:05:13Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "proofofplay",
+    "primaryLanguage": {
+      "name": "C"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:55:05Z",
+    "url": "https://github.com/bryankwandou/proofofplay"
+  },
+  {
+    "createdAt": "2026-07-14T18:05:06Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "vinbryyt-drip-revival",
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:56:52Z",
+    "url": "https://github.com/bryankwandou/vinbryyt-drip-revival"
+  },
+  {
+    "createdAt": "2026-07-14T18:04:58Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "QUANTCOIN",
+    "primaryLanguage": {
+      "name": "Rust"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:51:29Z",
+    "url": "https://github.com/bryankwandou/QUANTCOIN"
+  },
+  {
+    "createdAt": "2026-07-14T18:04:50Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "NNG-PROTOCOL",
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:50:48Z",
+    "url": "https://github.com/bryankwandou/NNG-PROTOCOL"
+  },
+  {
+    "createdAt": "2026-07-14T18:04:32Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "NNG-GAME-TOPUP",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:50:41Z",
+    "url": "https://github.com/bryankwandou/NNG-GAME-TOPUP"
+  },
+  {
+    "createdAt": "2026-07-14T18:04:24Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "x-autopilot",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:56:59Z",
+    "url": "https://github.com/bryankwandou/x-autopilot"
+  },
+  {
+    "createdAt": "2026-07-14T18:04:17Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "superteam-ukraine",
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:56:12Z",
+    "url": "https://github.com/bryankwandou/superteam-ukraine"
+  },
+  {
+    "createdAt": "2026-07-14T18:04:08Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "ChainShift",
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:03:14Z",
+    "url": "https://github.com/bryankwandou/ChainShift"
+  },
+  {
+    "createdAt": "2026-07-14T18:04:01Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "OMNIA",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:51:12Z",
+    "url": "https://github.com/bryankwandou/OMNIA"
+  },
+  {
+    "createdAt": "2026-07-14T18:03:41Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": true,
+    "name": "solq",
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-14T18:04:29Z",
+    "url": "https://github.com/bryankwandou/solq"
+  },
+  {
+    "createdAt": "2026-07-14T18:03:32Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "vibe",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:56:46Z",
+    "url": "https://github.com/bryankwandou/vibe"
+  },
+  {
+    "createdAt": "2026-07-14T18:03:04Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": true,
+    "name": "deadmanswitch",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-14T18:04:16Z",
+    "url": "https://github.com/bryankwandou/deadmanswitch"
+  },
+  {
+    "createdAt": "2026-07-14T18:02:55Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "basedrop",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:52:40Z",
+    "url": "https://github.com/bryankwandou/basedrop"
+  },
+  {
+    "createdAt": "2026-07-14T18:02:46Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "portfolio-cv",
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:54:59Z",
+    "url": "https://github.com/bryankwandou/portfolio-cv"
+  },
+  {
+    "createdAt": "2026-07-14T18:02:37Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "stake-to-done",
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:56:06Z",
+    "url": "https://github.com/bryankwandou/stake-to-done"
+  },
+  {
+    "createdAt": "2026-07-14T18:02:28Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "solidity-personal-vault-mancer",
+    "primaryLanguage": {
+      "name": "Solidity"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:55:53Z",
+    "url": "https://github.com/bryankwandou/solidity-personal-vault-mancer"
+  },
+  {
+    "createdAt": "2026-07-14T18:02:18Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "botcall-protocol",
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:53:28Z",
+    "url": "https://github.com/bryankwandou/botcall-protocol"
+  },
+  {
+    "createdAt": "2026-07-14T18:02:10Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "habitforge",
+    "primaryLanguage": {
+      "name": "Dart"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:54:12Z",
+    "url": "https://github.com/bryankwandou/habitforge"
+  },
+  {
+    "createdAt": "2026-07-14T18:02:01Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "InspiraVerse",
+    "primaryLanguage": {
+      "name": "Dart"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:33:48Z",
+    "url": "https://github.com/bryankwandou/InspiraVerse"
+  },
+  {
+    "createdAt": "2026-07-14T18:01:50Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "ComputerVision-Project1",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:18:32Z",
+    "url": "https://github.com/bryankwandou/ComputerVision-Project1"
+  },
+  {
+    "createdAt": "2026-07-14T18:01:43Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "SmashGO",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:51:47Z",
+    "url": "https://github.com/bryankwandou/SmashGO"
+  },
+  {
+    "createdAt": "2026-07-14T18:01:33Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "MachineLearning-project3-kelompok2",
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:49:09Z",
+    "url": "https://github.com/bryankwandou/MachineLearning-project3-kelompok2"
+  },
+  {
+    "createdAt": "2026-07-14T17:58:11Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "NusaHarvest",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:51:05Z",
+    "url": "https://github.com/bryankwandou/NusaHarvest"
+  },
+  {
+    "createdAt": "2026-07-14T17:58:04Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "solq.my.id",
+    "primaryLanguage": {
+      "name": "CSS"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:55:57Z",
+    "url": "https://github.com/bryankwandou/solq.my.id"
+  },
+  {
+    "createdAt": "2026-07-14T17:57:56Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": true,
+    "name": "Voon",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-14T17:58:06Z",
+    "url": "https://github.com/bryankwandou/Voon"
+  },
+  {
+    "createdAt": "2026-07-14T17:57:48Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "zynqio",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:57:06Z",
+    "url": "https://github.com/bryankwandou/zynqio"
+  },
+  {
+    "createdAt": "2026-07-14T17:57:41Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "Veztra",
+    "primaryLanguage": null,
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:51:52Z",
+    "url": "https://github.com/bryankwandou/Veztra"
+  },
+  {
+    "createdAt": "2026-07-14T17:57:34Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "nngpt",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:54:47Z",
+    "url": "https://github.com/bryankwandou/nngpt"
+  },
+  {
+    "createdAt": "2026-07-14T17:57:25Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "hydraflow-water-reminder",
+    "primaryLanguage": {
+      "name": "Dart"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:54:18Z",
+    "url": "https://github.com/bryankwandou/hydraflow-water-reminder"
+  },
+  {
+    "createdAt": "2026-07-14T17:57:02Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": true,
+    "name": "AlterCast",
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-31T03:41:12Z",
+    "url": "https://github.com/bryankwandou/AlterCast"
+  },
+  {
+    "createdAt": "2026-07-14T17:56:54Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "flowtask-smart-todo-app",
+    "primaryLanguage": {
+      "name": "Dart"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:54:01Z",
+    "url": "https://github.com/bryankwandou/flowtask-smart-todo-app"
+  },
+  {
+    "createdAt": "2026-07-14T17:56:44Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "focusforge-pomodoro",
+    "primaryLanguage": {
+      "name": "Dart"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:54:06Z",
+    "url": "https://github.com/bryankwandou/focusforge-pomodoro"
+  },
+  {
+    "createdAt": "2026-07-14T17:52:30Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": true,
+    "name": "blockbite-smart-contract",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-14T17:55:47Z",
+    "url": "https://github.com/bryankwandou/blockbite-smart-contract"
+  },
+  {
+    "createdAt": "2026-07-14T17:56:35Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "pocketledger-offline-expense-tracker",
+    "primaryLanguage": {
+      "name": "Dart"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:54:53Z",
+    "url": "https://github.com/bryankwandou/pocketledger-offline-expense-tracker"
+  },
+  {
+    "createdAt": "2026-07-14T17:56:27Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "velthoryn",
+    "primaryLanguage": null,
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:56:27Z",
+    "url": "https://github.com/bryankwandou/velthoryn"
+  },
+  {
+    "createdAt": "2026-07-14T17:56:20Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "removix-ai",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:55:26Z",
+    "url": "https://github.com/bryankwandou/removix-ai"
+  },
+  {
+    "createdAt": "2026-07-14T17:55:47Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "semester3dan4",
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:55:31Z",
+    "url": "https://github.com/bryankwandou/semester3dan4"
+  },
+  {
+    "createdAt": "2026-07-14T17:55:31Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "blockbite-xyz",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:53:12Z",
+    "url": "https://github.com/bryankwandou/blockbite-xyz"
+  },
+  {
+    "createdAt": "2026-07-14T17:52:23Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "anchor-debugger-skill",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:51:58Z",
+    "url": "https://github.com/bryankwandou/anchor-debugger-skill"
+  },
+  {
+    "createdAt": "2026-07-14T17:52:14Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "chainops-dashboard-ui-kit",
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:53:35Z",
+    "url": "https://github.com/bryankwandou/chainops-dashboard-ui-kit"
+  },
+  {
+    "createdAt": "2026-07-14T17:51:11Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "antigravity-prime-hunter",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:52:20Z",
+    "url": "https://github.com/bryankwandou/antigravity-prime-hunter"
+  },
+  {
+    "createdAt": "2026-07-14T17:51:02Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "solgig-mainnet",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:55:47Z",
+    "url": "https://github.com/bryankwandou/solgig-mainnet"
+  },
+  {
+    "createdAt": "2026-07-14T17:50:53Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "kopedu-nft-solana",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:54:28Z",
+    "url": "https://github.com/bryankwandou/kopedu-nft-solana"
+  },
+  {
+    "createdAt": "2026-07-14T17:50:36Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "CoffeeShop-EnterpriseFinalTest",
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:10:53Z",
+    "url": "https://github.com/bryankwandou/CoffeeShop-EnterpriseFinalTest"
+  },
+  {
+    "createdAt": "2026-07-14T17:50:23Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "veilspire",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:56:23Z",
+    "url": "https://github.com/bryankwandou/veilspire"
+  },
+  {
+    "createdAt": "2026-07-14T17:50:16Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "kopedu",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:54:23Z",
+    "url": "https://github.com/bryankwandou/kopedu"
+  },
+  {
+    "createdAt": "2026-07-14T17:50:07Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "veritair",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:56:41Z",
+    "url": "https://github.com/bryankwandou/veritair"
+  },
+  {
+    "createdAt": "2026-07-14T17:49:59Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "solgig",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:55:41Z",
+    "url": "https://github.com/bryankwandou/solgig"
+  },
+  {
+    "createdAt": "2026-07-14T17:49:50Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "feasiflow-ai",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:53:56Z",
+    "url": "https://github.com/bryankwandou/feasiflow-ai"
+  },
+  {
+    "createdAt": "2026-07-14T17:49:16Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "blockblast",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:53:19Z",
+    "url": "https://github.com/bryankwandou/blockblast"
+  },
+  {
+    "createdAt": "2026-07-14T17:49:10Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "blockbite",
+    "primaryLanguage": null,
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:53:06Z",
+    "url": "https://github.com/bryankwandou/blockbite"
+  },
+  {
+    "createdAt": "2026-07-14T17:48:55Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "clinicflow-ai",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:53:40Z",
+    "url": "https://github.com/bryankwandou/clinicflow-ai"
+  },
+  {
+    "createdAt": "2026-07-14T17:48:11Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "quorumai",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:55:20Z",
+    "url": "https://github.com/bryankwandou/quorumai"
+  },
+  {
+    "createdAt": "2026-07-14T17:47:41Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "everanima",
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:53:51Z",
+    "url": "https://github.com/bryankwandou/everanima"
+  },
+  {
+    "createdAt": "2026-07-14T17:47:31Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "diafund",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-07-16T04:53:47Z",
+    "url": "https://github.com/bryankwandou/diafund"
+  }
+]
