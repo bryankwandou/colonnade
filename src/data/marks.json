@@ -77,17 +77,17 @@
     "kind": "svg",
     "bytes": 2059
   },
-  "bryankwandou": {
-    "file": "bryankwandou.svg",
-    "source": "https://bryankwandou.vercel.app/icon.svg?icon.3j2-9uonxfnr7.svg",
-    "kind": "svg",
-    "bytes": 1270
-  },
   "colonnade": {
     "file": "colonnade.svg",
     "source": "https://colonnade.vercel.app/icon.svg",
     "kind": "svg",
     "bytes": 1586
+  },
+  "bryankwandou": {
+    "file": "bryankwandou.svg",
+    "source": "https://bryankwandou.vercel.app/icon.svg?icon.3j2-9uonxfnr7.svg",
+    "kind": "svg",
+    "bytes": 1270
   },
   "forkroot": {
     "file": "forkroot.ico",
@@ -101,11 +101,83 @@
     "kind": "svg",
     "bytes": 847
   },
+  "keelstack-search": {
+    "file": "keelstack-search.svg",
+    "source": "https://keelstack-search.vercel.app/mark.svg",
+    "kind": "svg",
+    "bytes": 707
+  },
+  "keelstack-messaging": {
+    "file": "keelstack-messaging.svg",
+    "source": "https://keelstack-messaging.vercel.app/mark.svg",
+    "kind": "svg",
+    "bytes": 707
+  },
+  "keelstack-identity": {
+    "file": "keelstack-identity.svg",
+    "source": "https://keelstack-identity.vercel.app/mark.svg",
+    "kind": "svg",
+    "bytes": 707
+  },
+  "keelstack-lending": {
+    "file": "keelstack-lending.svg",
+    "source": "https://keelstack-lending.vercel.app/mark.svg",
+    "kind": "svg",
+    "bytes": 707
+  },
+  "keelstack-ads": {
+    "file": "keelstack-ads.svg",
+    "source": "https://keelstack-ads.vercel.app/mark.svg",
+    "kind": "svg",
+    "bytes": 707
+  },
+  "keelstack-creator": {
+    "file": "keelstack-creator.svg",
+    "source": "https://keelstack-creator.vercel.app/mark.svg",
+    "kind": "svg",
+    "bytes": 707
+  },
+  "keelstack-video": {
+    "file": "keelstack-video.svg",
+    "source": "https://keelstack-video.vercel.app/mark.svg",
+    "kind": "svg",
+    "bytes": 707
+  },
+  "keelstack-social": {
+    "file": "keelstack-social.svg",
+    "source": "https://keelstack-social.vercel.app/mark.svg",
+    "kind": "svg",
+    "bytes": 707
+  },
+  "keelstack-mobility": {
+    "file": "keelstack-mobility.svg",
+    "source": "https://keelstack-mobility.vercel.app/mark.svg",
+    "kind": "svg",
+    "bytes": 707
+  },
   "stele": {
     "file": "stele.svg",
     "source": "https://stele-gamma.vercel.app/mark.svg",
     "kind": "svg",
     "bytes": 2743
+  },
+  "keelstack-logistics": {
+    "file": "keelstack-logistics.svg",
+    "source": "https://keelstack-logistics.vercel.app/mark.svg",
+    "kind": "svg",
+    "bytes": 707
+  },
+  "keelstack-payments": {
+    "file": "keelstack-payments.svg",
+    "source": "https://keelstack-payments.vercel.app/mark.svg",
+    "kind": "svg",
+    "bytes": 707
+  },
+  "keelstack-commerce": {
+    "file": "keelstack-commerce.svg",
+    "source": "https://keelstack-commerce.vercel.app/mark.svg",
+    "kind": "svg",
+    "bytes": 707
   },
   "tokenwatt": {
     "file": "tokenwatt.svg",
@@ -124,6 +196,30 @@
     "source": "https://larasa.vercel.app/favicon.ico?favicon.3fpu2ql9ns1a0.ico",
     "kind": "256px",
     "bytes": 25931
+  },
+  "keelstack-gaming": {
+    "file": "keelstack-gaming.svg",
+    "source": "https://keelstack-gaming.vercel.app/mark.svg",
+    "kind": "svg",
+    "bytes": 707
+  },
+  "keelstack-health": {
+    "file": "keelstack-health.svg",
+    "source": "https://keelstack-health.vercel.app/mark.svg",
+    "kind": "svg",
+    "bytes": 707
+  },
+  "keelstack-food": {
+    "file": "keelstack-food.svg",
+    "source": "https://keelstack-food.vercel.app/mark.svg",
+    "kind": "svg",
+    "bytes": 707
+  },
+  "keelstack-travel": {
+    "file": "keelstack-travel.svg",
+    "source": "https://keelstack-travel.vercel.app/mark.svg",
+    "kind": "svg",
+    "bytes": 707
   },
   "fluentia": {
     "file": "fluentia.svg",

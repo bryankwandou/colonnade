@@ -11,7 +11,7 @@
     },
     "repositoryTopics": null,
     "stargazerCount": 0,
-    "updatedAt": "2026-08-16T15:22:12Z",
+    "updatedAt": "2026-08-16T15:58:12Z",
     "url": "https://github.com/bryankwandou/cadensa"
   },
   {
@@ -26,23 +26,8 @@
     },
     "repositoryTopics": null,
     "stargazerCount": 0,
-    "updatedAt": "2026-08-16T15:07:42Z",
+    "updatedAt": "2026-08-16T15:56:48Z",
     "url": "https://github.com/bryankwandou/arbiter"
-  },
-  {
-    "createdAt": "2026-07-15T01:35:00Z",
-    "description": "",
-    "homepageUrl": "",
-    "isArchived": false,
-    "isPrivate": false,
-    "name": "bryankwandou",
-    "primaryLanguage": {
-      "name": "TypeScript"
-    },
-    "repositoryTopics": null,
-    "stargazerCount": 0,
-    "updatedAt": "2026-08-16T15:04:04Z",
-    "url": "https://github.com/bryankwandou/bryankwandou"
   },
   {
     "createdAt": "2026-08-16T14:29:46Z",
@@ -56,8 +41,23 @@
     },
     "repositoryTopics": null,
     "stargazerCount": 0,
-    "updatedAt": "2026-08-16T14:35:49Z",
+    "updatedAt": "2026-08-16T15:38:31Z",
     "url": "https://github.com/bryankwandou/colonnade"
+  },
+  {
+    "createdAt": "2026-07-15T01:35:00Z",
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "bryankwandou",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-16T15:34:36Z",
+    "url": "https://github.com/bryankwandou/bryankwandou"
   },
   {
     "createdAt": "2026-08-15T11:47:45Z",
