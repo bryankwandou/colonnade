@@ -119,7 +119,7 @@ function inlineLogo(html, entry) {
   const slugKey = entry.slug.replace(/[^a-z0-9]/g, "");
   const scored = [];
 
-  for (const match of matches.slice(0, 12)) {
+  for (const [idx, match] of matches.slice(0, 12).entries()) {
     const svg = match[0];
     const at = match.index ?? 0;
 
@@ -131,23 +131,32 @@ function inlineLogo(html, entry) {
     const isNamed =
       (wanted.length >= 4 && named.includes(wanted)) || (slugKey.length >= 4 && named.includes(slugKey));
 
+    // Anything carrying an icon library's class is furniture by definition.
+    if (/class=["'][^"']*\b(lucide|feather|heroicon|tabler|bi-|fa-)/i.test(svg)) continue;
+
     // Chrome from an icon set: a couple of short strokes and no identity.
     const geometry = [...svg.matchAll(/\sd=["']([^"']+)["']/g)].map((m) => m[1]).join("");
-    if (!isNamed && geometry.length < 90 && !/<(linear|radial)Gradient|<circle|<rect/i.test(svg)) continue;
+    if (!isNamed && geometry.length < 40 && !/<(linear|radial)Gradient|<circle|<rect|<polygon/i.test(svg)) continue;
 
     let score = 0;
     if (isNamed) score += 100;
     if (/role=["']img["']/i.test(svg)) score += 12;
     if (/<(linear|radial)Gradient/i.test(svg)) score += 10;
-    // Stroke-only marks are perfectly legitimate logos; they just need another
-    // signal alongside, which the position and size checks below supply.
     if (/fill=["'](?!none)/i.test(svg) || /fill-opacity|class=["'][^"']*fill-/i.test(svg)) score += 6;
-    if (at < html.length * 0.25) score += 16;
+
+    // Position is the strongest unnamed signal there is. A site's header lockup
+    // is the first thing it draws, and brands routinely mark it aria-hidden
+    // because the wordmark beside it already carries the name.
+    if (idx === 0) score += 30;
+    else if (at < html.length * 0.25) score += 14;
+
     if (matches.length <= 2) score += 12; // the only drawing on the page
 
     const w = parseInt(svg.match(/\swidth=["'](\d+)/i)?.[1] ?? "0", 10);
     if (w > 0 && w <= 64) score += 10;
-    if (/viewBox=["']0 0 (\d+) \1["']/i.test(svg)) score += 6; // square: lockup shape
+    if (/viewBox=["']0 0 (\d+) \1["']/i.test(svg)) score += 8; // square: lockup shape
+    // A class named for the brand rather than for a shape.
+    if (/class=["'][^"']*\b(brand|logo|mark|glyph)/i.test(svg)) score += 16;
 
     if (score >= 34) scored.push({ svg, score });
   }
@@ -179,14 +188,72 @@ function standalone(svg) {
   // Give currentColor something to resolve against.
   out = out.replace(/^(<svg\b[^>]*?)(\/?>)/i, (_, head, close) => `${head} color="${INK}"${close}`);
 
+  // Some lockups declare no paint at all and take every stroke and fill from the
+  // site's own stylesheet. Lifted out, they would draw nothing. Supplying a
+  // default outline keeps the geometry — which is the actual mark — visible.
+  const paints = /\s(fill|stroke)=["']/i.test(out.replace(/^<svg\b[^>]*>/i, ""));
+  const unpainted = !paints
+    ? `[fill]:not([fill="none"]){}svg>*,svg g>*{vector-effect:non-scaling-stroke}` +
+      `svg{fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}`
+    : "";
+
   const shim =
     `<style>` +
     `.fill-foreground,.fill-current,.fill-primary,.fill-background{fill:currentColor}` +
     `.stroke-foreground,.stroke-current,.stroke-primary{stroke:currentColor}` +
     `.text-foreground,.text-primary{color:currentColor}` +
+    unpainted +
     `</style>`;
 
   return out.replace(/^(<svg\b[^>]*>)/i, `$1${shim}`);
+}
+
+/**
+ * Finds a logo placed as an image in the header.
+ *
+ * The third place these marks hide. Blockbite draws its lockup with
+ * `<img alt="BlockBite" src="/_next/image?url=%2Flogo.png">` — invisible to a
+ * favicon check and to an inline-SVG scan alike. The alt text is the tell: a
+ * header lockup is labelled with the product's name.
+ */
+function imageLogo(html, entry, baseUrl) {
+  const wanted = entry.name.toLowerCase().replace(/[^a-z0-9]/g, "");
+  const slugKey = entry.slug.replace(/[^a-z0-9]/g, "");
+
+  for (const match of [...html.matchAll(/<img\b[^>]*>/gi)].slice(0, 25)) {
+    const tag = match[0];
+    const alt = (tag.match(/alt=["']([^"']*)["']/i)?.[1] ?? "").toLowerCase().replace(/[^a-z0-9]/g, "");
+    const named =
+      (wanted.length >= 4 && alt.includes(wanted)) ||
+      (slugKey.length >= 4 && alt.includes(slugKey)) ||
+      /^(logo|brandmark|wordmark)$/.test(alt);
+    if (!named) continue;
+
+    // srcSet entries come first because they point at the original asset.
+    const raw =
+      tag.match(/srcSet=["']([^"']+)["']/i)?.[1]?.split(",")[0]?.trim().split(/\s+/)[0] ??
+      tag.match(/\ssrc=["']([^"']+)["']/i)?.[1];
+    if (!raw) continue;
+
+    // Unwrap Next.js image optimisation to reach the file itself, which is
+    // usually a lossless PNG or SVG rather than a resized JPEG.
+    let href = raw;
+    const optimised = raw.match(/[?&]url=([^&]+)/);
+    if (optimised) {
+      try {
+        href = decodeURIComponent(optimised[1]);
+      } catch {
+        /* keep raw */
+      }
+    }
+
+    try {
+      return new URL(href, baseUrl).toString();
+    } catch {
+      continue;
+    }
+  }
+  return null;
 }
 
 async function markFor(entry) {
@@ -209,7 +276,14 @@ async function markFor(entry) {
     };
   }
 
-  for (const candidate of iconCandidates(page.body, page.url).slice(0, 6)) {
+  // A header image labelled with the product name, ranked above favicons for
+  // the same reason as the inline lockup: it is unambiguously this project's.
+  const named = imageLogo(page.body, entry, page.url);
+  const ranked = named
+    ? [{ url: named, score: 200, note: "header" }, ...iconCandidates(page.body, page.url)]
+    : iconCandidates(page.body, page.url);
+
+  for (const candidate of ranked.slice(0, 7)) {
     const asset = await get(candidate.url, "buffer");
     if (!asset) continue;
     if (!/image|octet-stream/.test(asset.type) && !/\.(svg|png|ico|jpg|webp)$/i.test(candidate.url)) continue;

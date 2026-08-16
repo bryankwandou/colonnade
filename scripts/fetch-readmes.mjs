@@ -21,11 +21,13 @@ const OUT = join(root, "src", "data", "readme-blurbs.json");
 const isWindows = process.platform === "win32";
 
 function gh(args) {
-  const opts = { encoding: "utf8", maxBuffer: 32 * 1024 * 1024, windowsHide: true };
+  const opts = { encoding: "utf8", maxBuffer: 32 * 1024 * 1024, windowsHide: true, stdio: ["ignore", "pipe", "ignore"] };
   try {
     return execFileSync("gh", args, opts);
   } catch (err) {
-    if (!isWindows) throw err;
+    // A 404 is a real answer — the repo has no README — not a reason to try the
+    // Windows shim and then crash the whole run on the second failure.
+    if (!isWindows || typeof err.status === "number") throw err;
     return execFileSync("gh.cmd", args, { ...opts, shell: true });
   }
 }
@@ -68,12 +70,15 @@ function firstMeaningfulLine(markdown) {
 
 function main() {
   const catalog = JSON.parse(readFileSync(CATALOG, "utf8").replace(/^﻿/, ""));
-  const missing = catalog.entries.filter((e) => !e.tagline && !e.private);
+  // Every public listing, not only the undescribed ones. The point is to have a
+  // recorded source for each tagline, so a claim can be checked against what the
+  // author actually wrote rather than taken on trust.
+  const targets = catalog.entries.filter((e) => !e.private && e.source);
 
-  console.log(`${missing.length} public listings have no description\n`);
+  console.log(`reading READMEs for ${targets.length} public listings\n`);
   const out = {};
 
-  for (const entry of missing) {
+  for (const entry of targets) {
     try {
       const raw = gh(["api", `repos/bryankwandou/${entry.repoName}/readme`, "--jq", ".content"]);
       const markdown = Buffer.from(raw.trim(), "base64").toString("utf8");

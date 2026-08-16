@@ -217,11 +217,11 @@
     "digest": "084bde2e0859c05c03b315723f16c6c791d83f8cda96246156971f5c223a3ce2"
   },
   "nngesport": {
-    "file": "nngesport.svg",
-    "source": "https://nngesport.vercel.app/icon.svg",
-    "kind": "svg",
-    "bytes": 1569,
-    "digest": "779ceb4f081a194fe00990f64bad50bcea123c85beef5b84771f1258cbc380b5"
+    "file": "nngesport.jpg",
+    "source": "https://nngesport.vercel.app/img/nng-esport-avatar.jpg",
+    "kind": "header",
+    "bytes": 154691,
+    "digest": "d9f4ab8407731d4c3a3d349ad29a10709bc27de2998f1439c0c67c64fa377ac3"
   },
   "larasa": {
     "file": "larasa.svg",
@@ -269,8 +269,8 @@
     "file": "tallystick.svg",
     "source": "https://tallystick.vercel.app (inline)",
     "kind": "inline",
-    "bytes": 1024,
-    "digest": "2130a33e44fa2c968069aee051dc689dad46c9b2e519a6ea90c3e239bc313e34"
+    "bytes": 1192,
+    "digest": "8e4c8b98874f32993f20875eb650363a4c35a7f34d9455e61cc7925f1baa3a82"
   },
   "mettle": {
     "file": "mettle.svg",
@@ -321,6 +321,13 @@
     "bytes": 909,
     "digest": "2da9e317a5740ef081a9289666ebd057c31423def80c2e80f6e844b7c71eb00f"
   },
+  "veristart-agentic-feasibility": {
+    "file": "veristart-agentic-feasibility.svg",
+    "source": "https://getveristart.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 713,
+    "digest": "d4e0570594b55f0f85ee8697902f4561aae1788d3a4d11d9554bb3a19ebb726c"
+  },
   "veylock": {
     "file": "veylock.svg",
     "source": "https://veylock.vercel.app (inline)",
@@ -363,19 +370,26 @@
     "bytes": 687,
     "digest": "a081bb359861b4f1fc18add075c48b83f1f2d0c368731e0067ffb41a4bdef78f"
   },
-  "accordos-ai": {
-    "file": "accordos-ai.svg",
-    "source": "https://accordos-ai.vercel.app (inline)",
+  "axleveto": {
+    "file": "axleveto.svg",
+    "source": "https://axleveto.vercel.app (inline)",
     "kind": "inline",
-    "bytes": 721,
-    "digest": "c8b83e2d76737f457eefd9e9d9778566fd1ddd368e3868e3523bc9cfe44897f7"
+    "bytes": 624,
+    "digest": "4ebb82b2e71af86ae53f4fdfdc641988627278b9d498ac55a798b3beb0783183"
   },
   "childcareos": {
     "file": "childcareos.svg",
     "source": "https://childcareos-phi.vercel.app (inline)",
     "kind": "inline",
-    "bytes": 613,
-    "digest": "106b65cba840acdc17b0cf8cce46f61f2d99ad0a67d189355b34dc830b98cd09"
+    "bytes": 781,
+    "digest": "f448a62d96c4fa72536313a93858e9cf97d722a9a6c70ae4e4b3e71b4be0fe56"
+  },
+  "briefrail": {
+    "file": "briefrail.svg",
+    "source": "https://briefrail.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 636,
+    "digest": "fda89a576662f82441f8f11156d31594b725eab6467702dc1d1b686a6441e247"
   },
   "vowrail": {
     "file": "vowrail.svg",
@@ -385,11 +399,11 @@
     "digest": "b900f4b02b2ff9ef81e6789a82539a7166f738e0537dc728148c94e209a3cde9"
   },
   "tanki-request": {
-    "file": "tanki-request.ico",
-    "source": "https://tanki-request-87c0dd3.vercel.app/favicon.ico?favicon.3yee9xnslfldw.ico",
-    "kind": "48px",
-    "bytes": 15406,
-    "digest": "e70868a71869e852bb072346c2cea9dccc9a979225bb6d7152b8d24a09510376"
+    "file": "tanki-request.svg",
+    "source": "https://tanki-request-87c0dd3.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 683,
+    "digest": "17795fb2200e8136949413e7f5582b453b2ac059cb851e9c02c0b149ec15ff3a"
   },
   "lineproof": {
     "file": "lineproof.svg",
@@ -412,12 +426,26 @@
     "bytes": 1044,
     "digest": "89f802e9da22df1c049425de9eb09477dbed5c353a01abf382886dba991bd692"
   },
+  "matchmind": {
+    "file": "matchmind.svg",
+    "source": "https://matchmind-omega.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1149,
+    "digest": "6a2710adda7f8656c3a7ee6c5fd7b88b84e7925502c0abe5ba51608ddb117bef"
+  },
   "anamneon": {
     "file": "anamneon.svg",
     "source": "https://anamneon.vercel.app (inline)",
     "kind": "inline",
     "bytes": 650,
     "digest": "21770992e0babf4032ed0947d96b3ff1f55c56bca4725debcf77529b2b664fd9"
+  },
+  "veritair": {
+    "file": "veritair.svg",
+    "source": "https://veritair.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 522,
+    "digest": "a07791d3f506afcbf1e51340a62a4230a8aef4ce04c6925ae5b6e7dbae2a5239"
   },
   "superteam-ukraine": {
     "file": "superteam-ukraine.svg",
@@ -449,10 +477,10 @@
   },
   "removix-ai": {
     "file": "removix-ai.svg",
-    "source": "https://removix.vercel.app/favicon.svg",
-    "kind": "svg",
-    "bytes": 320,
-    "digest": "8463afa83c077c3bf38de8e01c3ec2a35cf4e75fbcc069395cfe2cb9d38f22af"
+    "source": "https://removix.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 779,
+    "digest": "7ccd7798d13479b946aeb91e51604bec33f2a7005c0a094f858f81db32eec2e3"
   },
   "everanima": {
     "file": "everanima.svg",
@@ -468,6 +496,13 @@
     "bytes": 871,
     "digest": "36d95872ea3caf1dad76c32abfb324cbc2f7accb129376a31a00821451a6b609"
   },
+  "chainops-dashboard-ui-kit": {
+    "file": "chainops-dashboard-ui-kit.svg",
+    "source": "https://chainops-dashboard-ui-kit.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 807,
+    "digest": "93b4bafb9d1190bcfe19f6dbd034798dd4568cda4f0052119fb46660bfe672c1"
+  },
   "blockbite-xyz": {
     "file": "blockbite-xyz.png",
     "source": "https://blockbite-protocol.xyz/apple-icon.png?9d70fdebda2198c0",
@@ -477,10 +512,10 @@
   },
   "blockbite": {
     "file": "blockbite.png",
-    "source": "https://blockbite-game.vercel.app/apple-icon.png?9d70fdebda2198c0",
-    "kind": "apple",
-    "bytes": 9809,
-    "digest": "08f028fc7fa090d04f676a8a574ff959052a014423828f9b5e1228755d14984a"
+    "source": "https://blockbite-game.vercel.app/logo.png",
+    "kind": "header",
+    "bytes": 49566,
+    "digest": "b6666be827548eecc58235bc478336ccd67400017654b6f351d4fe2c8e636f1d"
   },
   "basedrop": {
     "file": "basedrop.png",
@@ -517,19 +552,12 @@
     "bytes": 706,
     "digest": "83fec91498472d9f25759d2609617644c327f28ce36f65dc515459c24f8858c1"
   },
-  "smashgo": {
-    "file": "smashgo.svg",
-    "source": "https://smashgo.vercel.app (inline)",
-    "kind": "inline",
-    "bytes": 648,
-    "digest": "f88fbe025b9df7321ffb1a31555a533172e5169a2afd83706ed54a267781a1b6"
-  },
   "escrowkita": {
     "file": "escrowkita.svg",
-    "source": "https://escrowkita.vercel.app/favicon.svg",
-    "kind": "svg",
-    "bytes": 439,
-    "digest": "f8342d0bbe523307bf694e3f0e52d8dafb24e17b99634d157e0125762d98382f"
+    "source": "https://escrowkita.vercel.app/escrowkita-logo.svg",
+    "kind": "header",
+    "bytes": 689,
+    "digest": "6298bba0b085c7e0e7e443b1cf24b6953626bd59cd3bafdebcf078ada199b553"
   },
   "computervision-project1": {
     "file": "computervision-project1.png",
@@ -538,12 +566,19 @@
     "bytes": 745,
     "digest": "004f0e08cdbab6da3f70ae43ebc8353b12320c68e1162337718febcac3c1ee75"
   },
+  "vericodeai": {
+    "file": "vericodeai.png",
+    "source": "https://vericode-ai.vercel.app/vericode-logo-mark.png",
+    "kind": "header",
+    "bytes": 84241,
+    "digest": "7030a16a2cf399a0a0c29f7f5245556c224e40f3c5ebfd12151fc0527d012e40"
+  },
   "solq": {
-    "file": "solq.png",
-    "source": "https://solq.vercel.app/assets/logos/solq_icon.png",
-    "kind": "apple",
-    "bytes": 92889,
-    "digest": "40103d894b7d57dca62e9c080234e60f22f6f244338ab0d3c38b4778755b3983"
+    "file": "solq.svg",
+    "source": "https://solq.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 497,
+    "digest": "600064e40086a8d602230e7a711f97f894b341ba9563518008416a179f3f15d8"
   },
   "voon": {
     "file": "voon.svg",
@@ -553,10 +588,10 @@
     "digest": "082c09b42adf692ebf0a50e7fd541e7d3b5015f48b24676a871f8f36b347c23d"
   },
   "solqv2": {
-    "file": "solqv2.png",
-    "source": "https://solqv2.vercel.app/assets/logos/solq_icon.png",
-    "kind": "apple",
-    "bytes": 92889,
-    "digest": "40103d894b7d57dca62e9c080234e60f22f6f244338ab0d3c38b4778755b3983"
+    "file": "solqv2.svg",
+    "source": "https://solqv2.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 497,
+    "digest": "600064e40086a8d602230e7a711f97f894b341ba9563518008416a179f3f15d8"
   }
 }

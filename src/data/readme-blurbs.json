@@ -1,0 +1,464 @@
+{
+  "kithra": [
+    "A chat companion with a fixed personality and an open memory.",
+    "Most assistants keep a private file on you that you never get to read. Kithra"
+  ],
+  "assaykit": [
+    "Test the artifact before you trust it.",
+    "AssayKit inspects the things your coding agent installs — MCP servers, skill"
+  ],
+  "handpress": [
+    "Animated posters and social graphics, made in a browser tab.",
+    "Per-layer timelines, printed-type effects, in-tab background cutouts, and video export that"
+  ],
+  "marque": [
+    "A browser code workspace that keeps a verifiable record of what its agents wrote.",
+    "A growing share of production code is written by models rather than people. Git"
+  ],
+  "grainroom": [
+    "A darkroom that runs in your browser.",
+    "Photos are decoded, processed and encoded on your own machine. There is no"
+  ],
+  "nullstamp": [
+    "Verifiable receipts for agent calls that touch personal data.<br>",
+    "Built on the Terminal 3 Agent Developer Kit, running on T3N testnet."
+  ],
+  "kernly": [
+    "Keep the kernel. Drop the chaff.",
+    "A deterministic context compressor for LLM agents. No GPU, no API call, no model"
+  ],
+  "solera": [
+    "An artist-owned art marketplace on Solana devnet, built around two ideas that",
+    "most NFT storefronts get wrong."
+  ],
+  "stemloom": [
+    "A multitrack audio editor that runs entirely inside a browser tab. Files are",
+    "decoded, edited, and rendered on your own machine. There is no account, no"
+  ],
+  "cutwright": [
+    "A video editor that runs entirely inside a browser tab. Cut, grade, title, and encode",
+    "without uploading anything, without an account, and without a watermark burned into"
+  ],
+  "kubantara": [
+    "Dunia 3D kubus terbuka yang aman untuk anak — dimainkan langsung dari peramban.",
+    "Kubantara adalah sebuah pulau prosedural dari balok warna-warni tempat anak"
+  ],
+  "skyseed-isles": [
+    "*Miru, a young sky gardener, drifts across floating islands that never run out. Gather sparks, learn new moves, befriend slimes and raise them until they grow wings, then build islands of your own.*",
+    "No timers · No game-over · No ads · No purchases · No loot boxes · No data selling"
+  ],
+  "visitrail": [
+    "Live production: https://visitrail.vercel.app",
+    "VisitRail is an evidence-first operating layer for home care agencies. It verifies visit evidence, keeps AI drafting grounded, makes staffing recommendations explainable, and exposes only finalized updates to families."
+  ],
+  "meadowfar": [
+    "A gentle 3D open world for kids — playable instantly in the browser.",
+    "Dunia terbuka 3D yang ramah anak — langsung dimainkan di peramban."
+  ],
+  "spigot": [
+    "Devnet faucets go dry without announcing it. You open four tabs, sign in to two of them, and find out the hard way — having spent a claim to learn that there was nothing to claim. Then the next developer does the same thing an hour later, and learns the same thing, and tells nobody.",
+    "Spigot is a place to put that one fact."
+  ],
+  "cadensa": [
+    "Pencatat ritme kesehatan reproduksi. Basisnya satu temuan epidemiologis yang jarang",
+    "dibicarakan: pria yang berejakulasi sekitar 21 kali per bulan menunjukkan angka kejadian"
+  ],
+  "arbiter": [
+    "\"I build only the best systems. This is the best political-market quant bot",
+    "ever created — nobody does arbitrage like this. Nobody.\""
+  ],
+  "colonnade": [
+    "A storefront for finished software. It reads every repository on the account,",
+    "sorts the results onto two shelves, and gives each one a door you can walk"
+  ],
+  "bryankwandou": [
+    "Builder in Makassar, Indonesia. I write software that leaves a trail — twenty-one",
+    "shipped products and 104 public repositories, most of them circling one question:"
+  ],
+  "forkroot": [
+    "A game platform where every published work records the work it grew from, and revenue",
+    "settles back along that chain automatically."
+  ],
+  "vinbryyt": [
+    "Situs portofolio pribadi Vincentius Bryan Kwandou — dikenal di layar sebagai VinBryYT.",
+    "Live: https://vinbryyt.vercel.app"
+  ],
+  "stele": [
+    "<em>Bacaan Anda meninggalkan catatan yang tidak bisa dihapus siapa pun.</em>",
+    "Stele mencatat kebiasaan membaca teks suci ke Solana devnet. Tiga tradisi tersedia"
+  ],
+  "tokenwatt": [
+    "A personal meter for AI coding-agent token usage.",
+    "Every night the collector reads the session logs that Claude Code and Codex"
+  ],
+  "nngesport": [
+    "Situs resmi NNG Esport. Organisasi berbasis di Abepura, Jayapura, Papua, berdiri sejak 2010.",
+    "Tayang di [nngesport.vercel.app](https://nngesport.vercel.app)"
+  ],
+  "larasa": [
+    "Tempat baca novel bertema dewasa dalam bahasa Indonesia. Namanya diambil dari",
+    "*laras* (selaras, sesuai nada) dan *rasa* — yang juga jadi aturan mainnya:"
+  ],
+  "fluentia": [
+    "Language study that leaves a record.",
+    "Fluentia is a speaking tutor that marks learners the way an examiner would,"
+  ],
+  "tallystick": [
+    "An autonomous agent that spends money leaves one question open: what actually",
+    "happened, and whose account of it do you believe? Tallystick splits every payout"
+  ],
+  "mettle": [
+    "Proof you can actually do it.",
+    "A language model clears a standard take-home in under ten seconds. Every coding"
+  ],
+  "inkfold": [
+    "A reading library built only from comics we can prove are free to share.",
+    "Live: https://inkfold.vercel.app"
+  ],
+  "kanvara": [
+    "A photo editor built from the shader up. Twenty tone and colour controls, thirty-seven colour",
+    "grades, layers with sixteen blend modes, text with arc and outline, vector shapes, a paint layer,"
+  ],
+  "keelstack": [
+    "A keel is the first structural member laid when a ship is built. Nothing about",
+    "the hull can be decided until it is down, and everything that follows fastens to"
+  ],
+  "aval-rail": [
+    "Aval is a shop till for the [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)",
+    "agent runtime. The owner types a charge the way they would tell a waiter, the"
+  ],
+  "aval-site": [
+    "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+    "First, run the development server:"
+  ],
+  "antigravity-ide-frontend": [
+    "A pixel-perfect frontend clone of the Antigravity IDE — built with pure HTML, CSS, and JavaScript.",
+    "- Full VS Code-style workbench layout"
+  ],
+  "veristart-agentic-feasibility": [
+    "Agentic AI feasibility analysis for startup ideas — Business Model Canvas plus automated market research, expressed as a nine-agent pipeline and a seven-factor weighted score.",
+    "Live prototype: https://veristart.vercel.app"
+  ],
+  "veylock": [
+    "Execution firewall for autonomous capital.",
+    "Veylock separates an agent's intelligence from its authority. Any model can propose an action, but settlement must pass a deterministic policy covering asset scope, per-action size, rolling budget, drawdown, operating mode, and emergency halt."
+  ],
+  "dwellnerve": [
+    "DwellNerve is an early-warning operating system for rental portfolios: maintenance triage, lease-governed rent, scheduled compliance signals, tenant self-service, and optional Solana devnet evidence."
+  ],
+  "stewardlane": [
+    "Stewardlane is a compliance-first household CRM and AI drafting workflow for independent wealth advisory firms. It keeps AI output in a mandatory review state, preserves original and reviewed text, blocks common recommendation-like phrasing, and can anchor approved content hashes to Solana devnet.",
+    "- Create a household from real entered members, holdings, policy notes, activity, and meeting context."
+  ],
+  "kinferry": [
+    "Kinferry is a Solana devnet remittance-agent MVP built around one rule: an agent may prepare a transfer, but it cannot decide who is trusted or exceed the sender's authority.",
+    "- Interactive landing page and sender workspace"
+  ],
+  "mirrorqa-ai": [
+    "MirrorQA runs fixed synthetic-customer profiles against product journeys and keeps every friction finding tied to an observed step. This repository contains the public marketing site, evidence-first workspace, deterministic browser-action guardrail, live Groq decision endpoint, and Solana devnet proof workflow.",
+    "The public `/proof` lab uses GSAP for the verification-chain sequence and Framer Motion for interactive agent, wallet, and receipt state transitions."
+  ],
+  "autorepairos": [
+    "No work starts on anything the customer did not actually approve.",
+    "AutoRepairOS is an approval-gated repair-order MVP for independent automotive shops. Every estimate line item has its own customer token, technicians are blocked server-side from logging work against pending or declined scope, diagnostic drafts stay grounded in technician notes, and actual cost is tracked against the approved estimate."
+  ],
+  "servetrace": [
+    "Restaurant compliance controls that turn temperature readings, corrective actions, labor-safe schedules, and inventory movement into enforceable operating decisions and tamper-evident proof."
+  ],
+  "freightlatch": [
+    "FreightLatch is a server-enforced dispatch compliance system for small and mid-sized freight fleets. It blocks assignments when a driver is out of Hours-of-Service, a vehicle is on maintenance hold, or a load record has not passed human review.",
+    "- Public product site at `/`"
+  ],
+  "evercue": [
+    "Evercue is a live event-operations workspace for professional planners. The MVP connects the vendor pipeline, evidence-based AI assistance, deterministic budgets, a five-second shared run-of-show, scoped client/vendor access, and Solana devnet publication proofs.",
+    "- Interactive marketing site with Motion reveal and scroll animations."
+  ],
+  "galleryos": [
+    "GalleryOS is a photography-studio workflow prototype covering booking visibility, explainable human-confirmed culling, gallery preparation, and a private client selection experience."
+  ],
+  "dissentgrid": [
+    "DissentGrid is an investment review board that treats disagreement as auditable decision data. Four fixed analytical lenses form independent positions, challenge specific claims, and produce a memo that keeps consensus separate from unresolved dissent.",
+    "The load-bearing feature is a deterministic guardrail. It compares the final memo with the tracked position record and rejects any synthesis that turns a divided claim into false consensus or rewrites a position."
+  ],
+  "civiflow": [
+    "CiviFlow is an accountability-first municipal service platform with two verifiable intelligence layers:",
+    "1. A real Groq municipal agent classifies incidents, explains routing, exposes confidence, raises safety flags, and sends uncertain decisions to manual review."
+  ],
+  "axleveto": [
+    "AxleVeto is a verifiable dispatch safety interlock for commercial fleets. It connects grounded driver inspections, critical maintenance intervals, role-gated release authority, and a tamper-evident proof ledger into one enforceable decision: a vehicle may dispatch, or it may not.",
+    "Most fleet systems record maintenance and inspections. AxleVeto owns the decision boundary between those records and the morning dispatch window. A critical overdue interval, stale inspection, or unresolved safety flag produces a server-side veto that a dispatcher cannot dismiss."
+  ],
+  "accordos-ai": [
+    "Autonomous agent-to-agent B2B negotiation with deterministic authority rails, dual human approval, and optional Solana devnet proof anchoring."
+  ],
+  "childcareos": [
+    "ChildcareOS is a safety operations prototype for childcare centers. It demonstrates three tightly scoped workflows:",
+    "- Server-compatible staff-to-child ratio and capacity decisions."
+  ],
+  "briefrail": [
+    "Creative operations software that keeps briefs, deliverable feedback, approval gates, time, and invoice evidence on one rail.",
+    "Core routes: `/`, `/app`, and `/portal/atlas`. Add `GROQ_API_KEY` to `.env.local` for the live grounded brief drafter. Without it, the API uses deterministic extraction and marks unsupported details as `Needs client input`."
+  ],
+  "vowrail": [
+    "Transaction firewall and proof-carrying policy rail for autonomous Solana agents.",
+    "Vowrail converts a human mandate into deterministic transaction limits, evaluates each agent intent, and records approved decisions through a deployed Solana devnet program."
+  ],
+  "x402gate": [
+    "HTTP 402 pay-per-call infrastructure for autonomous agents, settled on Solana devnet.",
+    "- Live quote endpoint: `GET /api/quote?endpoint_id=risk-vector-v1`"
+  ],
+  "springboot-login-jwt": [
+    "Proyek ini disusun untuk kebutuhan evaluasi teknis dengan fokus pada praktik engineering dasar:",
+    "- Authorization Bearer Token"
+  ],
+  "nusakarya-recovery-2b333e3": [
+    "Proyek ini disusun untuk kebutuhan evaluasi teknis dengan fokus pada praktik engineering dasar:",
+    "- Authorization Bearer Token"
+  ],
+  "tanki-request": [
+    "Sistem Informasi Permintaan Layanan Mobil Tangki. Aplikasi web (Next.js + MySQL +",
+    "Keycloak) untuk warga mengajukan permintaan mobil tangki dan operator PDAM"
+  ],
+  "lineproof": [
+    "An autonomous market-surveillance agent for World Cup betting lines. It reads the TxLINE consensus feed, strips the bookmaker margin to recover the fair line, hunts for anomalies a risk desk would care about, and notarizes a cryptographic digest of every verdict on Solana. Nobody — including the operator — can quietly rewrite the audit trail afterward.",
+    "Most hackathon agents trade the odds. LineProof audits the market itself. Sportsbooks, settlement layers and regulators all need an answer to the same question: was this line healthy at the moment it mattered? LineProof gives that answer a signature and a slot number."
+  ],
+  "solumkm": [
+    "Usaha kecil naik kelas. Tanpa ribet.",
+    "Catat penjualan pakai bahasa sehari-hari (diketik atau diucapkan), biarkan AI"
+  ],
+  "tugas-tahap-0-satudata-sulsel": [
+    "Pengumpulan data terbuka Portal Satu Data Sulawesi Selatan",
+    "(https://satudata.sulselprov.go.id) untuk dipakai sebagai *seed data* portal"
+  ],
+  "proofcast": [
+    "Forecasts with collateral behind them. Football analysts seal their predictions before kickoff, stake a USDC bond behind a public accuracy floor, and get graded by TxLINE Merkle proofs on Solana — never by the platform.",
+    "Built for the TxODDS World Cup hackathon, *Prediction Markets and Settlement* track on Superteam Earn."
+  ],
+  "matchmind": [
+    "Live deployed URL: https://matchmind-omega.vercel.app",
+    "MatchMind turns every moment of the 2026 World Cup into a conversation. When a goal happens, the odds shift, or a red card changes the game, MatchMind gives you a clear, human explanation in seconds — powered by TxLINE live data and Groq AI. Past the commentary, every call a fan makes leaves an on-chain receipt."
+  ],
+  "anamneon": [
+    "Riwayat penyakit pasien yang dikunci di Solana — bisa dibuktikan asli dalam hitungan detik, tanpa satu byte data medis pun bocor ke publik.",
+    "Live: https://anamneon.vercel.app"
+  ],
+  "zynqio": [
+    "Zynqio is a next-generation, cloud-native interactive quiz platform designed for high-concurrency educational and corporate environments.",
+    "Live Demo: [https://zynqio.vercel.app](https://zynqio.vercel.app)"
+  ],
+  "veritair": [
+    "Drone delivery for the places roads don't reach — booked, paid, and confirmed on Solana Devnet, transaction by transaction.",
+    "Live site: [veritair.vercel.app](https://veritair.vercel.app)"
+  ],
+  "veilspire": [
+    "Open world adventure where every character answers the phone.",
+    "- `veilspire/` — the game. Flutter + Flame, Android first, with iOS, Windows, macOS, and Linux targets generated. Live voice and video calls with characters run through the Groq API (Whisper for hearing, Llama 3.3 70B for thinking, PlayAI voices for speaking)."
+  ],
+  "trustpay-sea": [
+    "AI-Assisted Milestone Escrow for Freelancers & SMEs in Southeast Asia",
+    "TrustPay SEA adalah platform escrow berbasis milestone yang memungkinkan freelancer dan klien untuk bertransaksi dengan aman. AI memberikan advisory untuk membantu keputusan, namun final decision selalu di tangan manusia."
+  ],
+  "stake-to-done": [
+    "Onchain commitment protocol for productivity.",
+    "Stake crypto. Complete your task. Or lose your stake."
+  ],
+  "solgig-mainnet": [
+    "Social marketplace for Solana creators. Sell digital goods and services, share them in a feed, and get paid straight to your wallet.",
+    "This repository currently holds Phases 0 through 2 from `BUILD_PLAN.md`: the foundation, the motion system, and an interactive landing page. The full specification lives in `SOLANAFLOW_MEGAPROMPT.md`."
+  ],
+  "solgig": [
+    "Social marketplace for Solana creators — sell digital goods, offer services, get paid on-chain. No banks, no chargebacks, no middleman holding funds.",
+    "- Mainnet (real SOL): https://solgig-mainnet.vercel.app"
+  ],
+  "removix-ai": [
+    "Live: https://removix.vercel.app",
+    "Remove image backgrounds instantly using a neural network that runs 100% inside your browser. No server, no account, no payment, no data upload."
+  ],
+  "quorumai": [
+    "When perspectives clash by design.",
+    "QuorumAI helps solo investors and small funds analyze deals through multiple specialized viewpoints. Upload pitch materials, and four analyst personas examine the opportunity from distinct angles — market viability, financial health, team capability, and structural risk. They debate specific points across several rounds, and the platform delivers a report showing where they align and where they split, without forcing artificial agreement."
+  ],
+  "portfolio-cv": [
+    "Welcome to the definitive, surgically-filtered portfolio of Vincentius Bryan Kwandou (Web2/Formal) and @nayrbryanGaming (Web3/Creative).",
+    "This repository is architected for maximum impact, containing 16 specialized CV variations across 8 core technology and leadership categories. Each category is meticulously crafted in two distinct formats:"
+  ],
+  "nngpt": [
+    "A self-hosted, ChatGPT-style chat interface built with Next.js 15 (App Router) + React 19 + Tailwind v4, powered by the Jatevo Balancer API (OpenAI-compatible).",
+    "Live deploy: https://nngpt.vercel.app"
+  ],
+  "kopedu-nft-solana": [
+    "Belajar koperasi. Kuasai ekonomimu. Buktikan on-chain.",
+    "Platform edukasi literasi koperasi untuk pelajar Indonesia, dengan sertifikat kelulusan yang diterbitkan sebagai NFT terverifikasi di jaringan Solana."
+  ],
+  "kopedu": [
+    "Pahami Koperasi. Kuasai Ekonomimu.",
+    "Platform edukasi koperasi interaktif berbasis gamifikasi dan AI tutor untuk pelajar"
+  ],
+  "feasiflow-ai": [
+    "Clinical Practice Management Platform with 12 AI Agents",
+    "2. `cp .env.example .env` and add your Anthropic API key"
+  ],
+  "everanima": [
+    "The AI memory you actually own.",
+    "Every assistant forgets you once a chat gets long — and whatever it did learn sits in someone else's database. Everanima keeps a `persona.md` file the AI rewrites itself (identity, preferences, ongoing threads), injects it into every reply, fingerprints each version on Solana devnet, and ties it to your wallet. Ten messages or ten thousand, the thread never frays — and the memory is a portable asset you can hand to any agent you trust."
+  ],
+  "diafund": [
+    "Giving you can follow to the end.",
+    "Escrowed, milestone-gated donations on Solana. Money is released one tranche at a"
+  ],
+  "chainops-dashboard-ui-kit": [
+    "Premium Web3 + AI SaaS dashboard design system — ready to sell on Gumroad or ship in your product.",
+    "1. Open `preview/index.html` in your browser (Preview Hub)."
+  ],
+  "botcall-protocol": [
+    "BOT-CALL is a decentralized protocol enabling robots and AI agents to accept tasks, execute actions, and receive on-chain payments through a pay-per-action model.",
+    "- Demo: https://botcall-protocol.vercel.app"
+  ],
+  "blockbite-xyz": [
+    "Automated, milestone-based token vesting on Solana.",
+    "BlockBite is the treasury shield for Solana builders — replacing high-risk manual distributions with a secure, automated \"Pull\" ecosystem. We eliminate the \"Push\" vulnerability where manual transfers invite fatal exploits and irreversible human errors. By integrating rewards to transparent performance milestones, BlockBite reclaims weeks of development time while converting passive users into a loyal, high-retention community."
+  ],
+  "basedrop": [
+    "[🌐 Live Demo](https://basedrop-protocol.vercel.app) · [📜 Smart Contract](https://sepolia.basescan.org/address/0x59C16998dFc090642EFFdc485c81adAc64d3ef91) · [🎥 Demo Video](https://youtu.be/oULFOKEomoU) · [👤 Founder Intro](https://youtube.com/shorts/X621i34V_AA)",
+    "BaseDrop is an open-source Web3 payment protocol that lets users send cryptocurrency using a simple shareable link — no wallet address required on the recipient side."
+  ],
+  "atlas-quant": [
+    "Atlas-Quant is a professional-grade, stateless, and serverless quantitative market analysis platform. It is designed for high-scalability, low-latency signal generation using deterministic math combined with advisory AI classification.",
+    "This is NOT a trading bot. Atlas-Quant provides educational signals, regime analysis, and pilot (simulated) trading capabilities. It does not execute real on-chain transactions or exchange orders."
+  ],
+  "anchor-debugger-skill": [
+    "A production-grade Claude Code / AI agent skill for Solana developers building PayFi and Anchor programs. Diagnoses failing transactions in payment flows, decodes cryptic errors, optimizes compute units for high-frequency payment programs, provides production-ready escrow/streaming/x402 patterns, and prevents the pitfalls that uniquely destroy payment programs — clock drift, rent loss, double-spends, and unsafe upgrades.",
+    "Cross-domain: Anchor Dev Tooling × PayFi. The only skill that covers both sides."
+  ],
+  "veztra": [
+    "Flexible Vesting Infrastructure, Powered Onchain."
+  ],
+  "smashgo": [
+    "One-liner: The ultimate local-first corporate badminton management platform with ELO matchmaking and real-time WhatsApp coordination.",
+    "Live Demo: [https://smashgo.vercel.app/](https://smashgo.vercel.app/)"
+  ],
+  "omnia": [
+    "Universal AI Orchestrator // The 2026 AI Operating System",
+    "OMNIA is a high-performance, multi-modal AI platform designed for the next era of computing. It provides a unified interface to orchestrate intelligence across local hardware, distributed cloud clusters, and private API nodes."
+  ],
+  "nusaharvest": [
+    "Parametric crop insurance and yield pool lending on Solana, built for 73 million Indonesian farmers.",
+    "47.94% of Indonesian farmers live below the poverty line. They face:"
+  ],
+  "machinelearning-project3-kelompok2": [
+    "Demo Live: https://machinelearning-kelompok2.vercel.app/",
+    "Mata Kuliah: Machine dan Deep Learning (473TI4)"
+  ],
+  "escrowkita": [
+    "Escrow IDR onchain berbasis IDRX untuk event & freelancer Indonesia — aman, transparan, tanpa drama.",
+    "Get paid safely. Without trusting anyone. Smart contract escrow: funds are locked onchain and released only when the work is done."
+  ],
+  "computervision-project1": [
+    "Assignment 1 - Computer Vision Class",
+    "- 2361020 – VENILIA DINA MINARTI"
+  ],
+  "coffeeshop-enterprisefinaltest": [
+    "Final Project — Enterprise Web Application",
+    "Coffee shop management system bertenaga PHP + MySQL (XAMPP), dengan panel admin, ekspor XML/JSON, dan fitur unik AI Mood Matcher."
+  ],
+  "chainshift": [
+    "ChainShift is a crypto-native procedural game and system-driven visual world built entirely through code.",
+    "It renders a shared abstract universe using deterministic, 4K-capable raymarching shaders, where the evolution of the world is designed to be driven by on-chain state rather than static assets or centralized servers."
+  ],
+  "vericodeai": [
+    "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+    "First, run the development server:"
+  ],
+  "forewrit": [
+    "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+    "First, run the development server:"
+  ],
+  "aval-core": [
+    "SDK-less Solana substrate for WebAssembly (wasm32-wasip2) agent-tool plugins.",
+    "This is the canonical source for the core that powers the Aval suite of"
+  ],
+  "zeroclaw-plugins": [
+    "The official catalog of [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)",
+    "WASM plugins — self-contained WIT components the agent can fetch and install"
+  ],
+  "x-autopilot": [
+    "*\"In the modern era, attention is the only currency that matters. To capture it requires speed, precision, and relentless iteration. This system delivers exactly that.\"*",
+    "X-Autopilot is a fully autonomous, production-ready, zero-human-in-the-loop AI system engineered to operate a high-growth X (Twitter) account. Built upon rigorous logic, real-time market signals, and robust self-healing architectures, it is designed to maximize engagement, follower conversion, and narrative impact."
+  ],
+  "vinbryyt-drip-revival": [
+    "Autonomous Creative Infrastructure on Solana",
+    "\"Precision is not an accident; it is the result of high intention and sincere effort.\" — The Professional Standard."
+  ],
+  "vibe": [
+    "Real-World Social Graph on Solana",
+    "VIBE is a mobile application that transforms real-world human interactions into verifiable on-chain connections on Solana."
+  ],
+  "verichain": [
+    "Blockchain-powered content authenticity network for anti-disinformation in Indonesia.",
+    "Blockchain-powered content authenticity verifier."
+  ],
+  "solq.my.id": [
+    "SOLQ is a professional, non-custodial payment orchestrator designed for the Solana ecosystem. It enables efficient, low-latency bridging between digital assets and standard payment networks.",
+    "The following are the official branding assets of SOLQ."
+  ],
+  "solidity-personal-vault-mancer": [
+    "A decentralized crowdfunding smart contract built on the Solana blockchain using the Anchor framework.",
+    "This program allows users to:"
+  ],
+  "qrcodefail-1": [
+    "qr code gagal error . percobaan gagal"
+  ],
+  "qrcode1": [
+    "This project is a starting point for a Flutter application.",
+    "A few resources to get you started if this is your first Flutter project:"
+  ],
+  "pocketledger-offline-expense-tracker": [
+    "PocketLedger is a clinical-grade, 100% offline personal finance and expense tracker designed for total privacy, high-speed transaction entry, and beautiful visual analytics.",
+    "Most finance tracking apps require constant internet access, harvest sensitive financial data on cloud servers, and have slow, overcomplicated user interfaces. PocketLedger solves this by providing a local-first secure storage (SQLite) experience without requiring a user account or any internet connectivity."
+  ],
+  "hydraflow-water-reminder": [
+    "Stay Hydrated. Stay Focused. Built with clinical-standard, 100% offline-first intelligence.",
+    "HydraFlow is a premium, data-sovereign wellness application that optimizes cognitive focus through biometric-calibrated hydration and deterministic local scheduling."
+  ],
+  "habitforge": [
+    "Forge powerful habits, one day at a time.",
+    "HabitForge is a clinical-grade habit tracking application built with Flutter and Firebase. Unlike generic tracking apps, HabitForge leverages behavioral psychology and \"Streak Reinforcement\" to transform intentions into long-term discipline."
+  ],
+  "focusforge-pomodoro": [
+    "Forge Deep Focus. Build Unstoppable Productivity.",
+    "Many people struggle with digital distractions, procrastination, lack of time management systems, and burnout due to unstructured work. Existing Pomodoro apps are often overly simple, visually outdated, missing analytics and habit tracking, or lacking gamification."
+  ],
+  "flowtask-smart-todo-app": [
+    "Turn your daily chaos into focused progress. — [Live Demo](#)",
+    "Most to-do list applications only allow users to list tasks. They do not help users:"
+  ],
+  "blockblast": [
+    "Live: https://blockbite.vercel.app | Waitlist: https://blockbite.vercel.app/waitlist",
+    "GitHub: https://github.com/nayrbryanGaming/blockblast"
+  ],
+  "quantcoin": [
+    "\"The first step is to establish that something is possible; then probability will occur.\" — Elon Musk",
+    "\"The future belongs to the sovereign.\" — Sam Altman"
+  ],
+  "qr-code-generator": [
+    "A simple yet polished Flutter application for generating QR codes from text or URLs.",
+    "- ✅ Generate QR codes from any text or URL input"
+  ],
+  "nng-protocol": [
+    "The NNG Protocol is not just a token; it is an experiment in Absolute Autonomy. In a world trending towards centralized control, $NNG represents a pivot back to the core ethos of decentralized finance—immutable, ownerless, and sovereign.",
+    "We have engineered $NNG to be a digital commodity that operates without human intervention. By utilizing the Solana Token-2022 (Token Extensions) standard, we've inscribed the economic laws directly into the blockchain."
+  ],
+  "nng-game-topup": [
+    "\"If something is important enough, you should try, even if the probable outcome is failure.\" — Elon Musk",
+    "\"The best work is done when individuals are empowered by superior infrastructure.\" — Sam Altman"
+  ],
+  "movv-bmi": [
+    "Aplikasi BMI profesional dengan standar WHO yang dirancang untuk memberikan insight kesehatan yang akurat dan actionable.",
+    "Aplikasi kalkulator BMI (Body Mass Index) berbasis World Health Organization dengan fitur lengkap untuk mengukur, melacak, dan memahami indeks massa tubuh Anda secara mendalam. Dilengkapi dengan penjelasan transparan, rekomendasi berbasis data, dan reverse calculator untuk mencapai target berat ideal."
+  ],
+  "inspiraverse": [
+    "Daily quotes that fuel your mindset and shape your future.",
+    "InspiraVerse is a premium mobile experience designed to combat mental fatigue and distraction. By delivering curated psychological insights and aesthetic mindfulness tools, we help users build unshakeable mental resilience."
+  ]
+}
