@@ -1,16 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
-  <defs>
-    <linearGradient id="a" x1="8" y1="6" x2="40" y2="42" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F7C15C"/><stop offset=".55" stop-color="#F2A63A"/><stop offset="1" stop-color="#B9711B"/>
-    </linearGradient>
-    <linearGradient id="b" x1="20" y1="10" x2="30" y2="38" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFF0D2"/><stop offset="1" stop-color="#F2A63A"/>
-    </linearGradient>
-  </defs>
-  <rect width="48" height="48" rx="11" fill="#0B0C0E"/>
-  <g transform="translate(24 24) scale(.82) translate(-24 -24)">
-    <path d="M12.9 39.1a20 20 0 1 1 22.2 0" stroke="url(#a)" stroke-width="4" stroke-linecap="round" fill="none"/>
-    <path d="M18.6 32.8a12 12 0 1 1 10.8 0" stroke="#F2A63A" stroke-opacity=".28" stroke-width="2" stroke-linecap="round" stroke-dasharray="1.5 4" fill="none"/>
-    <path d="M26.4 12.5 18 26.2h5.1l-1.6 9.4 8.6-14.1h-5.2l1.5-9z" fill="url(#b)"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 48 48" fill="none" role="img" aria-label="TokenWatt" class="" color="#E8E2D6"><style>.fill-foreground,.fill-current,.fill-primary,.fill-background{fill:currentColor}.stroke-foreground,.stroke-current,.stroke-primary{stroke:currentColor}.text-foreground,.text-primary{color:currentColor}</style><defs><linearGradient id="tw-arc" x1="8" y1="6" x2="40" y2="42" gradientUnits="userSpaceOnUse"><stop stop-color="#F7C15C"></stop><stop offset="0.55" stop-color="#F2A63A"></stop><stop offset="1" stop-color="#B9711B"></stop></linearGradient><linearGradient id="tw-bolt" x1="20" y1="10" x2="30" y2="38" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF0D2"></stop><stop offset="1" stop-color="#F2A63A"></stop></linearGradient></defs><path d="M12.9 39.1a20 20 0 1 1 22.2 0" stroke="url(#tw-arc)" stroke-width="4" stroke-linecap="round"></path><path d="M18.6 32.8a12 12 0 1 1 10.8 0" stroke="#F2A63A" stroke-opacity="0.28" stroke-width="2" stroke-linecap="round" stroke-dasharray="1.5 4"></path><path d="M26.4 12.5 18 26.2h5.1l-1.6 9.4 8.6-14.1h-5.2l1.5-9z" fill="url(#tw-bolt)"></path></svg>

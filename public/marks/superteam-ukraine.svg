@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none" aria-hidden="true"
+                            class="trust-bar__icon" color="#E8E2D6"><style>.fill-foreground,.fill-current,.fill-primary,.fill-background{fill:currentColor}.stroke-foreground,.stroke-current,.stroke-primary{stroke:currentColor}.text-foreground,.text-primary{color:currentColor}</style>
+                            <path
+                                d="M3.3 11.3a.5.5 0 0 1 .35-.14h13.3c.22 0 .33.27.18.42l-2.2 2.2a.5.5 0 0 1-.35.14H1.28a.25.25 0 0 1-.18-.42l2.2-2.2Z"
+                                fill="url(#sol-g1)" />
+                            <path
+                                d="M3.3 2.22A.5.5 0 0 1 3.65 2.08H16.95c.22 0 .33.27.18.42l-2.2 2.2a.5.5 0 0 1-.35.14H1.28a.25.25 0 0 1-.18-.42l2.2-2.2Z"
+                                fill="url(#sol-g2)" />
+                            <path
+                                d="M14.58 6.76a.5.5 0 0 0-.35-.14H.93a.25.25 0 0 0-.18.42l2.2 2.2a.5.5 0 0 0 .35.14H16.6c.22 0 .33-.27.18-.42l-2.2-2.2Z"
+                                fill="url(#sol-g3)" />
+                            <defs>
+                                <linearGradient id="sol-g1" x1="0" y1="0" x2="20" y2="16"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#9945FF" />
+                                    <stop offset="1" stop-color="#14F195" />
+                                </linearGradient>
+                                <linearGradient id="sol-g2" x1="0" y1="0" x2="20" y2="16"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#9945FF" />
+                                    <stop offset="1" stop-color="#14F195" />
+                                </linearGradient>
+                                <linearGradient id="sol-g3" x1="0" y1="0" x2="20" y2="16"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#9945FF" />
+                                    <stop offset="1" stop-color="#14F195" />
+                                </linearGradient>
+                            </defs>
+                        </svg>

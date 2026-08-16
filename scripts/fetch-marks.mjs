@@ -99,9 +99,115 @@ function extensionFor(url, contentType) {
   return ".png";
 }
 
+/**
+ * Finds the brand mark drawn directly into the page.
+ *
+ * Most of these sites render their logo as an inline <svg> in the header and
+ * never ship it as a favicon — so asking only for /favicon.ico gets the host's
+ * placeholder while the real mark sits in the markup, unlooked at.
+ *
+ * Ranking, strongest signal first:
+ *   1. aria-label or <title> naming the project
+ *   2. an early, small, filled svg — the header lockup's usual shape
+ * Stroke-only icons (hamburgers, chevrons) are excluded: a logo carries fill.
+ */
+function inlineLogo(html, entry) {
+  const matches = [...html.matchAll(/<svg\b[^>]*>[\s\S]*?<\/svg>/gi)];
+  if (!matches.length) return null;
+
+  const wanted = entry.name.toLowerCase().replace(/[^a-z0-9]/g, "");
+  const slugKey = entry.slug.replace(/[^a-z0-9]/g, "");
+  const scored = [];
+
+  for (const match of matches.slice(0, 12)) {
+    const svg = match[0];
+    const at = match.index ?? 0;
+
+    if (svg.length < 180 || svg.length > 60_000) continue;
+
+    const label = (svg.match(/aria-label=["']([^"']+)["']/i)?.[1] ?? "").toLowerCase();
+    const title = (svg.match(/<title[^>]*>([^<]+)<\/title>/i)?.[1] ?? "").toLowerCase();
+    const named = `${label} ${title}`.replace(/[^a-z0-9]/g, "");
+    const isNamed =
+      (wanted.length >= 4 && named.includes(wanted)) || (slugKey.length >= 4 && named.includes(slugKey));
+
+    // Chrome from an icon set: a couple of short strokes and no identity.
+    const geometry = [...svg.matchAll(/\sd=["']([^"']+)["']/g)].map((m) => m[1]).join("");
+    if (!isNamed && geometry.length < 90 && !/<(linear|radial)Gradient|<circle|<rect/i.test(svg)) continue;
+
+    let score = 0;
+    if (isNamed) score += 100;
+    if (/role=["']img["']/i.test(svg)) score += 12;
+    if (/<(linear|radial)Gradient/i.test(svg)) score += 10;
+    // Stroke-only marks are perfectly legitimate logos; they just need another
+    // signal alongside, which the position and size checks below supply.
+    if (/fill=["'](?!none)/i.test(svg) || /fill-opacity|class=["'][^"']*fill-/i.test(svg)) score += 6;
+    if (at < html.length * 0.25) score += 16;
+    if (matches.length <= 2) score += 12; // the only drawing on the page
+
+    const w = parseInt(svg.match(/\swidth=["'](\d+)/i)?.[1] ?? "0", 10);
+    if (w > 0 && w <= 64) score += 10;
+    if (/viewBox=["']0 0 (\d+) \1["']/i.test(svg)) score += 6; // square: lockup shape
+
+    if (score >= 34) scored.push({ svg, score });
+  }
+
+  scored.sort((a, b) => b.score - a.score);
+  if (!scored.length) return null;
+
+  return standalone(scored[0].svg);
+}
+
+/**
+ * Makes an extracted lockup render on its own.
+ *
+ * In the page these marks inherit their colour from the surrounding CSS —
+ * `currentColor`, or utility classes like `fill-foreground`. Pulled out into a
+ * file and loaded through <img>, none of that reaches them and the mark comes
+ * out invisible. The geometry is untouched; only the colour binding is
+ * resolved, to a neutral ink that reads on the catalogue's dark plate.
+ */
+function standalone(svg) {
+  const INK = "#E8E2D6";
+  // An <img>-loaded SVG is parsed as strict XML, where a repeated attribute is
+  // a fatal error and the mark simply never draws. Only add xmlns if absent.
+  const head = svg.match(/^<svg\b[^>]*>/i)?.[0] ?? "<svg>";
+  let out = /\sxmlns=/i.test(head)
+    ? svg
+    : svg.replace(/^<svg\b/i, '<svg xmlns="http://www.w3.org/2000/svg"');
+
+  // Give currentColor something to resolve against.
+  out = out.replace(/^(<svg\b[^>]*?)(\/?>)/i, (_, head, close) => `${head} color="${INK}"${close}`);
+
+  const shim =
+    `<style>` +
+    `.fill-foreground,.fill-current,.fill-primary,.fill-background{fill:currentColor}` +
+    `.stroke-foreground,.stroke-current,.stroke-primary{stroke:currentColor}` +
+    `.text-foreground,.text-primary{color:currentColor}` +
+    `</style>`;
+
+  return out.replace(/^(<svg\b[^>]*>)/i, `$1${shim}`);
+}
+
 async function markFor(entry) {
   const page = await get(entry.live);
   if (!page) return null;
+
+  // The inline lockup is checked first: when a site has one, it is unambiguously
+  // that project's own mark, whereas a favicon may be the platform's.
+  const inline = inlineLogo(page.body, entry);
+  if (inline) {
+    const body = Buffer.from(inline, "utf8");
+    const file = `${entry.slug}.svg`;
+    writeFileSync(join(MARK_DIR, file), body);
+    return {
+      file,
+      source: `${entry.live} (inline)`,
+      kind: "inline",
+      bytes: body.length,
+      digest: createHash("sha256").update(body).digest("hex"),
+    };
+  }
 
   for (const candidate of iconCandidates(page.body, page.url).slice(0, 6)) {
     const asset = await get(candidate.url, "buffer");
