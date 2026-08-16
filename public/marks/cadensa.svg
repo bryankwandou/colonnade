@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Cadensa">
+  <defs>
+    <linearGradient id="cadensaMark" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0E7C86"/>
+      <stop offset="55%" stop-color="#2ED3C0"/>
+      <stop offset="100%" stop-color="#F2B860"/>
+    </linearGradient>
+  </defs>
+  <g stroke="url(#cadensaMark)" stroke-width="9" stroke-linecap="round">
+    <line x1="93.00" y1="188.62" x2="81.50" y2="208.54" opacity="0.55"/>
+    <line x1="78.50" y1="177.50" x2="60.83" y2="195.17" opacity="0.57"/>
+    <line x1="67.38" y1="163.00" x2="44.41" y2="176.26" opacity="0.60"/>
+    <line x1="60.39" y1="146.12" x2="34.02" y2="153.18" opacity="0.62"/>
+    <line x1="58.00" y1="128.00" x2="30.77" y2="128.00" opacity="0.64"/>
+    <line x1="60.39" y1="109.88" x2="34.79" y2="103.02" opacity="0.66"/>
+    <line x1="67.38" y1="93.00" x2="45.36" y2="80.29" opacity="0.69"/>
+    <line x1="78.50" y1="78.50" x2="61.27" y2="61.27" opacity="0.71"/>
+    <line x1="93.00" y1="67.38" x2="81.20" y2="46.95" opacity="0.73"/>
+    <line x1="109.88" y1="60.39" x2="103.88" y2="38.00" opacity="0.75"/>
+    <line x1="128.00" y1="58.00" x2="128.00" y2="35.00" opacity="0.78"/>
+    <line x1="146.12" y1="60.39" x2="152.02" y2="38.34" opacity="0.80"/>
+    <line x1="163.00" y1="67.38" x2="174.20" y2="47.97" opacity="0.82"/>
+    <line x1="177.50" y1="78.50" x2="192.79" y2="63.21" opacity="0.84"/>
+    <line x1="188.62" y1="93.00" x2="206.44" y2="82.71" opacity="0.86"/>
+    <line x1="195.61" y1="109.88" x2="214.45" y2="104.84" opacity="0.89"/>
+    <line x1="198.00" y1="128.00" x2="216.77" y2="128.00" opacity="0.91"/>
+    <line x1="195.61" y1="146.12" x2="213.68" y2="150.96" opacity="0.93"/>
+    <line x1="188.62" y1="163.00" x2="205.49" y2="172.74" opacity="0.96"/>
+    <line x1="177.50" y1="177.50" x2="192.36" y2="192.36" opacity="0.98"/>
+    <line x1="163.00" y1="188.62" x2="174.50" y2="208.54" opacity="1.00"/>
+  </g>
+  <circle cx="128" cy="128" r="13" fill="url(#cadensaMark)"/>
+</svg>

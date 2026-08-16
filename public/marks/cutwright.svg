@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="b" x1="8" y1="4" x2="40" y2="30" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9557"/><stop offset="1" stop-color="#F2620F"/>
+    </linearGradient>
+    <linearGradient id="s" x1="8" y1="20" x2="40" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D94E14"/><stop offset="1" stop-color="#7A2A06"/>
+    </linearGradient>
+    <clipPath id="u"><path d="M-8 -8H56V6L-8 32Z"/></clipPath>
+    <clipPath id="l"><path d="M-8 32L56 6V56H-8Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#u)" transform="translate(1.7 -1.7)">
+    <rect x="3" y="3" width="42" height="42" rx="12" fill="url(#b)"/>
+    <rect x="8.5" y="9" width="4" height="5.5" rx="1.6" fill="#08090B" opacity=".55"/>
+    <rect x="35.5" y="9" width="4" height="5.5" rx="1.6" fill="#08090B" opacity=".55"/>
+  </g>
+  <g clip-path="url(#l)" transform="translate(-1.7 1.7)">
+    <rect x="3" y="3" width="42" height="42" rx="12" fill="url(#s)"/>
+    <rect x="8.5" y="33.5" width="4" height="5.5" rx="1.6" fill="#08090B" opacity=".5"/>
+    <rect x="35.5" y="33.5" width="4" height="5.5" rx="1.6" fill="#08090B" opacity=".5"/>
+  </g>
+</svg>

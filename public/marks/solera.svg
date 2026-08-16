@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Solera">
+  <title>Solera</title>
+  <defs>
+    <linearGradient id="soleraTierA" x1="14" y1="14" x2="50" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2B65A"/>
+      <stop offset="1" stop-color="#E8A33D"/>
+    </linearGradient>
+    <linearGradient id="soleraTierB" x1="14" y1="14" x2="50" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E08A2C"/>
+      <stop offset="1" stop-color="#D2761F"/>
+    </linearGradient>
+    <linearGradient id="soleraTierC" x1="14" y1="14" x2="50" y2="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C2611B"/>
+      <stop offset="1" stop-color="#A54D14"/>
+    </linearGradient>
+  </defs>
+
+  <!--
+    Three criadera tiers of a solera cascade. Each row is offset against the one
+    above it so the negative space between them traces an S. The bottom tier
+    extends past the stack: the draw, where finished work leaves the system.
+  -->
+  <rect x="22" y="12" width="30" height="10" rx="5" fill="url(#soleraTierA)"/>
+  <rect x="12" y="27" width="34" height="10" rx="5" fill="url(#soleraTierB)"/>
+  <rect x="20" y="42" width="32" height="10" rx="5" fill="url(#soleraTierC)"/>
+</svg>

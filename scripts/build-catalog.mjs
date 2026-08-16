@@ -104,19 +104,20 @@ function readRepos() {
   }
 }
 
+/**
+ * Deployments come from scripts/fetch-deployments.mjs rather than a call made
+ * here. `vercel project ls` pages at 20 by default, so calling it inline used to
+ * silently truncate 168 projects down to the first page and overwrite the good
+ * snapshot with it. Refresh the list with `npm run deployments`.
+ */
 function readDeployments() {
-  try {
-    const raw = parseJson(sh("vercel", ["project", "ls", "--json"]));
-    const projects = raw.projects ?? [];
-    if (projects.length) {
-      writeFileSync(DEPLOY_SNAPSHOT, JSON.stringify(projects, null, 2) + "\n");
-      console.log(`vercel: ${projects.length} projects`);
-      return projects;
-    }
-  } catch (err) {
-    console.warn(`vercel unavailable (${err.code ?? err.message}); using snapshot`);
+  const projects = readJson(DEPLOY_SNAPSHOT, []);
+  const list = Array.isArray(projects) ? projects : (projects.projects ?? []);
+  console.log(`vercel snapshot: ${list.length} projects`);
+  if (list.length < 50) {
+    console.warn("  that looks truncated — run `npm run deployments` to refresh it");
   }
-  return readJson(DEPLOY_SNAPSHOT, []);
+  return list;
 }
 
 /* ------------------------------------------------------------------ *
@@ -285,10 +286,86 @@ function main() {
   const repos = readRepos();
   const deployments = readDeployments();
 
-  const deployByName = new Map();
-  for (const p of deployments) {
-    if (p.latestProductionUrl) deployByName.set(p.name.toLowerCase(), normaliseUrl(p.latestProductionUrl));
+  /*
+   * Vercel project names drift from repository names in predictable ways:
+   * a `get` prefix when the plain name was taken, and suffixes marking a rewrite
+   * (-revamped, -v2), a retired version (-legacy, -lama, -broken), or a split
+   * deployment (-app, -ui, -backend). Matching on the stem catches almost all of
+   * it; PROJECT_ALIASES handles what stemming cannot.
+   */
+  const squash = (s) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
+  const STEM = /^(get)?(.+?)(-(app|ui|live|demo|backend|frontend|legacy|lama|rusak|broken|revamped|secure|production|mono|protocol|v2|site|web))*$/;
+
+  function stemsOf(name) {
+    const out = new Set([squash(name)]);
+    let working = name.toLowerCase();
+    if (working.startsWith("get")) out.add(squash(working.slice(3)));
+    for (;;) {
+      const next = working.replace(
+        /-(app|ui|live|demo|backend|frontend|legacy|lama|rusak|broken|revamped|secure|production-secure|mono|protocol|v2|site|web|id)$/,
+        ""
+      );
+      if (next === working) break;
+      working = next;
+      out.add(squash(working));
+      if (working.startsWith("get")) out.add(squash(working.slice(3)));
+    }
+    return [...out].filter((s) => s.length >= 3);
   }
+
+  /** Deployments whose name shares no stem with the repository it belongs to. */
+  const PROJECT_ALIASES = {
+    "chain-shift": "ChainShift",
+    "proof-of-play": "proofofplay",
+    "quorum-ai": "quorumai",
+    trustpaysea: "trustpay-sea",
+    nusaharvestid: "NusaHarvest",
+    "nusa-harvest-backend": "NusaHarvest",
+    "satudata-sulsel-tahap0": "tugas-tahap-0-satudata-sulsel",
+    "machinelearning-kelompok2": "MachineLearning-project3-kelompok2",
+    "phiechyan-lama": "phiechyan-arsip",
+    phiechyan: "phiechyan-arsip",
+    "ssfti-uajm": "ssfti-arsip",
+    "ssfti-uajm-rusak": "ssfti-arsip",
+    "fti-uajm": "ssfti-arsip",
+    kopedux: "kopedu",
+    arbiterbot: "arbiter",
+    "tanki-request-87c0dd3": "tanki-request",
+    "veilo-v01-finding": "veilo-v01-report",
+    "perfect-portfolio": "portfolio-cv",
+    "cv-app": "portfolio-cv",
+    "blockbite-tdp": "BLOCKBITE-TDP",
+    "nayrbryangaming-escrow-kita": "EscrowKita",
+    "escrowkita.base": "EscrowKita",
+    vestraid: "Veztra",
+    "vericodev2": "vericodeai",
+    "vericode-ai": "vericodeai",
+    "getveristart": "veristart-agentic-feasibility",
+    "understudy-live": "understudy",
+    staketodone: "stake-to-done",
+    antigravitycoffeeshop: "CoffeeShop-EnterpriseFinalTest",
+  };
+
+  const deployByStem = new Map();
+  for (const p of deployments) {
+    const url = normaliseUrl(p.latestProductionUrl);
+    if (!url || url === "https://--") continue;
+
+    const alias = PROJECT_ALIASES[p.name.toLowerCase()];
+    const keys = alias ? [squash(alias)] : stemsOf(p.name);
+
+    for (const key of keys) {
+      const existing = deployByStem.get(key);
+      // A bare vercel.app subdomain beats the long team-scoped fallback URL.
+      const isClean = !/-nayrbryangamings-projects\./.test(url);
+      if (!existing || (isClean && !existing.isClean)) {
+        deployByStem.set(key, { url, isClean, project: p.name });
+      }
+    }
+  }
+
+  const deployByName = new Map();
+  for (const [key, value] of deployByStem) deployByName.set(key, value.url);
 
   /*
    * Links harvested from project READMEs and verified over HTTP. Root addresses
@@ -329,7 +406,7 @@ function main() {
     const live =
       normaliseUrl(override?.live) ??
       normaliseUrl(repo.homepageUrl) ??
-      deployByName.get(repo.name.toLowerCase()) ??
+      deployByName.get(squash(repo.name)) ??
       discoveredByName.get(repo.name.toLowerCase())?.url ??
       null;
 
