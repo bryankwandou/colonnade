@@ -1,26 +1,110 @@
 @import "tailwindcss";
 
+/*
+ * Colonnade palette.
+ *
+ * The building metaphor sets the colour: quarried stone, deep shadow between
+ * the columns, and brass for the one thing you are meant to touch. Deliberately
+ * not the indigo-to-violet gradient every generated dashboard arrives wearing.
+ */
+@theme {
+  --color-shadow-900: #08090b;
+  --color-shadow-800: #0d0f12;
+  --color-shadow-700: #14171c;
+  --color-shadow-600: #1c2027;
+  --color-shadow-500: #262b34;
+  --color-shadow-400: #3a414d;
+
+  --color-stone-300: #8a8f99;
+  --color-stone-200: #b6bac2;
+  --color-stone-100: #d9dce1;
+  --color-stone-50: #f2f3f5;
+
+  --color-brass-600: #8a6420;
+  --color-brass-500: #b8862f;
+  --color-brass-400: #d4a24c;
+  --color-brass-300: #e5bd74;
+
+  --color-verdigris-500: #3f8f7a;
+  --color-verdigris-400: #57b195;
+
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, monospace;
+
+  --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: dark;
+  --page: var(--color-shadow-900);
+  --ink: var(--color-stone-50);
+  --ink-dim: var(--color-stone-300);
+  --rule: color-mix(in oklab, var(--color-stone-300) 14%, transparent);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--page);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "cv05" 1, "ss01" 1;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* The faint vertical rhythm of a colonnade, laid behind the whole page. */
+.stone-field {
+  background-image:
+    repeating-linear-gradient(
+      90deg,
+      color-mix(in oklab, var(--color-stone-300) 4%, transparent) 0 1px,
+      transparent 1px 96px
+    ),
+    radial-gradient(60rem 40rem at 50% -10%, color-mix(in oklab, var(--color-brass-500) 9%, transparent), transparent 70%);
+}
+
+.rule {
+  border-color: var(--rule);
+}
+
+/* Horizontal shelf rails, App Store style: scrollable, but without a scrollbar. */
+.rail {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-snap-type: x proximity;
+}
+.rail::-webkit-scrollbar {
+  display: none;
+}
+.rail > * {
+  scroll-snap-align: start;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--color-brass-400) 35%, transparent);
+  color: var(--color-stone-50);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brass-400);
+  outline-offset: 2px;
+  border-radius: 2px;
 }
