@@ -12,7 +12,7 @@ import { entries, counts, initials, accentFor, type Entry } from "@/lib/catalog"
 const NAV = [
   { href: "/tools", label: "Tools" },
   { href: "/projects", label: "Projects" },
-  { href: "/index", label: "Index" },
+  { href: "/catalogue", label: "Catalogue" },
   { href: "/verify", label: "Verify" },
 ];
 

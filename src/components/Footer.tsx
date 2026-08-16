@@ -21,7 +21,7 @@ export function Footer() {
           <ul className="space-y-2 text-stone-300">
             <li><Link href="/tools" className="hover:text-stone-50">Tools</Link></li>
             <li><Link href="/projects" className="hover:text-stone-50">Projects</Link></li>
-            <li><Link href="/index" className="hover:text-stone-50">Full index</Link></li>
+            <li><Link href="/catalogue" className="hover:text-stone-50">Full catalogue</Link></li>
             <li><Link href="/verify" className="hover:text-stone-50">Verify on devnet</Link></li>
           </ul>
         </nav>

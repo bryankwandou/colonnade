@@ -74,8 +74,8 @@ export default function Home() {
           <SectionHead
             title="Moved most recently"
             blurb="Sorted by the last commit that touched them, newest first."
-            href="/index"
-            hrefLabel="Full index"
+            href="/catalogue"
+            hrefLabel="Full catalogue"
           />
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {recentlyLive.slice(0, 8).map((entry, i) => (
