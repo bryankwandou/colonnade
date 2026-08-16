@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="8" fill="#7c3aed"/>
-  <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle"
-        font-family="system-ui, -apple-system, sans-serif"
-        font-size="20" font-weight="900" fill="#ffffff">R</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" color="#E8E2D6"><style>.fill-foreground,.fill-current,.fill-primary,.fill-background{fill:currentColor}.stroke-foreground,.stroke-current,.stroke-primary{stroke:currentColor}.text-foreground,.text-primary{color:currentColor}[fill]:not([fill="none"]){}svg>*,svg g>*{vector-effect:non-scaling-stroke}svg{fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}</style><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
