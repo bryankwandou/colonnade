@@ -10,7 +10,8 @@
                     "catalog":  "node scripts/build-catalog.mjs",
                     "marks":  "node scripts/fetch-marks.mjs",
                     "readmes":  "node scripts/fetch-readmes.mjs",
-                    "audit":  "node scripts/audit-taglines.mjs"
+                    "audit":  "node scripts/audit-taglines.mjs",
+                    "site-meta":  "node scripts/fetch-site-meta.mjs"
                 },
     "dependencies":  {
                          "@solana/wallet-adapter-base":  "^0.9.27",

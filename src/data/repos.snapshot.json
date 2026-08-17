@@ -1,20 +1,5 @@
 [
   {
-    "createdAt": "2026-08-16T14:29:46Z",
-    "description": "A storefront for finished software: 131 shipped listings on two shelves, with the catalogue fingerprint anchored to Solana devnet.",
-    "homepageUrl": "https://colonnade.vercel.app",
-    "isArchived": false,
-    "isPrivate": false,
-    "name": "colonnade",
-    "primaryLanguage": {
-      "name": "TypeScript"
-    },
-    "repositoryTopics": null,
-    "stargazerCount": 0,
-    "updatedAt": "2026-08-16T16:46:54Z",
-    "url": "https://github.com/bryankwandou/colonnade"
-  },
-  {
     "createdAt": "2026-07-14T17:50:44Z",
     "description": "",
     "homepageUrl": "",
@@ -26,8 +11,109 @@
     },
     "repositoryTopics": null,
     "stargazerCount": 0,
-    "updatedAt": "2026-08-16T16:35:04Z",
+    "updatedAt": "2026-08-17T19:04:08Z",
     "url": "https://github.com/bryankwandou/arbiter"
+  },
+  {
+    "createdAt": "2026-08-17T14:51:29Z",
+    "description": "Spend controls for agents that pay their own way. Epoch budgets, payee allowlist, freeze, and a dispute window on every x402 payment. Enforced by a contract on Base.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "tollward",
+    "primaryLanguage": null,
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-17T14:51:29Z",
+    "url": "https://github.com/bryankwandou/tollward"
+  },
+  {
+    "createdAt": "2026-08-06T17:36:20Z",
+    "description": "Trust layer for the AI agent supply chain. Scan MCP servers, agent skills, and AI-suggested packages for tool poisoning, prompt injection, and slopsquatting - then publish verifiable attestations.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "assaykit",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-17T14:50:44Z",
+    "url": "https://github.com/bryankwandou/assaykit"
+  },
+  {
+    "createdAt": "2026-08-08T22:53:45Z",
+    "description": "A complete photo editor that runs entirely in your browser. No watermark, no account, nothing uploaded.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "kanvara",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-17T14:21:27Z",
+    "url": "https://github.com/bryankwandou/kanvara"
+  },
+  {
+    "createdAt": "2026-08-03T16:58:14Z",
+    "description": "Cadensa — pencatat ritme kesehatan reproduksi. Cadence Index, sinyal on-device, brankas terenkripsi ujung-ke-ujung.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "cadensa",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-17T04:37:17Z",
+    "url": "https://github.com/bryankwandou/cadensa"
+  },
+  {
+    "createdAt": "2026-08-11T05:55:51Z",
+    "description": "Zero-hardware DePIN for road geometry. A browser driving game that turns every lap into a verifiable OpenStreetMap defect report, staked and settled on Solana.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "wayproof",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-17T04:11:23Z",
+    "url": "https://github.com/bryankwandou/wayproof"
+  },
+  {
+    "createdAt": "2026-08-17T03:50:43Z",
+    "description": "Kiloframe - browser-native engine for city-scale 3D worlds. Thousands of objects streamed in chunks at high frame rate. Districts are on-chain parcels on Solana devnet.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "kiloframe",
+    "primaryLanguage": null,
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-17T03:50:44Z",
+    "url": "https://github.com/bryankwandou/kiloframe"
+  },
+  {
+    "createdAt": "2026-08-16T14:29:46Z",
+    "description": "A storefront for finished software: 131 shipped listings on two shelves, with the catalogue fingerprint anchored to Solana devnet.",
+    "homepageUrl": "https://colonnade.vercel.app",
+    "isArchived": false,
+    "isPrivate": false,
+    "name": "colonnade",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "stargazerCount": 0,
+    "updatedAt": "2026-08-16T16:54:20Z",
+    "url": "https://github.com/bryankwandou/colonnade"
   },
   {
     "createdAt": "2026-08-14T09:59:06Z",
@@ -43,21 +129,6 @@
     "stargazerCount": 0,
     "updatedAt": "2026-08-16T16:06:25Z",
     "url": "https://github.com/bryankwandou/tokenwatt"
-  },
-  {
-    "createdAt": "2026-08-03T16:58:14Z",
-    "description": "Cadensa — pencatat ritme kesehatan reproduksi. Cadence Index, sinyal on-device, brankas terenkripsi ujung-ke-ujung.",
-    "homepageUrl": "",
-    "isArchived": false,
-    "isPrivate": false,
-    "name": "cadensa",
-    "primaryLanguage": {
-      "name": "TypeScript"
-    },
-    "repositoryTopics": null,
-    "stargazerCount": 0,
-    "updatedAt": "2026-08-16T15:58:12Z",
-    "url": "https://github.com/bryankwandou/cadensa"
   },
   {
     "createdAt": "2026-07-15T01:35:00Z",
@@ -161,21 +232,6 @@
     "stargazerCount": 0,
     "updatedAt": "2026-08-14T10:04:43Z",
     "url": "https://github.com/bryankwandou/parlore"
-  },
-  {
-    "createdAt": "2026-08-06T17:36:20Z",
-    "description": "Trust layer for the AI agent supply chain. Scan MCP servers, agent skills, and AI-suggested packages for tool poisoning, prompt injection, and slopsquatting - then publish verifiable attestations.",
-    "homepageUrl": "",
-    "isArchived": false,
-    "isPrivate": false,
-    "name": "assaykit",
-    "primaryLanguage": {
-      "name": "TypeScript"
-    },
-    "repositoryTopics": null,
-    "stargazerCount": 0,
-    "updatedAt": "2026-08-14T03:06:28Z",
-    "url": "https://github.com/bryankwandou/assaykit"
   },
   {
     "createdAt": "2026-08-13T13:51:15Z",
@@ -324,19 +380,6 @@
     "stargazerCount": 0,
     "updatedAt": "2026-07-24T09:27:32Z",
     "url": "https://github.com/bryankwandou/tanki-request"
-  },
-  {
-    "createdAt": "2026-08-11T05:55:51Z",
-    "description": "Zero-hardware DePIN for road geometry. A browser driving game that turns every lap into a verifiable OpenStreetMap defect report, staked and settled on Solana.",
-    "homepageUrl": "",
-    "isArchived": false,
-    "isPrivate": false,
-    "name": "wayproof",
-    "primaryLanguage": null,
-    "repositoryTopics": null,
-    "stargazerCount": 0,
-    "updatedAt": "2026-08-11T05:58:29Z",
-    "url": "https://github.com/bryankwandou/wayproof"
   },
   {
     "createdAt": "2026-08-11T04:26:52Z",
@@ -546,21 +589,6 @@
     "stargazerCount": 0,
     "updatedAt": "2026-08-09T04:09:17Z",
     "url": "https://github.com/bryankwandou/cutwright"
-  },
-  {
-    "createdAt": "2026-08-08T22:53:45Z",
-    "description": "A complete photo editor that runs entirely in your browser. No watermark, no account, nothing uploaded.",
-    "homepageUrl": "",
-    "isArchived": false,
-    "isPrivate": false,
-    "name": "kanvara",
-    "primaryLanguage": {
-      "name": "TypeScript"
-    },
-    "repositoryTopics": null,
-    "stargazerCount": 0,
-    "updatedAt": "2026-08-08T22:54:37Z",
-    "url": "https://github.com/bryankwandou/kanvara"
   },
   {
     "createdAt": "2026-08-04T18:15:21Z",

@@ -293,7 +293,6 @@
   },
   "semester3dan4": {
     "name": "Semester 3 & 4",
-    "tagline": "Kumpulan tugas dua semester, disimpan utuh apa adanya.",
     "category": "coursework"
   },
   "machinelearning-project3-kelompok2": {
@@ -422,7 +421,6 @@
   },
   "nng-tiktok-live-agent": {
     "name": "NNG TikTok Live Agent",
-    "tagline": "Pendamping siaran langsung TikTok yang membaca obrolan penonton dan menanggapinya.",
     "category": "agent-infra"
   },
   "anchor-debugger-skill": {
@@ -500,13 +498,13 @@
   },
   "solq": {
     "name": "SOLQ",
-    "tagline": "A non-custodial payment orchestrator for Solana, routing value across rails without ever holding it.",
+    "tagline": "Bayar QRIS dengan aset Solana. Dana lewat tanpa pernah dipegang perantara.",
     "live": "https://solq.vercel.app",
     "category": "web3"
   },
   "solq.my.id": {
     "name": "SOLQ Site",
-    "tagline": "The public face of SOLQ, explaining the routing layer to people who will never read the contract.",
+    "tagline": "Bayar QRIS dengan aset Solana, dijalankan di domain sendiri.",
     "category": "web3"
   },
   "quorumai": {
@@ -521,7 +519,7 @@
   },
   "clinicflow-ai": {
     "name": "Clinicflow",
-    "tagline": "Clinic scheduling and intake, arranged so the front desk stops being the bottleneck.",
+    "tagline": "Manajemen praktik klinik: jadwal, rekam kunjungan, dan alur pasien dalam satu tempat.",
     "category": "operations"
   },
   "botcall-protocol": {

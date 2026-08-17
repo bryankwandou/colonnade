@@ -58,6 +58,7 @@ function overlap(a, b) {
 function main() {
   const overrides = readJson(join(root, "src", "data", "overrides.json"), {});
   const blurbs = readJson(join(root, "src", "data", "readme-blurbs.json"), {});
+  const siteMeta = readJson(join(root, "src", "data", "site-meta.json"), {});
   const repos = readJson(join(root, "src", "data", "repos.snapshot.json"), []);
   const descriptions = new Map(repos.map((r) => [r.name.toLowerCase(), r.description ?? ""]));
 
@@ -74,9 +75,14 @@ function main() {
       .filter((line) => !/^(live|waitlist|demo|repo)\b|^https?:/i.test(line.trim()))
       .join(" ");
     const description = descriptions.get(slug) ?? "";
-    const source = `${readme} ${description}`.trim();
+    // A third source: what the deployment says about itself in its own <head>.
+    const meta = siteMeta[slug] ?? {};
+    const source = `${readme} ${description} ${meta.description ?? ""} ${meta.title ?? ""}`.trim();
 
-    if (source.length < 25) {
+    // A short source still counts. "SOLQ — Solana × QRIS" is twenty characters
+    // and tells you exactly what the product is; the bar is whether the author
+    // published something, not whether they published a paragraph.
+    if (source.length < 14) {
       unsourced.push(key);
       continue;
     }
