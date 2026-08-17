@@ -1,0 +1,486 @@
+{
+  "kithra": {
+    "title": "Kithra — the companion that shows you what it remembers",
+    "description": "A chat companion with a fixed personality and an open memory. Every fact it keeps about you is a row you can read, edit, or erase. Stored on your device, not ours."
+  },
+  "assaykit": {
+    "title": "AssayKit — test an agent artifact before you trust it",
+    "description": "AssayKit inspects MCP servers, agent skills, and dependency manifests for tool poisoning, concealed directives, and hallucinated packages, then writes a verdict to Solana that anyone can check independently."
+  },
+  "handpress": {
+    "title": "Handpress — animated posters and social graphics, made in the browser",
+    "description": "Animate every layer on its own timeline, set real printed-type effects behind it, and export MP4, vector, or a 300 dpi press file. Runs in a browser tab, and the files never leave your machine."
+  },
+  "marque": {
+    "title": "Marque — a browser IDE that signs its own work",
+    "description": "Marque is a code workspace that runs in the browser. Every edit an AI agent makes is hashed, signed with your keypair, and anchored to Solana, so the authorship of a codebase can be checked rather than assumed."
+  },
+  "grainroom": {
+    "title": "Grainroom — a darkroom that runs in your browser",
+    "description": "A full photo editor that runs entirely on your own machine. No upload, no watermark, no account. Every edit is a Look you can hand to someone else, with the credit attached."
+  },
+  "nullstamp": {
+    "title": "Nullstamp — verifiable receipts for agents that touch personal data",
+    "description": "Every time an agent uses someone's personal data, Nullstamp issues a receipt naming which fields were used and where they went, without ever holding the values. Built on the Terminal 3 ADK."
+  },
+  "kernly": {
+    "title": "Kernly — keep the kernel, drop the chaff",
+    "description": "A deterministic context compressor for LLM agents. Cuts prompt tokens without a GPU, tells you when not to trust the result, and anchors every saving on Solana so the number is checkable rather than claimed."
+  },
+  "solera": {
+    "title": "Solera — a body of work, carried across",
+    "description": "An artist-owned marketplace on Solana. Move a catalogue across chains with its provenance intact, and price it in USDC or SOL at locked parity."
+  },
+  "stemloom": {
+    "title": "Stemloom — Audio editing that never leaves your machine",
+    "description": "A multitrack audio editor that runs entirely in your browser. Your files are decoded, edited, and rendered on your own machine — nothing is uploaded, nothing is watermarked, and every effect is unlocked."
+  },
+  "cutwright": {
+    "title": "Cutwright — a video editor that runs in your browser",
+    "description": "Cut, grade, title and export video without uploading a single byte. No watermark, no account, no subscription. Everything happens on your own machine."
+  },
+  "kubantara": {
+    "title": "Kubantara — dunia kubus terbuka untuk anak",
+    "description": "Pulau balok warna-warni yang bisa dijelajahi anak langsung dari peramban. Tanpa musuh, tanpa iklan, tanpa pemasangan."
+  },
+  "skyseed-isles": {
+    "title": "Skyseed Isles — Play",
+    "description": null
+  },
+  "visitrail": {
+    "title": "VisitRail — Care delivery you can prove",
+    "description": "Agency-grade electronic visit verification, grounded care notes, continuity matching, and family visibility."
+  },
+  "meadowfar": {
+    "title": "Meadowfar — an open world for kids, right in the browser",
+    "description": "An endless meadow with quests that never run out. Safe for kids, no downloads, no ads. Padang rumput tanpa tepi, aman untuk anak."
+  },
+  "colonnade": {
+    "title": "Colonnade — the shipped work, on one shelf",
+    "description": "A storefront for 156 pieces of shipped software, sorted onto two shelves: tools you operate, and projects with a thesis. Every listing links to something you can open."
+  },
+  "arbiter": {
+    "title": "Arbiter — Autonomous Arbitrage Intelligence",
+    "description": "Detect Dutch-book arbitrage on Polymarket in real time. Fractional Kelly sizing, automatic kill switch, 24/7 cloud execution."
+  },
+  "tokenwatt": {
+    "title": "Sign in · TokenWatt",
+    "description": "Daily token usage and cost across Claude Code, Codex and other coding agents, metered from local logs and published to one page."
+  },
+  "cadensa": {
+    "title": "Cadensa — ritme, bukan skor",
+    "description": "Pencatat ritme kesehatan reproduksi pria. Catat dalam belasan detik, lihat kadensmu sebulan, dan baca apa yang tubuhmu tunjukkan. Catatannya tidak pernah meninggalkan perangkatmu."
+  },
+  "bryankwandou": {
+    "title": "Bryan Kwandou — builder, Makassar",
+    "description": "Bryan Kwandou builds software that leaves a trail. Twenty-four shipped products, 128 public repositories, and a habit of putting hard limits around autonomous systems."
+  },
+  "forkroot": {
+    "title": "Forkroot — every fork pays its origin",
+    "description": "Forkroot is a game platform where each published work points at the work it grew from, and revenue settles back along that chain automatically on Solana."
+  },
+  "vinbryyt": {
+    "title": "VinBryYT — Vincentius Bryan Kwandou",
+    "description": "Pengembang full-stack dan Web3 dari Makassar. Membangun rel pembayaran di atas Solana, perangkat operasional untuk industri, dan aplikasi mobile — 130 repositori terbuka untuk dibaca siapa saja."
+  },
+  "keelstack-search": {
+    "title": "Keelstack Search — compiled from the corpus",
+    "description": "A running application whose authorization matrix, state machine and error codes are read out of the Keelstack search shard at build time. Every decision cites the spec line that produced it. Intent: retrieval and ranking."
+  },
+  "keelstack-messaging": {
+    "title": "Keelstack Messaging — compiled from the corpus",
+    "description": "A running application whose authorization matrix, state machine and error codes are read out of the Keelstack messaging shard at build time. Every decision cites the spec line that produced it. Intent: transactional delivery."
+  },
+  "keelstack-identity": {
+    "title": "Keelstack Identity — compiled from the corpus",
+    "description": "A running application whose authorization matrix, state machine and error codes are read out of the Keelstack identity shard at build time. Every decision cites the spec line that produced it. Intent: accounts, KYC and consent."
+  },
+  "keelstack-lending": {
+    "title": "Keelstack Lending — compiled from the corpus",
+    "description": "A running application whose authorization matrix, state machine and error codes are read out of the Keelstack lending shard at build time. Every decision cites the spec line that produced it. Intent: underwriting and collections."
+  },
+  "keelstack-ads": {
+    "title": "Keelstack Ads — compiled from the corpus",
+    "description": "A running application whose authorization matrix, state machine and error codes are read out of the Keelstack ads shard at build time. Every decision cites the spec line that produced it. Intent: auction, targeting and billing."
+  },
+  "keelstack-creator": {
+    "title": "Keelstack Creator — compiled from the corpus",
+    "description": "A running application whose authorization matrix, state machine and error codes are read out of the Keelstack creator shard at build time. Every decision cites the spec line that produced it. Intent: monetisation and rights."
+  },
+  "keelstack-video": {
+    "title": "Keelstack Video — compiled from the corpus",
+    "description": "A running application whose authorization matrix, state machine and error codes are read out of the Keelstack video shard at build time. Every decision cites the spec line that produced it. Intent: short form and live streaming."
+  },
+  "keelstack-social": {
+    "title": "Keelstack Social — compiled from the corpus",
+    "description": "A running application whose authorization matrix, state machine and error codes are read out of the Keelstack social shard at build time. Every decision cites the spec line that produced it. Intent: graph, feed and messaging."
+  },
+  "keelstack-mobility": {
+    "title": "Keelstack Mobility — compiled from the corpus",
+    "description": "A running application whose authorization matrix, state machine and error codes are read out of the Keelstack mobility shard at build time. Every decision cites the spec line that produced it. Intent: ride hailing and fleet."
+  },
+  "stele": {
+    "title": "Stele — catatan atas bacaan Anda",
+    "description": "Membaca teks suci dari beberapa tradisi, dengan catatan yang tersimpan di Solana devnet."
+  },
+  "keelstack-logistics": {
+    "title": "Keelstack Logistics — compiled from the corpus",
+    "description": "A running application whose authorization matrix, state machine and error codes are read out of the Keelstack logistics shard at build time. Every decision cites the spec line that produced it. Intent: fulfilment and last mile."
+  },
+  "keelstack-payments": {
+    "title": "Keelstack Payments — compiled from the corpus",
+    "description": "A running application whose authorization matrix, state machine and error codes are read out of the Keelstack payments shard at build time. Every decision cites the spec line that produced it. Intent: money movement and ledgers."
+  },
+  "keelstack-commerce": {
+    "title": "Keelstack Commerce — compiled from the corpus",
+    "description": "A running application whose authorization matrix, state machine and error codes are read out of the Keelstack commerce shard at build time. Every decision cites the spec line that produced it. Intent: catalog and order capture."
+  },
+  "nngesport": {
+    "title": "NNG Esport — Dari Abepura, menuju panggung yang lebih besar",
+    "description": "NNG tumbuh dari kebiasaan sederhana: main, rekam, unggah, ulangi. Bukan lahir dari suntikan modal atau ruang rapat, melainkan dari koneksi seadanya di Abepura dan kemauan untuk tetap muncul setiap hari selama bertahun-tahun."
+  },
+  "larasa": {
+    "title": "Larasa — Cerita dewasa yang bicara lewat rasa",
+    "description": "Koleksi novel bertema dewasa dalam bahasa Indonesia: romansa, thriller, horor, fantasi timur, dan sejarah alternatif. Ditulis untuk pembaca 18+ tanpa satu pun adegan eksplisit."
+  },
+  "keelstack-gaming": {
+    "title": "Keelstack Gaming — compiled from the corpus",
+    "description": "A running application whose authorization matrix, state machine and error codes are read out of the Keelstack gaming shard at build time. Every decision cites the spec line that produced it. Intent: sessions, economy and anti cheat."
+  },
+  "keelstack-health": {
+    "title": "Keelstack Health — compiled from the corpus",
+    "description": "A running application whose authorization matrix, state machine and error codes are read out of the Keelstack health shard at build time. Every decision cites the spec line that produced it. Intent: records and teleconsult."
+  },
+  "keelstack-food": {
+    "title": "Keelstack Food — compiled from the corpus",
+    "description": "A running application whose authorization matrix, state machine and error codes are read out of the Keelstack food shard at build time. Every decision cites the spec line that produced it. Intent: menus, kitchens and dispatch."
+  },
+  "keelstack-travel": {
+    "title": "Keelstack Travel — compiled from the corpus",
+    "description": "A running application whose authorization matrix, state machine and error codes are read out of the Keelstack travel shard at build time. Every decision cites the spec line that produced it. Intent: inventory and itineraries."
+  },
+  "fluentia": {
+    "title": "Fluentia — language study that leaves a record",
+    "description": "An examiner-grade AI tutor for 200+ languages, from toddler sound play to HSK 6. Every passed level is written to Solana so the result can be checked by anyone."
+  },
+  "tallystick": {
+    "title": "Tallystick — settlement your agent can prove",
+    "description": "Every agent payout is split in two: a signed claim and a receipt written inside the enclave. Funds move only when the halves match."
+  },
+  "veilo-v01-report": {
+    "title": "V-01 · Phoenix exit-flow slot cap — Veilo mainnet finding",
+    "description": null
+  },
+  "mettle": {
+    "title": "Mettle — proof you can actually do it",
+    "description": "Generative models made every coding assessment cheap to pass. Mettle runs adversarial, single-use Proving Runs and signs the result onto Solana, so the credential belongs to the candidate and can be checked by anyone."
+  },
+  "inkfold": {
+    "title": "Inkfold — comics with the paperwork attached",
+    "description": "A reading library built only from work we can prove is free to share. No ad scripts, no trackers, no overlays between you and the page."
+  },
+  "kanvara": {
+    "title": "Kanvara — A complete photo editor that runs in your browser",
+    "description": "Layers, curves, film looks, background removal, text, motion export. No watermark, no account, and your photos never leave the machine."
+  },
+  "understudy": {
+    "title": "Understudy — pendamping siaran untuk livestreamer affiliate",
+    "description": "Membantu host menjaga siaran tetap berjalan saat sedang tidak bisa tampil penuh, dengan keterbukaan penuh ke penonton."
+  },
+  "keelstack": {
+    "title": "Keelstack — five million addressable spec lines",
+    "description": "A spec compiler. 5,001,816 lines, each between 1,000 and 2,000 characters, routed into context packs an agent can build from. Every figure is reproducible from source."
+  },
+  "aval-rail": {
+    "title": "Aval — a shop till that lives in the owner's chat",
+    "description": "A shop till on ZeroClaw: the owner types a charge, the agent builds a Solana Pay request, the customer's wallet pays it. A durable nonce keeps it valid while a human approves. Limits live in Rust, not in the prompt."
+  },
+  "loomstack": {
+    "title": "WaliPlay — a guardian-controlled allowance on Solana",
+    "description": "Parents set a hard budget ceiling and a daily spend cap. A child spends only on in-game items — skins, energy, resin. Enforced on-chain, on Solana devnet."
+  },
+  "phiechyan-arsip": {
+    "title": "Arsip Materi — Experimental E-Learning",
+    "description": "Arsip pribadi materi kuliah Claroline phiechyan.org"
+  },
+  "ssfti-arsip": {
+    "title": "FTI UAJM Service System — Arsip Pribadi",
+    "description": "Arsip pribadi ssfti.uajm.ac.id"
+  },
+  "aval-site": {
+    "title": "Aval — a shop till that lives in the owner's chat",
+    "description": "A shop till on ZeroClaw: the owner types a charge, the agent builds a Solana Pay request, the customer's wallet pays it. A durable nonce keeps it valid while a human approves. Limits live in Rust, not in the prompt."
+  },
+  "antigravity-ide-frontend": {
+    "title": "Login – Vercel",
+    "description": null
+  },
+  "altercast": {
+    "title": "AlterCast — Stay Live. Even When You're Gone.",
+    "description": "AlterCast: AI Streaming Twin yang menjaga stream tetap hidup saat kamu sakit, AFK, atau burnout. 164 avatar 3D, AI respons real-time, TikTok & OBS ready."
+  },
+  "veristart-agentic-feasibility": {
+    "title": "VERISTART — Agentic Feasibility Engine",
+    "description": "Sistem Agentic AI untuk Analisis Kelayakan Ide Startup menggunakan Business Model Canvas dan Market Research Otomatis. 9 agen, 6 fase, skor kelayakan 0–100."
+  },
+  "veylock": {
+    "title": "Veylock — Execution firewall for autonomous capital",
+    "description": "Let agents reason freely while an on-chain policy engine controls what capital can actually do."
+  },
+  "dwellnerve": {
+    "title": "DwellNerve — Rental operations early warning",
+    "description": "Repairs, rent, and lease risk closed in one auditable operating loop."
+  },
+  "stewardlane": {
+    "title": "Stewardlane Ã¢â‚¬â€ Advisor-owned AI commentary",
+    "description": "A compliance-first household CRM and review system for wealth advisory firms."
+  },
+  "kinferry": {
+    "title": "Kinferry - Guarded money movement for families",
+    "description": "A Solana devnet remittance agent with recipient verification, policy limits, quote locks, and duplicate-send protection."
+  },
+  "mirrorqa-ai": {
+    "title": "MirrorQA — Watch customers struggle before they leave",
+    "description": "Autonomous synthetic customers drive your real product flows and return evidence-backed friction reports."
+  },
+  "autorepairos": {
+    "title": "AutoRepairOS — Approval-First Repair Operations",
+    "description": "Approval-gated repair orders, grounded AI diagnostics, authorization risk review, and verifiable Solana devnet proof for independent auto shops."
+  },
+  "servetrace": {
+    "title": "ServeTrace — Proof your restaurant is ready",
+    "description": "Food-safety hard blocks, labor-safe scheduling, inventory signals, and tamper-evident compliance proof for restaurant teams."
+  },
+  "freightlatch": {
+    "title": "FreightLatch - Dispatch compliance, enforced",
+    "description": "Server-enforced HOS, vehicle safety, and load-document controls for freight dispatch teams."
+  },
+  "evercue": {
+    "title": "Evercue — The plan holds",
+    "description": "The live operating system for wedding and event teams."
+  },
+  "galleryos": {
+    "title": "GalleryOS — From camera roll to client-ready",
+    "description": "A calmer photography workflow for culling, proofing, and delivering client galleries."
+  },
+  "dissentgrid": {
+    "title": "DissentGrid — Investment judgment without false consensus",
+    "description": "Four independent analytical lenses cross-examine investment claims. Genuine disagreement remains visible and auditable."
+  },
+  "civiflow": {
+    "title": "CiviFlow - Public service in motion",
+    "description": "Explainable municipal request routing with public SLA tracking."
+  },
+  "axleveto": {
+    "title": "AxleVeto — Verifiable Dispatch Safety",
+    "description": "Fleet dispatch interlock connecting driver inspections, maintenance intervals, and verifiable release authority."
+  },
+  "accordos-ai": {
+    "title": "AccordOS — Autonomous B2B negotiation",
+    "description": "Two companies set private limits. Their agents negotiate within them. Humans approve the final terms."
+  },
+  "childcareos": {
+    "title": "ChildcareOS — Safety operations for childcare centers",
+    "description": "Real-time ratio controls, pickup authorization, and grounded incident reporting for childcare centers."
+  },
+  "briefrail": {
+    "title": "Briefrail — Creative work, cleared to move",
+    "description": "Briefs, approvals, tracked time, and invoice-ready work on one accountable rail."
+  },
+  "vowrail": {
+    "title": "Vowrail | Transaction firewall for autonomous agents",
+    "description": "Deterministic payment mandates, policy enforcement, simulation, and Solana settlement evidence for autonomous software."
+  },
+  "x402gate": {
+    "title": "X402Gate — API payments before response",
+    "description": "HTTP 402 pay-per-call infrastructure for autonomous agents, settled and verified on Solana devnet."
+  },
+  "springboot-login-jwt": {
+    "title": "NusaKarya Systems",
+    "description": "Website perusahaan dummy dengan landing page, login internal, dashboard, JWT, dan fondasi integrasi database."
+  },
+  "nusakarya-recovery-2b333e3": {
+    "title": "NusaKarya Systems",
+    "description": "Website perusahaan dummy dengan landing page, login internal, dashboard, JWT, dan fondasi integrasi database."
+  },
+  "tanki-request": {
+    "title": "Tanki Je'ne' - Layanan Mobil Tangki PDAM Kota Makassar",
+    "description": "Sistem Informasi Permintaan Layanan Mobil Tangki PDAM Kota Makassar — ajukan permintaan, pantau antrian, dan kelola dispatch armada."
+  },
+  "lineproof": {
+    "title": "LineProof — the odds integrity layer",
+    "description": "An autonomous agent that audits World Cup betting lines in real time and notarizes every verdict on Solana."
+  },
+  "solumkm": {
+    "title": "Solumkm: Asisten Bisnis Ber-AI untuk UMKM Indonesia",
+    "description": "Catat penjualan pakai bahasa sehari-hari, diketik atau diucapkan. AI merapikan pembukuan dan memberi saran bisnis, dan catatan penting bisa dikunci supaya tidak bisa diubah diam-diam."
+  },
+  "tugas-tahap-0-satudata-sulsel": {
+    "title": "Satu Data Sulsel — Tahap 0",
+    "description": null
+  },
+  "proofcast": {
+    "title": "ProofCast — forecasts with collateral behind them",
+    "description": "Football analysts seal predictions before kickoff, stake USDC bonds behind a public accuracy floor, and get graded by TxLINE Merkle proofs on Solana. No self-reported track records, ever."
+  },
+  "matchmind": {
+    "title": "MatchMind — Live World Cup Analysis",
+    "description": "Every goal, every odds shift, every red card — explained in plain language as it happens. Live data from TxLINE, AI commentary in under two seconds."
+  },
+  "anamneon": {
+    "title": "Anamneon — riwayat penyakit yang tidak bisa dipalsukan",
+    "description": "Setiap entri riwayat penyakit pasien dikunci hash-nya di Solana. Dokter mana pun bisa memverifikasi keasliannya dalam hitungan detik, tanpa data medis bocor ke publik."
+  },
+  "zynqio": {
+    "title": "Zynqio - Think Fast. Play Smart. Quiz Harder.",
+    "description": "Realtime interactive quiz platform"
+  },
+  "veritair": {
+    "title": "Veritair — drone delivery, proven on Solana Devnet",
+    "description": "A drone delivery network for the places couriers can't reach, with every hub, pad, and delivery confirmation recorded on Solana Devnet."
+  },
+  "veilspire": {
+    "title": "Veilspire — Echoes of the Sundered Sky",
+    "description": "An open world you can call. Wander a broken realm and speak with its people through live voice and video. Android APK available now."
+  },
+  "superteam-ukraine": {
+    "title": "Superteam Ukraine | ex Kumeka Team — Build on Solana",
+    "description": "Superteam Ukraine (ex Kumeka Team) — Ukraine"
+  },
+  "stake-to-done": {
+    "title": "Stake-To-Done Protocol",
+    "description": null
+  },
+  "solgig-mainnet": {
+    "title": "SolGig — Sell your work on Solana, get paid the second it sells",
+    "description": "A social marketplace for Solana creators. List digital goods and services, share them in a feed, and receive payment straight to your wallet."
+  },
+  "solgig": {
+    "title": "SolGig — Sell your work on Solana, get paid the second it sells",
+    "description": "A social marketplace for Solana creators. List digital goods and services, share them in a feed, and receive payment straight to your wallet."
+  },
+  "removix-ai": {
+    "title": "Removix — AI Background Remover",
+    "description": "Remove image backgrounds instantly with AI. Free, private, no signup. Powered by ISNet neural network running entirely in your browser — your image never leaves your device."
+  },
+  "proofofplay": {
+    "title": "Proof of Play Dungeon",
+    "description": "Infinite On-Chain Dungeon Crawler on Solana"
+  },
+  "portfolio-cv": {
+    "title": "Computer Vision: Edge Detection & Filtering",
+    "description": "Assignment 1: Noise, Filtering and Edge Detection Analysis - Kelompok 5"
+  },
+  "nngpt": {
+    "title": "nngpt — AI Chat",
+    "description": "ChatGPT-style AI assistant powered by multiple providers (Jatevo, OpenAI, Qwen, Groq, Claude)."
+  },
+  "kopedu-nft-solana": {
+    "title": "KopEdu Web3 — Belajar Koperasi, Sertifikat On-Chain Solana.",
+    "description": "Platform edukasi koperasi interaktif dengan sertifikat NFT di jaringan Solana. Modul terstruktur, KopBot AI tutor, dan bukti belajar yang dapat diverifikasi on-chain."
+  },
+  "kopedu": {
+    "title": "KopEdu — Pahami Koperasi. Kuasai Ekonomimu.",
+    "description": "Platform edukasi koperasi interaktif berbasis gamifikasi dan AI tutor untuk pelajar dan mahasiswa Indonesia. Gratis, terstruktur, dan bersertifikat."
+  },
+  "feasiflow-ai": {
+    "title": "FeasiFlow AI — Analisis Kelayakan Startup",
+    "description": "Validasi ide startup kamu dalam menit menggunakan Agentic AI. Business Model Canvas + Market Research otomatis. Skor 0-100."
+  },
+  "everanima": {
+    "title": "Everanima — the AI that remembers who you are",
+    "description": "A personal AI that writes its own memory of you, anchored to your Solana wallet. Long chats never erode who you are."
+  },
+  "diafund": {
+    "title": "Diafund — giving you can follow to the end",
+    "description": "Diafund escrows donations on Solana and releases them one milestone at a time, only after an independent verifier signs proof that the money reached its purpose."
+  },
+  "clinicflow-ai": {
+    "title": "ClinicFlow AI — Clinical Practice Management",
+    "description": null
+  },
+  "chainops-dashboard-ui-kit": {
+    "title": "ChainOps UI Kit - Dashboard Design System",
+    "description": "Production HTML screens and CSS design system for Web3 and AI products."
+  },
+  "botcall-protocol": {
+    "title": "BOT-CALL",
+    "description": null
+  },
+  "blockbite-xyz": {
+    "title": "BlockBite TDP — Token Distribution Protocol on Solana",
+    "description": "Stop distributing tokens blindly. Programmable cliff, linear, and milestone vesting with gamified anti-bot verification. 100% on-chain on Solana."
+  },
+  "blockbite": {
+    "title": "BlockBite — Skill-Based Web3 Arcade on Solana",
+    "description": "BlockBite: Buy tickets, play the ultimate block-puzzle arcade, climb the monthly leaderboard, and win real USDC prizes — all on-chain on Solana."
+  },
+  "basedrop": {
+    "title": "BaseDrop | Crypto Payment Links on Base",
+    "description": "Lock ETH or USDC in a smart contract escrow and share a claimable link. No wallet address needed on the recipient side."
+  },
+  "atlas-quant": {
+    "title": "ATLAS·QUANT — Quantitative Trading Platform",
+    "description": "Professional quantitative trading signals powered by AI and deterministic quant engine. Real-time charts, signal alerts, and multi-timeframe analysis."
+  },
+  "antigravity-prime-hunter": {
+    "title": "Antigravity Prime Hunter — Searching for the 52nd Mersenne Prime",
+    "description": "A Lucas-Lehmer search engine running 24 hours a day against Mersenne candidates above the current world record exponent of 136,279,841. Open-source, browser-native, no server required."
+  },
+  "anchor-debugger-skill": {
+    "title": "anchor-payfi-debugger-skill — Solana AI Kit",
+    "description": "A Claude Code skill for Anchor developers. Decodes transaction errors, optimizes compute budgets, and ships PayFi patterns for escrow, streaming, and x402 agent payments."
+  },
+  "veztra": {
+    "title": "Vestra — Programmable Token Distribution Infrastructure",
+    "description": "Flexible vesting infrastructure, powered onchain. Manage token allocation, milestone unlocks, and treasury distribution with transparency on Solana."
+  },
+  "smashgo": {
+    "title": "SmashGo | Badminton Court Management",
+    "description": "Booking lapangan bulu tangkis & matchmaking untuk perusahaan"
+  },
+  "omnia": {
+    "title": "OMNIA | Sovereign OS",
+    "description": "The Universal Engine for Sovereign Intelligence."
+  },
+  "machinelearning-project3-kelompok2": {
+    "title": "Segmentasi Nasabah Kartu Kredit | Kelompok B",
+    "description": null
+  },
+  "escrowkita": {
+    "title": "EscrowKita — Get Paid Safely. Without Trusting Anyone.",
+    "description": "Smart contract escrow in IDR. Funds are locked onchain and released only when the work is done. Non-custodial, open-source, verified on Base."
+  },
+  "computervision-project1": {
+    "title": "Login – Vercel",
+    "description": null
+  },
+  "coffeeshop-enterprisefinaltest": {
+    "title": "Antigravity Coffee — Where Every Cup Defies Gravity",
+    "description": null
+  },
+  "chainshift": {
+    "title": "CHAINSHIFT | Procedural World | Avalanche",
+    "description": null
+  },
+  "vericodeai": {
+    "title": "VeriCode AI — AI-Powered Developer Platform",
+    "description": "Practice coding, get AI assistance, track progress, and ace your interviews with VeriCode AI."
+  },
+  "solq": {
+    "title": "SOLQ — Solana × QRIS",
+    "description": null
+  },
+  "deadmanswitch": {
+    "title": "DEADMANSWITCH AI",
+    "description": "Autonomous Crypto Inheritance Protocol"
+  },
+  "voon": {
+    "title": "Voon — Meet at the Speed of Voice",
+    "description": "Platform video conference gratis, unlimited, khusus kampus Indonesia. Didukung AI untuk notulen, absensi, dan kuis otomatis."
+  },
+  "solqv2": {
+    "title": "SOLQ — Solana × QRIS",
+    "description": null
+  }
+}
