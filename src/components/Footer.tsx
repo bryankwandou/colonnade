@@ -22,6 +22,7 @@ export function Footer() {
             <li><Link href="/tools" className="hover:text-stone-50">Tools</Link></li>
             <li><Link href="/projects" className="hover:text-stone-50">Projects</Link></li>
             <li><Link href="/catalogue" className="hover:text-stone-50">Full catalogue</Link></li>
+            <li><Link href="/provenance" className="hover:text-stone-50">Where the marks came from</Link></li>
             <li><Link href="/verify" className="hover:text-stone-50">Verify on devnet</Link></li>
           </ul>
         </nav>

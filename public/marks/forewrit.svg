@@ -1,0 +1,14 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Forewrit">
+  <rect width="32" height="32" rx="6" fill="#0b0f13"/>
+  <!-- The seal: a closed bracket around a record, struck before the act.
+       The opening at the top is where the action would enter; it is closed
+       once the writ is sealed. -->
+  <path d="M9 9 V6.5 H23 V25.5 H9 V16"
+        stroke="#f1f4f7" stroke-width="2" stroke-linecap="square" fill="none" opacity="0.92"/>
+  <!-- Record lines: three entries, the last one short (in progress). -->
+  <rect x="13" y="11.5" width="7" height="1.6" fill="#f1f4f7" opacity="0.5"/>
+  <rect x="13" y="15.2" width="7" height="1.6" fill="#f1f4f7" opacity="0.5"/>
+  <rect x="13" y="18.9" width="4" height="1.6" fill="#f1f4f7" opacity="0.5"/>
+  <!-- The seal mark: amber, struck across the opening. -->
+  <rect x="6.5" y="11.6" width="5.5" height="2.4" fill="#f7a830"/>
+</svg>

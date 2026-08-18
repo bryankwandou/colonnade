@@ -67,6 +67,16 @@ function scorePath(path) {
   if (lower.includes("node_modules/") || lower.includes("/vendor/")) return 0;
   if (/screenshot|preview|banner|hero|cover|og-|opengraph|placeholder|demo|example|avatar|thumb/.test(lower)) return 0;
   if (/sprite|pattern|texture|background|bg-|illustration/.test(lower)) return 0;
+
+  // Somebody else's trademark. A repo that ships xampp-logo.svg is documenting
+  // its stack, not declaring its own mark, and presenting it as the project's
+  // logo would be exactly the substitution this catalogue exists to avoid.
+  const VENDORS =
+    "xampp|apache|mysql|mariadb|php|laravel|nodejs|npm|react|nextjs|vite|vuejs|angular|svelte|" +
+    "tailwind|bootstrap|jquery|python|django|flask|spring|docker|kubernetes|github|gitlab|" +
+    "vercel|netlify|firebase|supabase|aws|azure|google|facebook|instagram|tiktok|whatsapp|" +
+    "telegram|discord|solana|ethereum|metamask|phantom|figma|vscode|midtrans|xendit|qris";
+  if (new RegExp(`(^|[^a-z])(${VENDORS})([^a-z]|$)`).test(lower)) return 0;
   // Deeply nested files are components, not brand assets.
   if (path.split("/").length > 4) return 0;
 
@@ -124,15 +134,16 @@ async function main() {
   for (const entry of gaps) {
     let tree;
     try {
-      const raw = gh([
-        "api",
-        `repos/${OWNER}/${entry.repoName}/git/trees/HEAD?recursive=1`,
-        "--jq",
-        "[.tree[] | select(.type==\"blob\") | .path] | @json",
-      ]);
-      tree = JSON.parse(JSON.parse(raw.trim()));
-    } catch {
-      console.log(`   --  ${entry.slug.padEnd(34)} tree unavailable`);
+      // No --jq here: the expression has to survive a Windows shell fallback,
+      // and its quoting does not. Parsing the whole tree in Node is safer.
+      const raw = gh(["api", `repos/${OWNER}/${entry.repoName}/git/trees/HEAD?recursive=1`]);
+      const payload = JSON.parse(raw);
+      tree = (payload.tree ?? []).filter((n) => n.type === "blob").map((n) => n.path);
+    } catch (err) {
+      // Several repositories are reserved names with no commits yet. That is a
+      // real answer about the project, not a failure of this script.
+      const empty = /Git Repository is empty/i.test(String(err.stderr ?? err.message ?? ""));
+      console.log(`   --  ${entry.slug.padEnd(34)} ${empty ? "repository has no commits" : "tree unreadable"}`);
       continue;
     }
 

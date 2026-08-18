@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Tollward">
+  <!-- The ward: an enclosure with one deliberate opening on the right. -->
+  <path
+    d="M 28 13 L 28 11 A 7 7 0 0 0 21 4 L 11 4 A 7 7 0 0 0 4 11 L 4 21 A 7 7 0 0 0 11 28 L 21 28 A 7 7 0 0 0 28 21 L 28 19"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="3.25"
+    stroke-linecap="round"
+  />
+  <!-- The toll arm: the only thing standing in the opening. -->
+  <rect x="17.5" y="14.25" width="13.5" height="3.5" rx="1.75" fill="#E5A00D" />
+</svg>
