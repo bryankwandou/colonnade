@@ -1,26 +1,10 @@
 import raw from "@/data/catalog.json";
+import summary from "@/data/summary.json";
+import type { Entry, Shelf } from "./format";
+export { accentFor, initials, relativeDate, hostOf } from "./format";
+export type { Entry, Shelf } from "./format";
 
-export type Shelf = "tools" | "projects";
 
-export type Entry = {
-  slug: string;
-  name: string;
-  repoName: string;
-  tagline: string | null;
-  live: string | null;
-  source: string | null;
-  private: boolean;
-  archived: boolean;
-  language: string | null;
-  stars: number;
-  topics: string[];
-  shelf: Shelf;
-  category: string;
-  categoryLabel: string;
-  featured: boolean;
-  updatedAt: string;
-  createdAt: string;
-};
 
 export type Category = { id: string; label: string; blurb: string; count: number };
 export type ShelfGroup = { id: Shelf; label: string; categories: Category[] };
@@ -70,34 +54,33 @@ export const recentlyLive = entries
   .sort((a, b) => +new Date(b.updatedAt) - +new Date(a.updatedAt));
 
 /** Deterministic accent per entry, so a card looks the same on every render. */
-export function accentFor(slug: string): number {
-  let hash = 0;
-  for (let i = 0; i < slug.length; i++) hash = (hash * 31 + slug.charCodeAt(i)) >>> 0;
-  return hash % 360;
-}
 
 /** Two initials for the tile glyph, preferring word boundaries. */
-export function initials(name: string): string {
-  const words = name.replace(/[^A-Za-z0-9 ]/g, " ").split(/\s+/).filter(Boolean);
-  if (words.length >= 2) return (words[0][0] + words[1][0]).toUpperCase();
-  return name.slice(0, 2).toUpperCase();
-}
 
-export function relativeDate(iso: string): string {
-  const days = Math.floor((Date.now() - +new Date(iso)) / 86_400_000);
-  if (days <= 0) return "today";
-  if (days === 1) return "yesterday";
-  if (days < 30) return `${days} days ago`;
-  const months = Math.floor(days / 30);
-  if (months < 12) return `${months} month${months === 1 ? "" : "s"} ago`;
-  const years = Math.floor(months / 12);
-  return `${years} year${years === 1 ? "" : "s"} ago`;
-}
 
-export function hostOf(url: string): string {
-  try {
-    return new URL(url).host.replace(/^www\./, "");
-  } catch {
-    return url;
-  }
-}
+
+/**
+ * The shape the search API returns. Deliberately narrow: eight fields is what a
+ * result row draws, and sending the whole listing would put the weight back on
+ * the browser that moving search to Postgres just took off it.
+ */
+export type SearchHit = {
+  slug: string;
+  name: string;
+  tagline: string | null;
+  category_label: string;
+  live: string | null;
+  mark_file?: string | null;
+};
+
+/**
+ * Eight featured rows, inlined at build time so the search panel has something
+ * to show the instant it opens, before any query has been typed.
+ */
+/**
+ * Read from the small summary file rather than derived from `entries` here. A
+ * module-scope derive keeps the whole catalogue inside whatever bundle imports
+ * it, which is exactly the 103KB the header was shipping to every visitor.
+ */
+export const featuredSeed: SearchHit[] = summary.featured as SearchHit[];
+

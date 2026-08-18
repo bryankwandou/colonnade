@@ -3,8 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowUpRight, Lock } from "lucide-react";
-import { GithubGlyph } from "@/components/icons";
-import { accentFor, relativeDate, hostOf, type Entry } from "@/lib/catalog";
+import { accentFor, relativeDate, hostOf, type Entry } from "@/lib/format";
 import { ListingMark } from "@/components/Mark";
 
 function Tile({ entry, size = 52 }: { entry: Entry; size?: number }) {
@@ -50,24 +49,17 @@ export function EntryCard({ entry, index = 0 }: { entry: Entry; index?: number }
 
       {/* Direct exits, layered above the card link so a click does not bubble. */}
       <div className="pointer-events-none absolute inset-x-4 bottom-4 flex justify-end gap-1.5 opacity-0 transition-opacity duration-200 group-hover:opacity-100 group-focus-within:opacity-100">
-        {entry.source ? (
-          <a
-            href={entry.source}
-            target="_blank"
-            rel="noreferrer noopener"
-            aria-label={`Source for ${entry.name} on GitHub`}
-            className="pointer-events-auto grid size-7 place-items-center rounded-lg border border-white/10 bg-shadow-900/85 text-stone-200 backdrop-blur transition hover:border-white/25 hover:text-stone-50"
-          >
-            <GithubGlyph className="size-3.5" />
-          </a>
-        ) : (
-          <span
-            title="Private source"
-            className="pointer-events-auto grid size-7 place-items-center rounded-lg border border-white/8 bg-shadow-900/85 text-stone-300 backdrop-blur"
-          >
-            <Lock className="size-3.5" />
-          </span>
-        )}
+        {/*
+          Source links are withheld across the catalogue, so this is always the
+          closed state. The lock is kept rather than removed: a listing with no
+          visible repository should read as deliberately closed, not as missing.
+        */}
+        <span
+          title="Source not published"
+          className="pointer-events-auto grid size-7 place-items-center rounded-lg border border-white/8 bg-shadow-900/85 text-stone-300 backdrop-blur"
+        >
+          <Lock className="size-3.5" />
+        </span>
         {entry.live ? (
           <a
             href={entry.live}

@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   description,
   keywords: ["software catalogue", "developer portfolio", "Solana", "web tools", "shipped work"],
-  authors: [{ name: "Bryan Kwandou", url: "https://github.com/bryankwandou" }],
+  authors: [{ name: "Bryan Kwandou" }],
   openGraph: {
     type: "website",
     title: "Colonnade — the shipped work, on one shelf",

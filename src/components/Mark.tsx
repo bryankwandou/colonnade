@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import marksData from "@/data/marks.json";
-import { accentFor, type Entry } from "@/lib/catalog";
+import { accentFor, type Entry } from "@/lib/format";
 
 type MarkRecord = { file: string; source: string; kind: string; bytes: number };
 const marks = marksData as Record<string, MarkRecord>;

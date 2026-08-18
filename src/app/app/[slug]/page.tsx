@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowUpRight, Lock, Calendar, Code2, Star } from "lucide-react";
-import { GithubGlyph } from "@/components/icons";
 import { EntryCard } from "@/components/EntryCard";
 import { ListingMark } from "@/components/Mark";
 import { entries, findEntry, byCategory, accentFor, relativeDate, hostOf } from "@/lib/catalog";
@@ -85,7 +84,7 @@ export default async function EntryPage({ params }: { params: Promise<{ slug: st
                 </p>
               ) : (
                 <p className="mt-3 text-[0.95rem] text-stone-300">
-                  This one shipped without a written description. The source is the documentation.
+                  This one shipped without a written description.
                 </p>
               )}
 
@@ -106,22 +105,10 @@ export default async function EntryPage({ params }: { params: Promise<{ slug: st
                   </span>
                 )}
 
-                {entry.source ? (
-                  <a
-                    href={entry.source}
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="inline-flex items-center gap-2 rounded-xl border border-white/12 px-5 py-2.5 text-[0.9rem] text-stone-100 transition hover:border-white/30 hover:bg-white/4"
-                  >
-                    <GithubGlyph className="size-4" />
-                    Read the source
-                  </a>
-                ) : (
-                  <span className="inline-flex items-center gap-2 rounded-xl border border-white/10 px-5 py-2.5 text-[0.9rem] text-stone-300">
-                    <Lock className="size-4" />
-                    Source kept private
-                  </span>
-                )}
+                <span className="inline-flex items-center gap-2 rounded-xl border border-white/10 px-5 py-2.5 text-[0.9rem] text-stone-300">
+                  <Lock className="size-4" />
+                  Source not published
+                </span>
               </div>
             </div>
           </div>
@@ -143,7 +130,7 @@ export default async function EntryPage({ params }: { params: Promise<{ slug: st
 
           {entry.topics.length ? (
             <div className="mt-6 flex flex-wrap gap-2">
-              {entry.topics.map((t) => (
+              {entry.topics.map((t: string) => (
                 <span key={t} className="rounded-full border border-white/10 px-3 py-1 text-[0.75rem] text-stone-300">
                   {t}
                 </span>
@@ -170,9 +157,9 @@ export default async function EntryPage({ params }: { params: Promise<{ slug: st
           <Fact icon={Calendar} label="Last commit" value={relativeDate(entry.updatedAt)} />
           <Fact icon={Star} label="Stars" value={String(entry.stars)} />
           <Fact
-            icon={entry.private ? Lock : GithubGlyph}
+            icon={Lock}
             label="Repository"
-            value={entry.private ? "Private" : "Public"}
+            value="Not published"
           />
         </aside>
       </div>

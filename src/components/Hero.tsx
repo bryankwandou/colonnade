@@ -3,7 +3,9 @@
 import Link from "next/link";
 import { motion, useReducedMotion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import { counts } from "@/lib/catalog";
+import summary from "@/data/summary.json";
+
+const counts = summary.counts;
 
 /**
  * The colonnade builds itself: columns rise from the stylobate, the architrave

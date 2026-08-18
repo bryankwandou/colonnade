@@ -25,6 +25,7 @@ const OVERRIDES = join(root, "src", "data", "overrides.json");
 const REPO_SNAPSHOT = join(root, "src", "data", "repos.snapshot.json");
 const DEPLOY_SNAPSHOT = join(root, "src", "data", "deployments.json");
 const DISCOVERED = join(root, "src", "data", "discovered.json");
+const SUMMARY = join(root, "src", "data", "summary.json");
 
 /**
  * Deployments whose subdomain drifted away from the repository name, usually
@@ -42,6 +43,21 @@ const HOST_ALIASES = {
   "solq-demo": "solq",
   "blockbite-tdp": "BLOCKBITE-TDP",
 };
+
+
+/**
+ * Source links are withheld from the catalogue.
+ *
+ * A legal review asked for every repository link to come down so nothing points
+ * at code that may still carry government or personal data. The catalogue keeps
+ * one door per listing — the deployment — and says plainly that the source is
+ * closed rather than pretending it does not exist.
+ *
+ * This is a display decision, not a security control. A repository that is
+ * public on GitHub stays public whether or not this page links to it; making it
+ * private is a separate change on GitHub itself.
+ */
+const PUBLISH_SOURCE_LINKS = false;
 
 const isWindows = process.platform === "win32";
 
@@ -410,7 +426,8 @@ function main() {
       discoveredByName.get(repo.name.toLowerCase())?.url ??
       null;
 
-    const source = repo.isPrivate ? null : repo.url;
+    const hasPublicSource = !repo.isPrivate;
+    const source = hasPublicSource ? repo.url : null;
 
     // The rule the brief asked for: if there is a public way in, show it.
     if (!live && !source) {
@@ -427,7 +444,9 @@ function main() {
       repoName: repo.name,
       tagline: override?.tagline ?? repo.description ?? null,
       live,
-      source,
+      // Withheld on purpose; see PUBLISH_SOURCE_LINKS.
+      source: PUBLISH_SOURCE_LINKS ? source : null,
+      sourceWithheld: hasPublicSource && !PUBLISH_SOURCE_LINKS,
       private: Boolean(repo.isPrivate),
       archived: Boolean(repo.isArchived),
       language: repo.primaryLanguage?.name ?? null,
@@ -513,6 +532,27 @@ function main() {
   };
 
   mkdirSync(dirname(OUT), { recursive: true });
+  /*
+   * A summary the header can import without dragging the catalogue with it.
+   * The search panel needs eight featured rows and a few counts; importing
+   * catalog.json for that shipped 103KB to every visitor, because a module-scope
+   * derive keeps the whole file in the client bundle.
+   */
+  const summary = {
+    counts: catalog.counts,
+    featured: entries
+      .filter((e) => e.featured)
+      .slice(0, 8)
+      .map((e) => ({
+        slug: e.slug,
+        name: e.name,
+        tagline: e.tagline,
+        category_label: e.categoryLabel,
+        live: e.live,
+      })),
+  };
+  writeFileSync(SUMMARY, JSON.stringify(summary, null, 2) + "\n");
+
   writeFileSync(OUT, JSON.stringify(catalog, null, 2) + "\n");
 
   console.log(

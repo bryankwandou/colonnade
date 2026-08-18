@@ -84,6 +84,20 @@ function originOf(slug: string) {
   return { ...known, source: mark.source };
 }
 
+/**
+ * Repository names are withheld alongside the links themselves, so a path from
+ * a repo is shown as the path only. The file is still named, which is what
+ * makes a mark checkable; what is dropped is the address to fetch it from.
+ */
+function maskSource(source: string): string {
+  if (source.startsWith("github:")) {
+    const path = source.slice("github:".length);
+    const cut = path.indexOf("/");
+    return cut === -1 ? "committed in the repository" : `repository → ${path.slice(cut + 1)}`;
+  }
+  return source.replace(/^https?:\/\//, "");
+}
+
 function descriptionOrigin(slug: string) {
   if (blurbs[slug]?.length) return { label: "README", tone: "text-verdigris-300" };
   if (siteMeta[slug]?.description) return { label: "Site description", tone: "text-verdigris-300" };
@@ -200,7 +214,7 @@ export default function ProvenancePage() {
                     </span>
                   </td>
                   <td className="py-3 pr-4 font-mono text-[0.72rem] leading-snug text-stone-300/75">
-                    {origin.source ? origin.source.replace(/^https?:\/\//, "") : "—"}
+                    {origin.source ? maskSource(origin.source) : "—"}
                   </td>
                   <td className="py-3 pr-4">
                     {(() => {
@@ -226,7 +240,7 @@ export default function ProvenancePage() {
                         <ArrowUpRight className="size-3" />
                       </a>
                     ) : (
-                      <span className="text-[0.78rem] text-stone-500">source only</span>
+                      <span className="text-[0.78rem] text-stone-500">no public door</span>
                     )}
                   </td>
                 </tr>

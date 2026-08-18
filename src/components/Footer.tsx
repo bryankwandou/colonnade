@@ -17,28 +17,15 @@ export function Footer() {
         </div>
 
         <nav className="text-[0.85rem]">
-          <p className="mb-3 font-display text-stone-50">Browse</p>
-          <ul className="space-y-2 text-stone-300">
-            <li><Link href="/tools" className="hover:text-stone-50">Tools</Link></li>
-            <li><Link href="/projects" className="hover:text-stone-50">Projects</Link></li>
-            <li><Link href="/catalogue" className="hover:text-stone-50">Full catalogue</Link></li>
-            <li><Link href="/provenance" className="hover:text-stone-50">Where the marks came from</Link></li>
-            <li><Link href="/verify" className="hover:text-stone-50">Verify on devnet</Link></li>
-          </ul>
-        </nav>
-
-        <nav className="text-[0.85rem]">
           <p className="mb-3 font-display text-stone-50">Elsewhere</p>
           <ul className="space-y-2 text-stone-300">
             <li>
-              <a href="https://github.com/bryankwandou" target="_blank" rel="noreferrer noopener" className="hover:text-stone-50">
-                GitHub
+              <a href="https://colonnade.vercel.app/provenance" className="hover:text-stone-50">
+                Where the marks came from
               </a>
             </li>
-            <li>
-              <a href="https://github.com/bryankwandou/colonnade" target="_blank" rel="noreferrer noopener" className="hover:text-stone-50">
-                This repository
-              </a>
+            <li className="text-stone-400">
+              Source repositories are not published
             </li>
           </ul>
         </nav>
