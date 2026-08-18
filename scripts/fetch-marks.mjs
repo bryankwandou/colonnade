@@ -284,6 +284,12 @@ async function markFor(entry) {
     : iconCandidates(page.body, page.url);
 
   for (const candidate of ranked.slice(0, 7)) {
+    // Somebody else's trademark, arriving two ways: a host CDN serving its own
+    // brand when the site set no icon, and the starter-template logo a scaffold
+    // leaves in public/ (vite.svg, next.svg) that nobody ever replaced.
+    if (/^https?:\/\/(assets|static)\.(vercel|netlify)\.com\//i.test(candidate.url)) continue;
+    if (/\/(vite|next|react|nuxt|svelte|astro|turbo|vercel|remix)\.svg(\?|$)/i.test(candidate.url)) continue;
+
     const asset = await get(candidate.url, "buffer");
     if (!asset) continue;
     if (!/image|octet-stream/.test(asset.type) && !/\.(svg|png|ico|jpg|webp)$/i.test(candidate.url)) continue;

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Glyphra">
+  <defs>
+    <linearGradient id="gShell" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3730A3"/>
+      <stop offset="55%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="gCipher" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="48" height="48" rx="12" fill="url(#gShell)"/>
+
+  <!--
+    Left column reads as plaintext, right column as the same message after
+    substitution. The two columns are exact 180-degree rotations of each other,
+    so the mark states the transformation rather than decorating around it.
+  -->
+  <g fill="#F1F5F9">
+    <rect x="13" y="9"  width="7" height="10" rx="3.5"/>
+    <rect x="13" y="23" width="7" height="7"  rx="3.5"/>
+    <rect x="13" y="34" width="7" height="5"  rx="2.5"/>
+  </g>
+  <g fill="url(#gCipher)">
+    <rect x="28" y="9"  width="7" height="5"  rx="2.5"/>
+    <rect x="28" y="18" width="7" height="7"  rx="3.5"/>
+    <rect x="28" y="29" width="7" height="10" rx="3.5"/>
+  </g>
+</svg>
