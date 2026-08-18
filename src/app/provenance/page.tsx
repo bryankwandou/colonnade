@@ -13,7 +13,23 @@ export const metadata: Metadata = {
     "One row per listing, naming the file each logo was taken from and the text each description was written against.",
 };
 
-type MarkRecord = { file: string; source: string; kind: string; bytes: number };
+type MarkRecord = { file: string; source: string; kind: string; bytes: number; evidence?: string };
+
+/**
+ * How much is known about each mark, rather than a single yes-or-no.
+ *
+ * The first four rest on something the author published and can be opened and
+ * checked. The last rests on position in the markup alone, which is an
+ * inference — worth saying out loud rather than counting as proof.
+ */
+const EVIDENCE: Record<string, { label: string; tone: string; rank: number }> = {
+  declared: { label: "Site declares it as its icon", tone: "text-verdigris-300", rank: 1 },
+  committed: { label: "Committed at a framework path", tone: "text-verdigris-300", rank: 2 },
+  named: { label: "Markup names the product on it", tone: "text-verdigris-300", rank: 3 },
+  lockup: { label: "Sits inside the home link", tone: "text-brass-300", rank: 4 },
+  header: { label: "Sits inside the page header", tone: "text-brass-300", rank: 5 },
+  position: { label: "Position in the markup only", tone: "text-stone-400", rank: 6 },
+};
 const marks = marksData as Record<string, MarkRecord>;
 const blurbs = blurbData as Record<string, string[]>;
 const siteMeta = metaData as Record<string, { title: string | null; description: string | null }>;
@@ -122,6 +138,23 @@ export default function ProvenancePage() {
         ))}
       </div>
 
+      <div className="mb-8 flex flex-wrap gap-x-7 gap-y-2 text-[0.82rem] text-stone-300/80">
+        {Object.entries(
+          rows.reduce<Record<string, number>>((acc, e) => {
+            const ev = marks[e.slug]?.evidence;
+            if (ev) acc[ev] = (acc[ev] ?? 0) + 1;
+            return acc;
+          }, {})
+        )
+          .sort((a, b) => (EVIDENCE[a[0]]?.rank ?? 9) - (EVIDENCE[b[0]]?.rank ?? 9))
+          .map(([key, n]) => (
+            <span key={key} className={EVIDENCE[key]?.tone ?? "text-stone-400"}>
+              <span className="font-mono tabular-nums">{n}</span>{" "}
+              {(EVIDENCE[key]?.label ?? key).toLowerCase()}
+            </span>
+          ))}
+      </div>
+
       <div className="mb-10 flex flex-wrap gap-x-7 gap-y-2 text-[0.82rem] text-stone-300/80">
         {Object.entries(byOrigin)
           .sort((a, b) => b[1] - a[1])
@@ -140,6 +173,7 @@ export default function ProvenancePage() {
               <th className="py-3 pr-4 font-normal">Listing</th>
               <th className="py-3 pr-4 font-normal">Mark taken from</th>
               <th className="py-3 pr-4 font-normal">Exact file</th>
+              <th className="py-3 pr-4 font-normal">How it is known to be theirs</th>
               <th className="py-3 pr-4 font-normal">Description written against</th>
               <th className="py-3 font-normal">Door</th>
             </tr>
@@ -167,6 +201,17 @@ export default function ProvenancePage() {
                   </td>
                   <td className="py-3 pr-4 font-mono text-[0.72rem] leading-snug text-stone-300/75">
                     {origin.source ? origin.source.replace(/^https?:\/\//, "") : "—"}
+                  </td>
+                  <td className="py-3 pr-4">
+                    {(() => {
+                      const e = marks[entry.slug]?.evidence;
+                      const known = e ? EVIDENCE[e] : null;
+                      return known ? (
+                        <span className={known.tone}>{known.label}</span>
+                      ) : (
+                        <span className="text-stone-500">—</span>
+                      );
+                    })()}
                   </td>
                   <td className={`py-3 pr-4 ${source.tone}`}>{source.label}</td>
                   <td className="py-3">
