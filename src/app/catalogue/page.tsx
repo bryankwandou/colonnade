@@ -27,7 +27,8 @@ export default function IndexPage() {
         </h1>
         <p className="mt-3 max-w-2xl text-[0.95rem] leading-relaxed text-stone-200/85">
           All {counts.listed} listings, grouped the way they are shelved. {counts.live} have a
-          running deployment; the rest are readable as source. {counts.withheld} private
+          running deployment. Source repositories are withheld across the catalogue, so a listing
+          without a live door has no public entrance at all. {counts.withheld} private
           repositories are counted but withheld, because there is no public door to send you
           through.
         </p>
@@ -80,7 +81,7 @@ export default function IndexPage() {
                             <ArrowUpRight className="size-3 shrink-0" />
                           </a>
                         ) : (
-                          <span className="w-40 text-right opacity-40">source only</span>
+                          <span className="w-40 text-right opacity-40">no public door</span>
                         )}
                       </div>
                     </li>

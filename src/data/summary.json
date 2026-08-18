@@ -1,0 +1,69 @@
+{
+  "counts": {
+    "repos": 151,
+    "listed": 159,
+    "withheld": 8,
+    "live": 124,
+    "private": 9,
+    "tools": 58,
+    "projects": 101
+  },
+  "featured": [
+    {
+      "slug": "assaykit",
+      "name": "Assaykit",
+      "tagline": "Scan an MCP server or agent skill before you trust it with your machine.",
+      "category_label": "Agent Infrastructure",
+      "live": "https://assaykit.vercel.app"
+    },
+    {
+      "slug": "kithra",
+      "name": "Kithra",
+      "tagline": "A chat companion with a fixed personality and a memory ledger you are allowed to edit.",
+      "category_label": "Consumer & Culture",
+      "live": "https://kithra.vercel.app"
+    },
+    {
+      "slug": "handpress",
+      "name": "Handpress",
+      "tagline": "A type and poster studio with real text effects and per-layer control, running client side.",
+      "category_label": "Creative Studio",
+      "live": "https://handpress.vercel.app"
+    },
+    {
+      "slug": "marque",
+      "name": "Marque",
+      "tagline": "A browser IDE that signs its own output. Every AI-written patch carries a hash you can check.",
+      "category_label": "Developer Workbench",
+      "live": "https://marque-eight-ruddy.vercel.app"
+    },
+    {
+      "slug": "grainroom",
+      "name": "Grainroom",
+      "tagline": "A darkroom in a browser tab. WebGL2 grading, film emulation, and looks you can carry between machines.",
+      "category_label": "Creative Studio",
+      "live": "https://grainroom-seven.vercel.app"
+    },
+    {
+      "slug": "nullstamp",
+      "name": "Nullstamp",
+      "tagline": "A verifiable stamp on every agent call that touches personal data.",
+      "category_label": "Agent Infrastructure",
+      "live": "https://nullstamp.vercel.app"
+    },
+    {
+      "slug": "kernly",
+      "name": "Kernly",
+      "tagline": "Squeeze an agent's context down to what matters, and keep a receipt showing what was dropped.",
+      "category_label": "Agent Infrastructure",
+      "live": "https://kernly.vercel.app"
+    },
+    {
+      "slug": "solera",
+      "name": "Solera",
+      "tagline": "An art marketplace where the artist keeps the keys and carries the body of work with them.",
+      "category_label": "Solana & Web3",
+      "live": "https://solera-one.vercel.app"
+    }
+  ]
+}

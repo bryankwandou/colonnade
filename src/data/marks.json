@@ -1,18 +1,18 @@
 {
-  "kithra": {
-    "file": "kithra.svg",
-    "source": "https://kithra.vercel.app (inline)",
-    "kind": "inline",
-    "bytes": 1222,
-    "digest": "1916995e14ceb7d212fd3162863844c2770c859007076b187dfeb83703879469",
-    "evidence": "named"
-  },
   "assaykit": {
     "file": "assaykit.svg",
     "source": "https://assaykit.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1530,
     "digest": "2784ebc15f62b7c2d152b3349aaf83ccaf6e4b46b3727bfa0577641b3f4956a7",
+    "evidence": "named"
+  },
+  "kithra": {
+    "file": "kithra.svg",
+    "source": "https://kithra.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1222,
+    "digest": "1916995e14ceb7d212fd3162863844c2770c859007076b187dfeb83703879469",
     "evidence": "named"
   },
   "handpress": {
@@ -87,14 +87,6 @@
     "digest": "2b16ce5043faf71cbcd5d3f34de6c7622d983146b1ae5d564403f75a0c55e1de",
     "evidence": "declared"
   },
-  "cadensa": {
-    "file": "cadensa.svg",
-    "source": "https://cadensa.vercel.app (inline)",
-    "kind": "inline",
-    "bytes": 4326,
-    "digest": "7b4cc774e58a5584f2d23eebd631e5d49e79066b905c32a8d4899e689ec3d471",
-    "evidence": "named"
-  },
   "arbiter": {
     "file": "arbiter.svg",
     "source": "https://dashboard-web-gamma-peach.vercel.app (inline)",
@@ -103,12 +95,68 @@
     "digest": "9a8c6120ecc25abd80d883f432dfc413e4c8e2aa2b0c9852fb62858039f0d327",
     "evidence": "header"
   },
+  "kanvara": {
+    "file": "kanvara.svg",
+    "source": "https://kanvara.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1612,
+    "digest": "e3a82d69833bdc9e3623901363a9093166aacb2be1cc9c665d1c0101c1d6a516",
+    "evidence": "position"
+  },
+  "keelstack-health": {
+    "file": "keelstack-health.svg",
+    "source": "https://keelstack-health.vercel.app/mark.svg",
+    "kind": "svg",
+    "bytes": 707,
+    "digest": "2f51c04eff85336b48fe6e2e6e78dda9f7629d84afcac721012c0de6a4b789cd",
+    "evidence": "declared"
+  },
+  "keelstack-food": {
+    "file": "keelstack-food.svg",
+    "source": "https://keelstack-food.vercel.app/mark.svg",
+    "kind": "svg",
+    "bytes": 707,
+    "digest": "fda3b9235074ce61781dc719eaf90506957e37cc5c32048511cf4452bb7625b1",
+    "evidence": "declared"
+  },
+  "keelstack-travel": {
+    "file": "keelstack-travel.svg",
+    "source": "https://keelstack-travel.vercel.app/mark.svg",
+    "kind": "svg",
+    "bytes": 707,
+    "digest": "0ab8da5ca6acb1fe79a79de70dc9c9904628e53bec653964b197d8ced1097546",
+    "evidence": "declared"
+  },
+  "keelstack-payments": {
+    "file": "keelstack-payments.svg",
+    "source": "https://keelstack-payments.vercel.app/mark.svg",
+    "kind": "svg",
+    "bytes": 707,
+    "digest": "ebfa3e544e53e8c67b0f82ce66f16304d4f83bade9c67bcd123c0d7f47dc1205",
+    "evidence": "declared"
+  },
+  "cadensa": {
+    "file": "cadensa.svg",
+    "source": "https://cadensa.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 4326,
+    "digest": "7b4cc774e58a5584f2d23eebd631e5d49e79066b905c32a8d4899e689ec3d471",
+    "evidence": "named"
+  },
   "colonnade": {
     "file": "colonnade.svg",
     "source": "https://colonnade.vercel.app (inline)",
     "kind": "inline",
     "bytes": 2473,
     "digest": "d7c8ec1cf256ea39e3809239d23efad760fc4a208bdc97b87c3b9bf90964a5d1",
+    "evidence": "named"
+  },
+  "tokenwatt": {
+    "file": "tokenwatt.svg",
+    "source": "https://tokenwatt.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1161,
+    "digest": "084bde2e0859c05c03b315723f16c6c791d83f8cda96246156971f5c223a3ce2",
     "evidence": "named"
   },
   "bryankwandou": {
@@ -223,14 +271,6 @@
     "digest": "b5921f558124d87f990ca21c0ed6e25cbb2225956d03ca52b99f25ae43096079",
     "evidence": "declared"
   },
-  "keelstack-payments": {
-    "file": "keelstack-payments.svg",
-    "source": "https://keelstack-payments.vercel.app/mark.svg",
-    "kind": "svg",
-    "bytes": 707,
-    "digest": "ebfa3e544e53e8c67b0f82ce66f16304d4f83bade9c67bcd123c0d7f47dc1205",
-    "evidence": "declared"
-  },
   "keelstack-commerce": {
     "file": "keelstack-commerce.svg",
     "source": "https://keelstack-commerce.vercel.app/mark.svg",
@@ -238,14 +278,6 @@
     "bytes": 707,
     "digest": "5c6e83d158384bbb0b01db7818aab021e40b7cfa27906f3eff1a30ff32369ae7",
     "evidence": "declared"
-  },
-  "tokenwatt": {
-    "file": "tokenwatt.svg",
-    "source": "https://tokenwatt.vercel.app (inline)",
-    "kind": "inline",
-    "bytes": 1161,
-    "digest": "084bde2e0859c05c03b315723f16c6c791d83f8cda96246156971f5c223a3ce2",
-    "evidence": "named"
   },
   "nngesport": {
     "file": "nngesport.jpg",
@@ -269,30 +301,6 @@
     "kind": "svg",
     "bytes": 707,
     "digest": "b2e5f623f27c1efd5d43ec5684fda38340fd31f1495cde0b8a5f5e1f47c69b58",
-    "evidence": "declared"
-  },
-  "keelstack-health": {
-    "file": "keelstack-health.svg",
-    "source": "https://keelstack-health.vercel.app/mark.svg",
-    "kind": "svg",
-    "bytes": 707,
-    "digest": "2f51c04eff85336b48fe6e2e6e78dda9f7629d84afcac721012c0de6a4b789cd",
-    "evidence": "declared"
-  },
-  "keelstack-food": {
-    "file": "keelstack-food.svg",
-    "source": "https://keelstack-food.vercel.app/mark.svg",
-    "kind": "svg",
-    "bytes": 707,
-    "digest": "fda3b9235074ce61781dc719eaf90506957e37cc5c32048511cf4452bb7625b1",
-    "evidence": "declared"
-  },
-  "keelstack-travel": {
-    "file": "keelstack-travel.svg",
-    "source": "https://keelstack-travel.vercel.app/mark.svg",
-    "kind": "svg",
-    "bytes": 707,
-    "digest": "0ab8da5ca6acb1fe79a79de70dc9c9904628e53bec653964b197d8ced1097546",
     "evidence": "declared"
   },
   "fluentia": {
@@ -327,14 +335,6 @@
     "digest": "9e5af0de673f160d6f43a4988bc5e0b824e74b8ebcc7e63684fb56c39d0cbdd1",
     "evidence": "declared"
   },
-  "kanvara": {
-    "file": "kanvara.svg",
-    "source": "https://kanvara.vercel.app (inline)",
-    "kind": "inline",
-    "bytes": 1612,
-    "digest": "e3a82d69833bdc9e3623901363a9093166aacb2be1cc9c665d1c0101c1d6a516",
-    "evidence": "position"
-  },
   "keelstack": {
     "file": "keelstack.svg",
     "source": "https://keelstack.vercel.app (inline)",
@@ -350,6 +350,14 @@
     "bytes": 708,
     "digest": "d0e3ca2b7bc745cf9d89904b517f48d226edb9ab4228e29fac4650432e35ca76",
     "evidence": "lockup"
+  },
+  "aval-site": {
+    "file": "aval-site.svg",
+    "source": "github:aval-site/app/icon.svg",
+    "kind": "repo",
+    "bytes": 552,
+    "digest": "ed6a58b2deadcef7cac1ccbde968726c53cd4c85c60331022f43ac4e29ebebe4",
+    "evidence": "committed"
   },
   "altercast": {
     "file": "altercast.svg",
@@ -446,6 +454,14 @@
     "bytes": 653,
     "digest": "b900f4b02b2ff9ef81e6789a82539a7166f738e0537dc728148c94e209a3cde9",
     "evidence": "named"
+  },
+  "x402gate": {
+    "file": "x402gate.svg",
+    "source": "github:x402gate/public/logo-icon.svg",
+    "kind": "repo",
+    "bytes": 258,
+    "digest": "7758e84e32f749c840d6207f23168d2900dab57547a090a6cd92e843dedba562",
+    "evidence": "committed"
   },
   "tanki-request": {
     "file": "tanki-request.svg",
@@ -660,135 +676,111 @@
     "source": "github:spigot/src/app/icon.svg",
     "kind": "repo",
     "bytes": 717,
-    "digest": "9d4caa2baa53dfbccf6660ab3b00a8eaad0517655f3f119c9362ab367862eab5",
-    "evidence": "committed"
+    "digest": "9d4caa2baa53dfbccf6660ab3b00a8eaad0517655f3f119c9362ab367862eab5"
   },
-  "aval-site": {
-    "file": "aval-site.svg",
-    "source": "github:aval-site/app/icon.svg",
+  "antigravity-ide-frontend": {
+    "file": "antigravity-ide-frontend.svg",
+    "source": "github:antigravity-ide-frontend/jetski-logo-white.svg",
     "kind": "repo",
-    "bytes": 552,
-    "digest": "ed6a58b2deadcef7cac1ccbde968726c53cd4c85c60331022f43ac4e29ebebe4",
-    "evidence": "committed"
-  },
-  "x402gate": {
-    "file": "x402gate.svg",
-    "source": "github:x402gate/public/logo-icon.svg",
-    "kind": "repo",
-    "bytes": 258,
-    "digest": "7758e84e32f749c840d6207f23168d2900dab57547a090a6cd92e843dedba562",
-    "evidence": "committed"
+    "bytes": 342,
+    "digest": "74db5a99f783e1fa6d1c71c03bb165f3424c1e6c58e29d3cfaf8563790690e5a"
   },
   "tollward": {
     "file": "tollward.svg",
     "source": "github:tollward/public/logo.svg",
     "kind": "repo",
     "bytes": 576,
-    "digest": "dd41ce1dda0b748efdc0c670c19b3c3a7ef73df0a85b3b64ad521563be5ae3b9",
-    "evidence": "committed"
+    "digest": "dd41ce1dda0b748efdc0c670c19b3c3a7ef73df0a85b3b64ad521563be5ae3b9"
   },
   "forewrit": {
     "file": "forewrit.svg",
     "source": "github:forewrit/public/logo.svg",
     "kind": "repo",
     "bytes": 911,
-    "digest": "4242c80b86c04b120ed6d421d11c861ebe685e8f0bc2b62260f1ba960a04df3c",
-    "evidence": "committed"
-  },
-  "verichain": {
-    "file": "verichain.png",
-    "source": "github:verichain/frontend/logo.png",
-    "kind": "repo",
-    "bytes": 904,
-    "digest": "0d69cc7c33b8c070a3ef68b194ddeb52e63012ddbc5c9568d4a04f0f87e2683a",
-    "evidence": "committed"
-  },
-  "pocketledger-offline-expense-tracker": {
-    "file": "pocketledger-offline-expense-tracker.png",
-    "source": "github:pocketledger-offline-expense-tracker/branding/logo.png",
-    "kind": "repo",
-    "bytes": 528952,
-    "digest": "34bc6352cdb5113f191b212588812825126fc7cc5606b70f85db643a70372581",
-    "evidence": "committed"
-  },
-  "hydraflow-water-reminder": {
-    "file": "hydraflow-water-reminder.png",
-    "source": "github:hydraflow-water-reminder/assets/logo.png",
-    "kind": "repo",
-    "bytes": 272529,
-    "digest": "f10c4f9b4ced7b62fbaa70d7a6ea27181507ee40e75cce24741b4ea4000025b6",
-    "evidence": "committed"
-  },
-  "habitforge": {
-    "file": "habitforge.png",
-    "source": "github:habitforge/assets/logo/logo.png",
-    "kind": "repo",
-    "bytes": 648833,
-    "digest": "255ebf73329f6e9591c271022ce99d834f4f7930a7c290fc56357839ff79a18e",
-    "evidence": "committed"
-  },
-  "focusforge-pomodoro": {
-    "file": "focusforge-pomodoro.png",
-    "source": "github:focusforge-pomodoro/app/assets/icons/logo.png",
-    "kind": "repo",
-    "bytes": 285363,
-    "digest": "d99ed8da67166221b010b3b8ce2a57053999c82c28db4438d90f15d8f3834e15",
-    "evidence": "committed"
-  },
-  "flowtask-smart-todo-app": {
-    "file": "flowtask-smart-todo-app.png",
-    "source": "github:flowtask-smart-todo-app/landing_page/public/logo.png",
-    "kind": "repo",
-    "bytes": 257682,
-    "digest": "358be2ecd8c70c9211b05f04fee2334b6a126f6b41a242f9470403b92326b6e8",
-    "evidence": "committed"
-  },
-  "blockblast": {
-    "file": "blockblast.svg",
-    "source": "github:blockblast/public/logo.svg",
-    "kind": "repo",
-    "bytes": 5236,
-    "digest": "fc093d53019fa421e5ba39cda3bb0bddcacb0c2bd61947cb36a77a3ec518fe67",
-    "evidence": "committed"
-  },
-  "nng-tiktok-live-agent": {
-    "file": "nng-tiktok-live-agent.png",
-    "source": "github:NNG-TIKTOK-LIVE-AGENT/assets/images/LOGO.png",
-    "kind": "repo",
-    "bytes": 180238,
-    "digest": "aecd6896073028774b9b7bfb600505f64d91a7bb2fc7c1efd2885691e75e07b0",
-    "evidence": "committed"
-  },
-  "movv-bmi": {
-    "file": "movv-bmi.png",
-    "source": "github:MOVV-BMI/assets/images/logo.png",
-    "kind": "repo",
-    "bytes": 139545,
-    "digest": "bdbeb7d23b5a019422776a7d77ed60c9eaf820b87367d73f6a1ad79d47d68fef",
-    "evidence": "committed"
-  },
-  "inspiraverse": {
-    "file": "inspiraverse.png",
-    "source": "github:InspiraVerse/assets/images/logo.png",
-    "kind": "repo",
-    "bytes": 420872,
-    "digest": "3c47f1605c2aecca76321ced8e06845a093f4c535b29f5d4372fb43594a5191f",
-    "evidence": "committed"
+    "digest": "4242c80b86c04b120ed6d421d11c861ebe685e8f0bc2b62260f1ba960a04df3c"
   },
   "glyphra": {
     "file": "glyphra.svg",
     "source": "github:glyphra/public/mark.svg",
     "kind": "repo",
     "bytes": 1260,
-    "digest": "ee0958ab75ae4946ef1ccb5f5b0f54ef48e9567e2d464adbe9767c5d6729fdf4",
-    "evidence": "committed"
+    "digest": "ee0958ab75ae4946ef1ccb5f5b0f54ef48e9567e2d464adbe9767c5d6729fdf4"
+  },
+  "verichain": {
+    "file": "verichain.png",
+    "source": "github:verichain/frontend/logo.png",
+    "kind": "repo",
+    "bytes": 904,
+    "digest": "0d69cc7c33b8c070a3ef68b194ddeb52e63012ddbc5c9568d4a04f0f87e2683a"
   },
   "semester3dan4": {
     "file": "semester3dan4.png",
     "source": "github:semester3dan4/00agen/assets/img/logo.png",
     "kind": "repo",
     "bytes": 3432,
-    "digest": "0b4fd157a9f594f9c0f11da8e515863fef77ae534838a84d578b28a9e58787b8",
-    "evidence": "committed"
+    "digest": "0b4fd157a9f594f9c0f11da8e515863fef77ae534838a84d578b28a9e58787b8"
+  },
+  "pocketledger-offline-expense-tracker": {
+    "file": "pocketledger-offline-expense-tracker.png",
+    "source": "github:pocketledger-offline-expense-tracker/branding/logo.png",
+    "kind": "repo",
+    "bytes": 528952,
+    "digest": "34bc6352cdb5113f191b212588812825126fc7cc5606b70f85db643a70372581"
+  },
+  "hydraflow-water-reminder": {
+    "file": "hydraflow-water-reminder.png",
+    "source": "github:hydraflow-water-reminder/assets/logo.png",
+    "kind": "repo",
+    "bytes": 272529,
+    "digest": "f10c4f9b4ced7b62fbaa70d7a6ea27181507ee40e75cce24741b4ea4000025b6"
+  },
+  "habitforge": {
+    "file": "habitforge.png",
+    "source": "github:habitforge/assets/logo/logo.png",
+    "kind": "repo",
+    "bytes": 648833,
+    "digest": "255ebf73329f6e9591c271022ce99d834f4f7930a7c290fc56357839ff79a18e"
+  },
+  "focusforge-pomodoro": {
+    "file": "focusforge-pomodoro.png",
+    "source": "github:focusforge-pomodoro/app/assets/icons/logo.png",
+    "kind": "repo",
+    "bytes": 285363,
+    "digest": "d99ed8da67166221b010b3b8ce2a57053999c82c28db4438d90f15d8f3834e15"
+  },
+  "flowtask-smart-todo-app": {
+    "file": "flowtask-smart-todo-app.png",
+    "source": "github:flowtask-smart-todo-app/landing_page/public/logo.png",
+    "kind": "repo",
+    "bytes": 257682,
+    "digest": "358be2ecd8c70c9211b05f04fee2334b6a126f6b41a242f9470403b92326b6e8"
+  },
+  "blockblast": {
+    "file": "blockblast.svg",
+    "source": "github:blockblast/public/logo.svg",
+    "kind": "repo",
+    "bytes": 5236,
+    "digest": "fc093d53019fa421e5ba39cda3bb0bddcacb0c2bd61947cb36a77a3ec518fe67"
+  },
+  "nng-tiktok-live-agent": {
+    "file": "nng-tiktok-live-agent.png",
+    "source": "github:NNG-TIKTOK-LIVE-AGENT/assets/images/LOGO.png",
+    "kind": "repo",
+    "bytes": 180238,
+    "digest": "aecd6896073028774b9b7bfb600505f64d91a7bb2fc7c1efd2885691e75e07b0"
+  },
+  "movv-bmi": {
+    "file": "movv-bmi.png",
+    "source": "github:MOVV-BMI/assets/images/logo.png",
+    "kind": "repo",
+    "bytes": 139545,
+    "digest": "bdbeb7d23b5a019422776a7d77ed60c9eaf820b87367d73f6a1ad79d47d68fef"
+  },
+  "inspiraverse": {
+    "file": "inspiraverse.png",
+    "source": "github:InspiraVerse/assets/images/logo.png",
+    "kind": "repo",
+    "bytes": 420872,
+    "digest": "3c47f1605c2aecca76321ced8e06845a093f4c535b29f5d4372fb43594a5191f"
   }
 }

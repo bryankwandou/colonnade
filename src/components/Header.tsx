@@ -2,13 +2,25 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Search, X } from "lucide-react";
 import { Lockup } from "@/components/Logo";
 import { WalletPill } from "@/components/WalletPill";
 import { ListingMark } from "@/components/Mark";
-import { entries, counts, type Entry } from "@/lib/catalog";
+import summary from "@/data/summary.json";
+
+type Hit = {
+  slug: string;
+  name: string;
+  tagline: string | null;
+  category_label: string;
+  live: string | null;
+};
+
+/** Eight rows, embedded at build time, so the panel is never empty on open. */
+const featured: Hit[] = summary.featured as Hit[];
+const counts = summary.counts;
 
 const NAV = [
   { href: "/tools", label: "Tools" },
@@ -18,21 +30,10 @@ const NAV = [
   { href: "/verify", label: "Verify" },
 ];
 
-function score(entry: Entry, q: string): number {
-  const name = entry.name.toLowerCase();
-  const slug = entry.slug.toLowerCase();
-  const tag = (entry.tagline ?? "").toLowerCase();
-  if (name === q || slug === q) return 100;
-  if (name.startsWith(q) || slug.startsWith(q)) return 80;
-  if (name.includes(q) || slug.includes(q)) return 60;
-  if (entry.categoryLabel.toLowerCase().includes(q)) return 40;
-  if (tag.includes(q)) return 30;
-  if (entry.topics.some((t) => t.toLowerCase().includes(q))) return 25;
-  return 0;
-}
-
 function SearchPanel({ onClose }: { onClose: () => void }) {
   const [q, setQ] = useState("");
+  const [results, setResults] = useState<Hit[]>(featured);
+  const [pending, setPending] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -42,15 +43,41 @@ function SearchPanel({ onClose }: { onClose: () => void }) {
     return () => window.removeEventListener("keydown", onKey);
   }, [onClose]);
 
-  const results = useMemo(() => {
-    const needle = q.trim().toLowerCase();
-    if (!needle) return entries.filter((e) => e.featured).slice(0, 8);
-    return entries
-      .map((e) => ({ e, s: score(e, needle) }))
-      .filter((r) => r.s > 0)
-      .sort((a, b) => b.s - a.s || +new Date(b.e.updatedAt) - +new Date(a.e.updatedAt))
-      .slice(0, 12)
-      .map((r) => r.e);
+  /*
+   * Search runs in Postgres now, not here. The catalogue used to be imported
+   * into this component, which meant every visitor downloaded all 158 listings
+   * before they could type. Queries are debounced and the in-flight one is
+   * aborted when the next keystroke lands, so results never arrive out of order.
+   */
+  useEffect(() => {
+    const needle = q.trim();
+    if (!needle) {
+      setResults(featured);
+      setPending(false);
+      return;
+    }
+
+    const controller = new AbortController();
+    setPending(true);
+    const timer = setTimeout(async () => {
+      try {
+        const res = await fetch(`/api/search?q=${encodeURIComponent(needle)}`, {
+          signal: controller.signal,
+        });
+        const data = await res.json();
+        setResults(data.results ?? []);
+      } catch {
+        // Aborted by the next keystroke, or the network dropped. Either way the
+        // panel keeps showing what it had rather than flashing empty.
+      } finally {
+        setPending(false);
+      }
+    }, 160);
+
+    return () => {
+      clearTimeout(timer);
+      controller.abort();
+    };
   }, [q]);
 
   return (
@@ -90,7 +117,9 @@ function SearchPanel({ onClose }: { onClose: () => void }) {
         <ul className="max-h-[52vh] overflow-y-auto p-2">
           {results.length === 0 ? (
             <li className="px-3 py-8 text-center text-[0.85rem] text-stone-300">
-              Nothing matches “{q}”. Try a category, a language, or part of a name.
+              {pending
+                ? "Searching…"
+                : `Nothing matches “${q}”. Try a category, a language, or part of a name.`}
             </li>
           ) : (
             results.map((e) => (
@@ -100,11 +129,11 @@ function SearchPanel({ onClose }: { onClose: () => void }) {
                   onClick={onClose}
                   className="flex items-center gap-3 rounded-xl px-3 py-2.5 transition hover:bg-white/6"
                 >
-                  <ListingMark entry={e} size={32} />
+                  <ListingMark entry={{ slug: e.slug, name: e.name }} size={32} />
                   <span className="min-w-0 flex-1">
                     <span className="block truncate text-[0.87rem] text-stone-50">{e.name}</span>
                     <span className="block truncate text-[0.74rem] text-stone-300">
-                      {e.tagline ?? e.categoryLabel}
+                      {e.tagline ?? e.category_label}
                     </span>
                   </span>
                   {e.live ? <span className="size-1.5 shrink-0 rounded-full bg-verdigris-400" /> : null}

@@ -391,6 +391,15 @@ async function main() {
     }
   }
 
+  // Marks this pass never looked at — the ones scripts/fetch-github-marks.mjs
+  // pulled out of the repositories — must survive. Rebuilding the map from this
+  // scrape alone silently discarded seventeen of them.
+  for (const [slug, prior] of Object.entries(existing)) {
+    if (marks[slug]) continue;
+    if (!existsSync(join(MARK_DIR, prior.file))) continue;
+    marks[slug] = prior;
+  }
+
   const { kept, rejected, byDigest } = rejectSharedDefaults(marks);
 
   if (rejected.length) {
