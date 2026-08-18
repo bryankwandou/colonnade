@@ -4,692 +4,791 @@
     "source": "https://kithra.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1222,
-    "digest": "1916995e14ceb7d212fd3162863844c2770c859007076b187dfeb83703879469"
+    "digest": "1916995e14ceb7d212fd3162863844c2770c859007076b187dfeb83703879469",
+    "evidence": "named"
   },
   "assaykit": {
     "file": "assaykit.svg",
     "source": "https://assaykit.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1530,
-    "digest": "2784ebc15f62b7c2d152b3349aaf83ccaf6e4b46b3727bfa0577641b3f4956a7"
+    "digest": "2784ebc15f62b7c2d152b3349aaf83ccaf6e4b46b3727bfa0577641b3f4956a7",
+    "evidence": "named"
   },
   "handpress": {
     "file": "handpress.svg",
     "source": "https://handpress.vercel.app (inline)",
     "kind": "inline",
     "bytes": 827,
-    "digest": "9533f33b1feb4c77a1c78d2f8d15b869fade382bd1ad0e04d79f8edd34787699"
+    "digest": "9533f33b1feb4c77a1c78d2f8d15b869fade382bd1ad0e04d79f8edd34787699",
+    "evidence": "named"
   },
   "marque": {
     "file": "marque.svg",
     "source": "https://marque-eight-ruddy.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1104,
-    "digest": "065613dbfb79b11b1dc7ab7cc6fde80b8ba94aea4a7448d5a82ffd58760e886d"
+    "digest": "065613dbfb79b11b1dc7ab7cc6fde80b8ba94aea4a7448d5a82ffd58760e886d",
+    "evidence": "lockup"
   },
   "grainroom": {
     "file": "grainroom.svg",
     "source": "https://grainroom-seven.vercel.app (inline)",
     "kind": "inline",
     "bytes": 5422,
-    "digest": "1b353765b088f08d903db5fd6ab4de3d0b50ea13444a061cb45f322fa813e2b9"
+    "digest": "1b353765b088f08d903db5fd6ab4de3d0b50ea13444a061cb45f322fa813e2b9",
+    "evidence": "named"
   },
   "nullstamp": {
     "file": "nullstamp.svg",
     "source": "https://nullstamp.vercel.app (inline)",
     "kind": "inline",
     "bytes": 770,
-    "digest": "16ff2524c38c835fcfd0fd0c6accda8bf501f61f569f689d215f99ac49524f51"
+    "digest": "16ff2524c38c835fcfd0fd0c6accda8bf501f61f569f689d215f99ac49524f51",
+    "evidence": "named"
   },
   "kernly": {
     "file": "kernly.svg",
     "source": "https://kernly.vercel.app (inline)",
     "kind": "inline",
     "bytes": 858,
-    "digest": "112d8bbd0b339ce7b3fdf74600e6159fb6d0a28f7025588a0ecd4169e1d1d842"
+    "digest": "112d8bbd0b339ce7b3fdf74600e6159fb6d0a28f7025588a0ecd4169e1d1d842",
+    "evidence": "lockup"
   },
   "solera": {
     "file": "solera.svg",
     "source": "https://solera-one.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1153,
-    "digest": "bccff6652cae29e8a7e69c20066e341ddf69592f956a8125f9804ccb9b07c435"
+    "digest": "bccff6652cae29e8a7e69c20066e341ddf69592f956a8125f9804ccb9b07c435",
+    "evidence": "named"
   },
   "stemloom": {
     "file": "stemloom.svg",
     "source": "https://stemloom.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1687,
-    "digest": "7ec3eb73f4e4d402b7f617289e38b345979e544cfc24c916eedaa9bf10821162"
+    "digest": "7ec3eb73f4e4d402b7f617289e38b345979e544cfc24c916eedaa9bf10821162",
+    "evidence": "named"
   },
   "cutwright": {
     "file": "cutwright.svg",
     "source": "https://cutwright.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1655,
-    "digest": "0bd3918efb9d152927dc6fcaa3d3988c35c7a91c4c3323619054ba36606238cc"
+    "digest": "0bd3918efb9d152927dc6fcaa3d3988c35c7a91c4c3323619054ba36606238cc",
+    "evidence": "named"
   },
   "meadowfar": {
     "file": "meadowfar.svg",
     "source": "https://meadowfar.vercel.app/icon.svg?icon.06kqunwyegu7_.svg",
     "kind": "svg",
     "bytes": 423,
-    "digest": "2b16ce5043faf71cbcd5d3f34de6c7622d983146b1ae5d564403f75a0c55e1de"
+    "digest": "2b16ce5043faf71cbcd5d3f34de6c7622d983146b1ae5d564403f75a0c55e1de",
+    "evidence": "declared"
   },
   "cadensa": {
     "file": "cadensa.svg",
     "source": "https://cadensa.vercel.app (inline)",
     "kind": "inline",
     "bytes": 4326,
-    "digest": "7b4cc774e58a5584f2d23eebd631e5d49e79066b905c32a8d4899e689ec3d471"
+    "digest": "7b4cc774e58a5584f2d23eebd631e5d49e79066b905c32a8d4899e689ec3d471",
+    "evidence": "named"
   },
   "arbiter": {
     "file": "arbiter.svg",
     "source": "https://dashboard-web-gamma-peach.vercel.app (inline)",
     "kind": "inline",
     "bytes": 981,
-    "digest": "9a8c6120ecc25abd80d883f432dfc413e4c8e2aa2b0c9852fb62858039f0d327"
+    "digest": "9a8c6120ecc25abd80d883f432dfc413e4c8e2aa2b0c9852fb62858039f0d327",
+    "evidence": "header"
   },
   "colonnade": {
     "file": "colonnade.svg",
     "source": "https://colonnade.vercel.app (inline)",
     "kind": "inline",
     "bytes": 2473,
-    "digest": "d7c8ec1cf256ea39e3809239d23efad760fc4a208bdc97b87c3b9bf90964a5d1"
+    "digest": "d7c8ec1cf256ea39e3809239d23efad760fc4a208bdc97b87c3b9bf90964a5d1",
+    "evidence": "named"
   },
   "bryankwandou": {
     "file": "bryankwandou.svg",
     "source": "https://bryankwandou.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1695,
-    "digest": "07307b02a0a822157c3b2cbf68f11129d7ecfb3e7ebce80d6be2006d97a13034"
+    "digest": "07307b02a0a822157c3b2cbf68f11129d7ecfb3e7ebce80d6be2006d97a13034",
+    "evidence": "named"
   },
   "forkroot": {
     "file": "forkroot.svg",
     "source": "https://forkroot.vercel.app (inline)",
     "kind": "inline",
     "bytes": 2289,
-    "digest": "2e3af1b6929edeaf953c681ebceabf8e572380d9f7e19df48d6e76b5f196987b"
+    "digest": "2e3af1b6929edeaf953c681ebceabf8e572380d9f7e19df48d6e76b5f196987b",
+    "evidence": "named"
   },
   "vinbryyt": {
     "file": "vinbryyt.svg",
     "source": "https://vinbryyt.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1313,
-    "digest": "8eb86f5707fb731195020aa8a619b1af962f0e47fbb972f49fa0ce145008d155"
+    "digest": "8eb86f5707fb731195020aa8a619b1af962f0e47fbb972f49fa0ce145008d155",
+    "evidence": "named"
   },
   "keelstack-search": {
     "file": "keelstack-search.svg",
     "source": "https://keelstack-search.vercel.app/mark.svg",
     "kind": "svg",
     "bytes": 707,
-    "digest": "7745de152c58ea7cd7f46927e47e911cc79a4cdbd00d3d67fa32735a6454fd1b"
+    "digest": "7745de152c58ea7cd7f46927e47e911cc79a4cdbd00d3d67fa32735a6454fd1b",
+    "evidence": "declared"
   },
   "keelstack-messaging": {
     "file": "keelstack-messaging.svg",
     "source": "https://keelstack-messaging.vercel.app/mark.svg",
     "kind": "svg",
     "bytes": 707,
-    "digest": "05caed6e068071efced2f00f93461d55660b3a6276c9e11ee7d7cf8130ec8ef8"
+    "digest": "05caed6e068071efced2f00f93461d55660b3a6276c9e11ee7d7cf8130ec8ef8",
+    "evidence": "declared"
   },
   "keelstack-identity": {
     "file": "keelstack-identity.svg",
     "source": "https://keelstack-identity.vercel.app/mark.svg",
     "kind": "svg",
     "bytes": 707,
-    "digest": "dfae6a8dd11eabdc66a69a8eca628397500f450596bc67a4bb1cdcdc4070cc5c"
+    "digest": "dfae6a8dd11eabdc66a69a8eca628397500f450596bc67a4bb1cdcdc4070cc5c",
+    "evidence": "declared"
   },
   "keelstack-lending": {
     "file": "keelstack-lending.svg",
     "source": "https://keelstack-lending.vercel.app/mark.svg",
     "kind": "svg",
     "bytes": 707,
-    "digest": "c586d16e7ff17115c60b478e4214c325081b14efac0c89ce411449ee6a033c0a"
+    "digest": "c586d16e7ff17115c60b478e4214c325081b14efac0c89ce411449ee6a033c0a",
+    "evidence": "declared"
   },
   "keelstack-ads": {
     "file": "keelstack-ads.svg",
     "source": "https://keelstack-ads.vercel.app/mark.svg",
     "kind": "svg",
     "bytes": 707,
-    "digest": "02450eaa51d243ec1fa0120f27b522d9f50ce45ffdeaaddef0047b6bf0e07d2c"
+    "digest": "02450eaa51d243ec1fa0120f27b522d9f50ce45ffdeaaddef0047b6bf0e07d2c",
+    "evidence": "declared"
   },
   "keelstack-creator": {
     "file": "keelstack-creator.svg",
     "source": "https://keelstack-creator.vercel.app/mark.svg",
     "kind": "svg",
     "bytes": 707,
-    "digest": "1e3e132ea2555869ee4abe8c46b152404e2bf76c2ef641c5fc8d46c27797e3c6"
+    "digest": "1e3e132ea2555869ee4abe8c46b152404e2bf76c2ef641c5fc8d46c27797e3c6",
+    "evidence": "declared"
   },
   "keelstack-video": {
     "file": "keelstack-video.svg",
     "source": "https://keelstack-video.vercel.app/mark.svg",
     "kind": "svg",
     "bytes": 707,
-    "digest": "492cad0fdc181b0ed744d14de693dd8e6fdc71b2499a13dedf196f5fabce0760"
+    "digest": "492cad0fdc181b0ed744d14de693dd8e6fdc71b2499a13dedf196f5fabce0760",
+    "evidence": "declared"
   },
   "keelstack-social": {
     "file": "keelstack-social.svg",
     "source": "https://keelstack-social.vercel.app/mark.svg",
     "kind": "svg",
     "bytes": 707,
-    "digest": "e1051b8d251470f5f24accdd9b8c0a77896abd946fc9c87fb4f49b68b48dbc32"
+    "digest": "e1051b8d251470f5f24accdd9b8c0a77896abd946fc9c87fb4f49b68b48dbc32",
+    "evidence": "declared"
   },
   "keelstack-mobility": {
     "file": "keelstack-mobility.svg",
     "source": "https://keelstack-mobility.vercel.app/mark.svg",
     "kind": "svg",
     "bytes": 707,
-    "digest": "0614712f82326dc5ee6a5562382bd76d5801750e18b91ff5881145bd774cb981"
+    "digest": "0614712f82326dc5ee6a5562382bd76d5801750e18b91ff5881145bd774cb981",
+    "evidence": "declared"
   },
   "stele": {
     "file": "stele.svg",
     "source": "https://stele-gamma.vercel.app (inline)",
     "kind": "inline",
     "bytes": 3976,
-    "digest": "51af93617d63913050aa9b8a82d7ba1f0d6df7fc9548d473e2175373cbc2cc6d"
+    "digest": "51af93617d63913050aa9b8a82d7ba1f0d6df7fc9548d473e2175373cbc2cc6d",
+    "evidence": "position"
   },
   "keelstack-logistics": {
     "file": "keelstack-logistics.svg",
     "source": "https://keelstack-logistics.vercel.app/mark.svg",
     "kind": "svg",
     "bytes": 707,
-    "digest": "b5921f558124d87f990ca21c0ed6e25cbb2225956d03ca52b99f25ae43096079"
+    "digest": "b5921f558124d87f990ca21c0ed6e25cbb2225956d03ca52b99f25ae43096079",
+    "evidence": "declared"
   },
   "keelstack-payments": {
     "file": "keelstack-payments.svg",
     "source": "https://keelstack-payments.vercel.app/mark.svg",
     "kind": "svg",
     "bytes": 707,
-    "digest": "ebfa3e544e53e8c67b0f82ce66f16304d4f83bade9c67bcd123c0d7f47dc1205"
+    "digest": "ebfa3e544e53e8c67b0f82ce66f16304d4f83bade9c67bcd123c0d7f47dc1205",
+    "evidence": "declared"
   },
   "keelstack-commerce": {
     "file": "keelstack-commerce.svg",
     "source": "https://keelstack-commerce.vercel.app/mark.svg",
     "kind": "svg",
     "bytes": 707,
-    "digest": "5c6e83d158384bbb0b01db7818aab021e40b7cfa27906f3eff1a30ff32369ae7"
+    "digest": "5c6e83d158384bbb0b01db7818aab021e40b7cfa27906f3eff1a30ff32369ae7",
+    "evidence": "declared"
   },
   "tokenwatt": {
     "file": "tokenwatt.svg",
     "source": "https://tokenwatt.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1161,
-    "digest": "084bde2e0859c05c03b315723f16c6c791d83f8cda96246156971f5c223a3ce2"
+    "digest": "084bde2e0859c05c03b315723f16c6c791d83f8cda96246156971f5c223a3ce2",
+    "evidence": "named"
   },
   "nngesport": {
     "file": "nngesport.jpg",
     "source": "https://nngesport.vercel.app/img/nng-esport-avatar.jpg",
     "kind": "header",
     "bytes": 154691,
-    "digest": "d9f4ab8407731d4c3a3d349ad29a10709bc27de2998f1439c0c67c64fa377ac3"
+    "digest": "d9f4ab8407731d4c3a3d349ad29a10709bc27de2998f1439c0c67c64fa377ac3",
+    "evidence": "named"
   },
   "larasa": {
     "file": "larasa.svg",
     "source": "https://larasa.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1714,
-    "digest": "34cd6b782b5cf81957e5b6596a59ee81ef9e456076efb2c5065cacc37377b4cd"
+    "digest": "34cd6b782b5cf81957e5b6596a59ee81ef9e456076efb2c5065cacc37377b4cd",
+    "evidence": "named"
   },
   "keelstack-gaming": {
     "file": "keelstack-gaming.svg",
     "source": "https://keelstack-gaming.vercel.app/mark.svg",
     "kind": "svg",
     "bytes": 707,
-    "digest": "b2e5f623f27c1efd5d43ec5684fda38340fd31f1495cde0b8a5f5e1f47c69b58"
+    "digest": "b2e5f623f27c1efd5d43ec5684fda38340fd31f1495cde0b8a5f5e1f47c69b58",
+    "evidence": "declared"
   },
   "keelstack-health": {
     "file": "keelstack-health.svg",
     "source": "https://keelstack-health.vercel.app/mark.svg",
     "kind": "svg",
     "bytes": 707,
-    "digest": "2f51c04eff85336b48fe6e2e6e78dda9f7629d84afcac721012c0de6a4b789cd"
+    "digest": "2f51c04eff85336b48fe6e2e6e78dda9f7629d84afcac721012c0de6a4b789cd",
+    "evidence": "declared"
   },
   "keelstack-food": {
     "file": "keelstack-food.svg",
     "source": "https://keelstack-food.vercel.app/mark.svg",
     "kind": "svg",
     "bytes": 707,
-    "digest": "fda3b9235074ce61781dc719eaf90506957e37cc5c32048511cf4452bb7625b1"
+    "digest": "fda3b9235074ce61781dc719eaf90506957e37cc5c32048511cf4452bb7625b1",
+    "evidence": "declared"
   },
   "keelstack-travel": {
     "file": "keelstack-travel.svg",
     "source": "https://keelstack-travel.vercel.app/mark.svg",
     "kind": "svg",
     "bytes": 707,
-    "digest": "0ab8da5ca6acb1fe79a79de70dc9c9904628e53bec653964b197d8ced1097546"
+    "digest": "0ab8da5ca6acb1fe79a79de70dc9c9904628e53bec653964b197d8ced1097546",
+    "evidence": "declared"
   },
   "fluentia": {
     "file": "fluentia.svg",
     "source": "https://fluentia.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1345,
-    "digest": "cb99cf55848254a28a87b46a06ae02691a6606b21e484782a6260f223ee7a79c"
+    "digest": "cb99cf55848254a28a87b46a06ae02691a6606b21e484782a6260f223ee7a79c",
+    "evidence": "lockup"
   },
   "tallystick": {
     "file": "tallystick.svg",
     "source": "https://tallystick.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1192,
-    "digest": "8e4c8b98874f32993f20875eb650363a4c35a7f34d9455e61cc7925f1baa3a82"
+    "digest": "8e4c8b98874f32993f20875eb650363a4c35a7f34d9455e61cc7925f1baa3a82",
+    "evidence": "named"
   },
   "mettle": {
     "file": "mettle.svg",
     "source": "https://mettlehq.vercel.app (inline)",
     "kind": "inline",
     "bytes": 2351,
-    "digest": "debbae4e362fbf768f9f51d703276ef004763f59038a7cf8645f0a0b7538a4aa"
+    "digest": "debbae4e362fbf768f9f51d703276ef004763f59038a7cf8645f0a0b7538a4aa",
+    "evidence": "named"
   },
   "inkfold": {
     "file": "inkfold.svg",
     "source": "https://inkfold.vercel.app/logo.svg",
     "kind": "svg",
     "bytes": 603,
-    "digest": "9e5af0de673f160d6f43a4988bc5e0b824e74b8ebcc7e63684fb56c39d0cbdd1"
+    "digest": "9e5af0de673f160d6f43a4988bc5e0b824e74b8ebcc7e63684fb56c39d0cbdd1",
+    "evidence": "declared"
   },
   "kanvara": {
     "file": "kanvara.svg",
     "source": "https://kanvara.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1612,
-    "digest": "e3a82d69833bdc9e3623901363a9093166aacb2be1cc9c665d1c0101c1d6a516"
+    "digest": "e3a82d69833bdc9e3623901363a9093166aacb2be1cc9c665d1c0101c1d6a516",
+    "evidence": "position"
   },
   "keelstack": {
     "file": "keelstack.svg",
     "source": "https://keelstack.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1009,
-    "digest": "5501765a27dbb8ae2d9f55818213f30bc30e76e9b1de9baefdab5d32716ebaa2"
+    "digest": "5501765a27dbb8ae2d9f55818213f30bc30e76e9b1de9baefdab5d32716ebaa2",
+    "evidence": "named"
   },
   "loomstack": {
     "file": "loomstack.svg",
     "source": "https://web-phi-three-70.vercel.app (inline)",
     "kind": "inline",
     "bytes": 708,
-    "digest": "d0e3ca2b7bc745cf9d89904b517f48d226edb9ab4228e29fac4650432e35ca76"
+    "digest": "d0e3ca2b7bc745cf9d89904b517f48d226edb9ab4228e29fac4650432e35ca76",
+    "evidence": "lockup"
   },
   "altercast": {
     "file": "altercast.svg",
     "source": "https://altercast.vercel.app (inline)",
     "kind": "inline",
     "bytes": 909,
-    "digest": "2da9e317a5740ef081a9289666ebd057c31423def80c2e80f6e844b7c71eb00f"
+    "digest": "2da9e317a5740ef081a9289666ebd057c31423def80c2e80f6e844b7c71eb00f",
+    "evidence": "lockup"
   },
   "veristart-agentic-feasibility": {
     "file": "veristart-agentic-feasibility.svg",
     "source": "https://getveristart.vercel.app (inline)",
     "kind": "inline",
     "bytes": 713,
-    "digest": "d4e0570594b55f0f85ee8697902f4561aae1788d3a4d11d9554bb3a19ebb726c"
+    "digest": "d4e0570594b55f0f85ee8697902f4561aae1788d3a4d11d9554bb3a19ebb726c",
+    "evidence": "header"
   },
   "veylock": {
     "file": "veylock.svg",
     "source": "https://veylock.vercel.app (inline)",
     "kind": "inline",
     "bytes": 603,
-    "digest": "76a05f4ff9f8d402e5704f5d36c79c72036f68a52e91aaba0fd18879e83706e4"
+    "digest": "76a05f4ff9f8d402e5704f5d36c79c72036f68a52e91aaba0fd18879e83706e4",
+    "evidence": "named"
   },
   "kinferry": {
     "file": "kinferry.svg",
     "source": "https://kinferry.vercel.app (inline)",
     "kind": "inline",
     "bytes": 733,
-    "digest": "97ec916a1e53741f5e2e9bd533c86cc4fc39d5e3691f1f977722928d164f5f35"
+    "digest": "97ec916a1e53741f5e2e9bd533c86cc4fc39d5e3691f1f977722928d164f5f35",
+    "evidence": "header"
   },
   "mirrorqa-ai": {
     "file": "mirrorqa-ai.svg",
     "source": "https://mirrorqa-ai.vercel.app/icon.svg?icon.0ybhtlqlzecvg.svg",
     "kind": "svg",
     "bytes": 453,
-    "digest": "dfade5689ff5c22606d0e39a72b29fbf5f8a3932a44a57269167279fcc1d1991"
+    "digest": "dfade5689ff5c22606d0e39a72b29fbf5f8a3932a44a57269167279fcc1d1991",
+    "evidence": "declared"
   },
   "servetrace": {
     "file": "servetrace.svg",
     "source": "https://servetrace.vercel.app (inline)",
     "kind": "inline",
     "bytes": 630,
-    "digest": "841d7a28932990c09254963199dcf74b4e2cc825166fb354ce5c95cd55d71040"
+    "digest": "841d7a28932990c09254963199dcf74b4e2cc825166fb354ce5c95cd55d71040",
+    "evidence": "header"
   },
   "galleryos": {
     "file": "galleryos.svg",
     "source": "https://galleryos-drab.vercel.app/icon.svg",
     "kind": "svg",
     "bytes": 206,
-    "digest": "35786b4c55cab3f2e45effd909dccc89c1c3128d559837e8554623c392b76a5d"
+    "digest": "35786b4c55cab3f2e45effd909dccc89c1c3128d559837e8554623c392b76a5d",
+    "evidence": "declared"
   },
   "dissentgrid": {
     "file": "dissentgrid.svg",
     "source": "https://dissentgrid.vercel.app (inline)",
     "kind": "inline",
     "bytes": 687,
-    "digest": "a081bb359861b4f1fc18add075c48b83f1f2d0c368731e0067ffb41a4bdef78f"
+    "digest": "a081bb359861b4f1fc18add075c48b83f1f2d0c368731e0067ffb41a4bdef78f",
+    "evidence": "lockup"
   },
   "axleveto": {
     "file": "axleveto.svg",
     "source": "https://axleveto.vercel.app (inline)",
     "kind": "inline",
     "bytes": 624,
-    "digest": "4ebb82b2e71af86ae53f4fdfdc641988627278b9d498ac55a798b3beb0783183"
+    "digest": "4ebb82b2e71af86ae53f4fdfdc641988627278b9d498ac55a798b3beb0783183",
+    "evidence": "lockup"
   },
   "childcareos": {
     "file": "childcareos.svg",
     "source": "https://childcareos-phi.vercel.app (inline)",
     "kind": "inline",
     "bytes": 781,
-    "digest": "f448a62d96c4fa72536313a93858e9cf97d722a9a6c70ae4e4b3e71b4be0fe56"
+    "digest": "f448a62d96c4fa72536313a93858e9cf97d722a9a6c70ae4e4b3e71b4be0fe56",
+    "evidence": "lockup"
   },
   "briefrail": {
     "file": "briefrail.svg",
     "source": "https://briefrail.vercel.app (inline)",
     "kind": "inline",
     "bytes": 636,
-    "digest": "fda89a576662f82441f8f11156d31594b725eab6467702dc1d1b686a6441e247"
+    "digest": "fda89a576662f82441f8f11156d31594b725eab6467702dc1d1b686a6441e247",
+    "evidence": "lockup"
   },
   "vowrail": {
     "file": "vowrail.svg",
     "source": "https://vowrail.vercel.app (inline)",
     "kind": "inline",
     "bytes": 653,
-    "digest": "b900f4b02b2ff9ef81e6789a82539a7166f738e0537dc728148c94e209a3cde9"
+    "digest": "b900f4b02b2ff9ef81e6789a82539a7166f738e0537dc728148c94e209a3cde9",
+    "evidence": "named"
   },
   "tanki-request": {
     "file": "tanki-request.svg",
     "source": "https://tanki-request-87c0dd3.vercel.app (inline)",
     "kind": "inline",
     "bytes": 683,
-    "digest": "17795fb2200e8136949413e7f5582b453b2ac059cb851e9c02c0b149ec15ff3a"
+    "digest": "17795fb2200e8136949413e7f5582b453b2ac059cb851e9c02c0b149ec15ff3a",
+    "evidence": "position"
   },
   "lineproof": {
     "file": "lineproof.svg",
     "source": "https://lineproof-rho.vercel.app (inline)",
     "kind": "inline",
     "bytes": 719,
-    "digest": "a15eb7c543eaa7b6f2ef1edb3efcf065a2b8f372c0edd969b8e70500dd2cfc92"
+    "digest": "a15eb7c543eaa7b6f2ef1edb3efcf065a2b8f372c0edd969b8e70500dd2cfc92",
+    "evidence": "header"
   },
   "solumkm": {
     "file": "solumkm.svg",
     "source": "https://solumkm.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1396,
-    "digest": "506865f9b97dcb594eb8e63e5a19902d75bfde33d87e44ff97abcbac643ea8e3"
+    "digest": "506865f9b97dcb594eb8e63e5a19902d75bfde33d87e44ff97abcbac643ea8e3",
+    "evidence": "lockup"
   },
   "proofcast": {
     "file": "proofcast.svg",
     "source": "https://proofcast-theta.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1044,
-    "digest": "89f802e9da22df1c049425de9eb09477dbed5c353a01abf382886dba991bd692"
+    "digest": "89f802e9da22df1c049425de9eb09477dbed5c353a01abf382886dba991bd692",
+    "evidence": "lockup"
   },
   "matchmind": {
     "file": "matchmind.svg",
     "source": "https://matchmind-omega.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1149,
-    "digest": "6a2710adda7f8656c3a7ee6c5fd7b88b84e7925502c0abe5ba51608ddb117bef"
+    "digest": "6a2710adda7f8656c3a7ee6c5fd7b88b84e7925502c0abe5ba51608ddb117bef",
+    "evidence": "position"
   },
   "anamneon": {
     "file": "anamneon.svg",
     "source": "https://anamneon.vercel.app (inline)",
     "kind": "inline",
     "bytes": 650,
-    "digest": "21770992e0babf4032ed0947d96b3ff1f55c56bca4725debcf77529b2b664fd9"
+    "digest": "21770992e0babf4032ed0947d96b3ff1f55c56bca4725debcf77529b2b664fd9",
+    "evidence": "lockup"
   },
   "veritair": {
     "file": "veritair.svg",
     "source": "https://veritair.vercel.app (inline)",
     "kind": "inline",
     "bytes": 522,
-    "digest": "a07791d3f506afcbf1e51340a62a4230a8aef4ce04c6925ae5b6e7dbae2a5239"
+    "digest": "a07791d3f506afcbf1e51340a62a4230a8aef4ce04c6925ae5b6e7dbae2a5239",
+    "evidence": "position"
   },
   "superteam-ukraine": {
     "file": "superteam-ukraine.svg",
     "source": "https://superteam-ukraine.vercel.app (inline)",
     "kind": "inline",
     "bytes": 2306,
-    "digest": "21f86ee055139084b93068790db6d7eb4ad6646ca70905205a666f3beef6ab78"
+    "digest": "21f86ee055139084b93068790db6d7eb4ad6646ca70905205a666f3beef6ab78",
+    "evidence": "position"
   },
   "solgig-mainnet": {
     "file": "solgig-mainnet.svg",
     "source": "https://solgig-mainnet.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1302,
-    "digest": "5be9512d23efc2a606ee97006864c81f1b80f449122ef0744669ba4a891c4fb8"
+    "digest": "5be9512d23efc2a606ee97006864c81f1b80f449122ef0744669ba4a891c4fb8",
+    "evidence": "header"
   },
   "solgig": {
     "file": "solgig.svg",
     "source": "https://solgig.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1302,
-    "digest": "5be9512d23efc2a606ee97006864c81f1b80f449122ef0744669ba4a891c4fb8"
+    "digest": "5be9512d23efc2a606ee97006864c81f1b80f449122ef0744669ba4a891c4fb8",
+    "evidence": "named"
   },
   "removix-ai": {
     "file": "removix-ai.svg",
     "source": "https://removix.vercel.app (inline)",
     "kind": "inline",
     "bytes": 779,
-    "digest": "7ccd7798d13479b946aeb91e51604bec33f2a7005c0a094f858f81db32eec2e3"
+    "digest": "7ccd7798d13479b946aeb91e51604bec33f2a7005c0a094f858f81db32eec2e3",
+    "evidence": "header"
   },
   "everanima": {
     "file": "everanima.svg",
     "source": "https://everanima.vercel.app (inline)",
     "kind": "inline",
     "bytes": 924,
-    "digest": "792749702d05cb5d5039e1fc9cc933d28323699639a0fdf6e656cb1c8958113e"
+    "digest": "792749702d05cb5d5039e1fc9cc933d28323699639a0fdf6e656cb1c8958113e",
+    "evidence": "lockup"
   },
   "diafund": {
     "file": "diafund.svg",
     "source": "https://diafund.vercel.app (inline)",
     "kind": "inline",
     "bytes": 871,
-    "digest": "36d95872ea3caf1dad76c32abfb324cbc2f7accb129376a31a00821451a6b609"
+    "digest": "36d95872ea3caf1dad76c32abfb324cbc2f7accb129376a31a00821451a6b609",
+    "evidence": "lockup"
   },
   "chainops-dashboard-ui-kit": {
     "file": "chainops-dashboard-ui-kit.svg",
     "source": "https://chainops-dashboard-ui-kit.vercel.app (inline)",
     "kind": "inline",
     "bytes": 807,
-    "digest": "93b4bafb9d1190bcfe19f6dbd034798dd4568cda4f0052119fb46660bfe672c1"
+    "digest": "93b4bafb9d1190bcfe19f6dbd034798dd4568cda4f0052119fb46660bfe672c1",
+    "evidence": "header"
   },
   "blockbite-xyz": {
     "file": "blockbite-xyz.png",
     "source": "https://blockbite-protocol.xyz/apple-icon.png?9d70fdebda2198c0",
     "kind": "apple",
     "bytes": 9809,
-    "digest": "08f028fc7fa090d04f676a8a574ff959052a014423828f9b5e1228755d14984a"
+    "digest": "08f028fc7fa090d04f676a8a574ff959052a014423828f9b5e1228755d14984a",
+    "evidence": "declared"
   },
   "blockbite": {
     "file": "blockbite.png",
     "source": "https://blockbite-game.vercel.app/logo.png",
     "kind": "header",
     "bytes": 49566,
-    "digest": "b6666be827548eecc58235bc478336ccd67400017654b6f351d4fe2c8e636f1d"
+    "digest": "b6666be827548eecc58235bc478336ccd67400017654b6f351d4fe2c8e636f1d",
+    "evidence": "named"
   },
   "basedrop": {
     "file": "basedrop.png",
     "source": "https://basedrop-protocol.vercel.app/logo.png",
     "kind": "apple",
     "bytes": 425933,
-    "digest": "d605525c7fa6496b643d715c377d98e95a26428e06c5bec4ed7cf7f01165cdbf"
+    "digest": "d605525c7fa6496b643d715c377d98e95a26428e06c5bec4ed7cf7f01165cdbf",
+    "evidence": "declared"
   },
   "atlas-quant": {
     "file": "atlas-quant.svg",
     "source": "https://atlas-quant.vercel.app (inline)",
     "kind": "inline",
     "bytes": 455,
-    "digest": "df7dd28ea0618ef4d8fb82adf34b7f43cce20bc3a496a7469853c2ea807f0df1"
+    "digest": "df7dd28ea0618ef4d8fb82adf34b7f43cce20bc3a496a7469853c2ea807f0df1",
+    "evidence": "lockup"
   },
   "antigravity-prime-hunter": {
     "file": "antigravity-prime-hunter.svg",
     "source": "https://antigravity-prime-hunter.vercel.app (inline)",
     "kind": "inline",
     "bytes": 2132,
-    "digest": "a82e2ba79ea90a8f33bbdcf5af3def09681df9069525a8dedc5cfb832815bf9a"
+    "digest": "a82e2ba79ea90a8f33bbdcf5af3def09681df9069525a8dedc5cfb832815bf9a",
+    "evidence": "named"
   },
   "anchor-debugger-skill": {
     "file": "anchor-debugger-skill.svg",
     "source": "https://anchor-debugger-skill.vercel.app (inline)",
     "kind": "inline",
     "bytes": 1126,
-    "digest": "ac26a5b05a4eaab292dbb4070fd489fbf7a278f047f14bc5b4749f387e45bc74"
+    "digest": "ac26a5b05a4eaab292dbb4070fd489fbf7a278f047f14bc5b4749f387e45bc74",
+    "evidence": "header"
   },
   "veztra": {
     "file": "veztra.svg",
     "source": "https://vestraid.vercel.app (inline)",
     "kind": "inline",
     "bytes": 706,
-    "digest": "83fec91498472d9f25759d2609617644c327f28ce36f65dc515459c24f8858c1"
+    "digest": "83fec91498472d9f25759d2609617644c327f28ce36f65dc515459c24f8858c1",
+    "evidence": "lockup"
   },
   "escrowkita": {
     "file": "escrowkita.svg",
     "source": "https://escrowkita.vercel.app/escrowkita-logo.svg",
     "kind": "header",
     "bytes": 689,
-    "digest": "6298bba0b085c7e0e7e443b1cf24b6953626bd59cd3bafdebcf078ada199b553"
+    "digest": "6298bba0b085c7e0e7e443b1cf24b6953626bd59cd3bafdebcf078ada199b553",
+    "evidence": "named"
   },
   "vericodeai": {
     "file": "vericodeai.png",
     "source": "https://vericode-ai.vercel.app/vericode-logo-mark.png",
     "kind": "header",
     "bytes": 84241,
-    "digest": "7030a16a2cf399a0a0c29f7f5245556c224e40f3c5ebfd12151fc0527d012e40"
+    "digest": "7030a16a2cf399a0a0c29f7f5245556c224e40f3c5ebfd12151fc0527d012e40",
+    "evidence": "named"
   },
   "solq": {
     "file": "solq.svg",
     "source": "https://solq.vercel.app (inline)",
     "kind": "inline",
     "bytes": 497,
-    "digest": "600064e40086a8d602230e7a711f97f894b341ba9563518008416a179f3f15d8"
+    "digest": "600064e40086a8d602230e7a711f97f894b341ba9563518008416a179f3f15d8",
+    "evidence": "position"
   },
   "voon": {
     "file": "voon.svg",
     "source": "https://voon.vercel.app/favicon.svg",
     "kind": "svg",
     "bytes": 268,
-    "digest": "082c09b42adf692ebf0a50e7fd541e7d3b5015f48b24676a871f8f36b347c23d"
+    "digest": "082c09b42adf692ebf0a50e7fd541e7d3b5015f48b24676a871f8f36b347c23d",
+    "evidence": "declared"
   },
   "solqv2": {
     "file": "solqv2.svg",
     "source": "https://solqv2.vercel.app (inline)",
     "kind": "inline",
     "bytes": 497,
-    "digest": "600064e40086a8d602230e7a711f97f894b341ba9563518008416a179f3f15d8"
+    "digest": "600064e40086a8d602230e7a711f97f894b341ba9563518008416a179f3f15d8",
+    "evidence": "position"
   },
   "spigot": {
     "file": "spigot.svg",
     "source": "github:spigot/src/app/icon.svg",
     "kind": "repo",
     "bytes": 717,
-    "digest": "9d4caa2baa53dfbccf6660ab3b00a8eaad0517655f3f119c9362ab367862eab5"
+    "digest": "9d4caa2baa53dfbccf6660ab3b00a8eaad0517655f3f119c9362ab367862eab5",
+    "evidence": "committed"
   },
   "aval-site": {
     "file": "aval-site.svg",
     "source": "github:aval-site/app/icon.svg",
     "kind": "repo",
     "bytes": 552,
-    "digest": "ed6a58b2deadcef7cac1ccbde968726c53cd4c85c60331022f43ac4e29ebebe4"
+    "digest": "ed6a58b2deadcef7cac1ccbde968726c53cd4c85c60331022f43ac4e29ebebe4",
+    "evidence": "committed"
   },
   "x402gate": {
     "file": "x402gate.svg",
     "source": "github:x402gate/public/logo-icon.svg",
     "kind": "repo",
     "bytes": 258,
-    "digest": "7758e84e32f749c840d6207f23168d2900dab57547a090a6cd92e843dedba562"
+    "digest": "7758e84e32f749c840d6207f23168d2900dab57547a090a6cd92e843dedba562",
+    "evidence": "committed"
   },
   "tollward": {
     "file": "tollward.svg",
     "source": "github:tollward/public/logo.svg",
     "kind": "repo",
     "bytes": 576,
-    "digest": "dd41ce1dda0b748efdc0c670c19b3c3a7ef73df0a85b3b64ad521563be5ae3b9"
+    "digest": "dd41ce1dda0b748efdc0c670c19b3c3a7ef73df0a85b3b64ad521563be5ae3b9",
+    "evidence": "committed"
   },
   "forewrit": {
     "file": "forewrit.svg",
     "source": "github:forewrit/public/logo.svg",
     "kind": "repo",
     "bytes": 911,
-    "digest": "4242c80b86c04b120ed6d421d11c861ebe685e8f0bc2b62260f1ba960a04df3c"
+    "digest": "4242c80b86c04b120ed6d421d11c861ebe685e8f0bc2b62260f1ba960a04df3c",
+    "evidence": "committed"
   },
   "verichain": {
     "file": "verichain.png",
     "source": "github:verichain/frontend/logo.png",
     "kind": "repo",
     "bytes": 904,
-    "digest": "0d69cc7c33b8c070a3ef68b194ddeb52e63012ddbc5c9568d4a04f0f87e2683a"
+    "digest": "0d69cc7c33b8c070a3ef68b194ddeb52e63012ddbc5c9568d4a04f0f87e2683a",
+    "evidence": "committed"
   },
   "pocketledger-offline-expense-tracker": {
     "file": "pocketledger-offline-expense-tracker.png",
     "source": "github:pocketledger-offline-expense-tracker/branding/logo.png",
     "kind": "repo",
     "bytes": 528952,
-    "digest": "34bc6352cdb5113f191b212588812825126fc7cc5606b70f85db643a70372581"
+    "digest": "34bc6352cdb5113f191b212588812825126fc7cc5606b70f85db643a70372581",
+    "evidence": "committed"
   },
   "hydraflow-water-reminder": {
     "file": "hydraflow-water-reminder.png",
     "source": "github:hydraflow-water-reminder/assets/logo.png",
     "kind": "repo",
     "bytes": 272529,
-    "digest": "f10c4f9b4ced7b62fbaa70d7a6ea27181507ee40e75cce24741b4ea4000025b6"
+    "digest": "f10c4f9b4ced7b62fbaa70d7a6ea27181507ee40e75cce24741b4ea4000025b6",
+    "evidence": "committed"
   },
   "habitforge": {
     "file": "habitforge.png",
     "source": "github:habitforge/assets/logo/logo.png",
     "kind": "repo",
     "bytes": 648833,
-    "digest": "255ebf73329f6e9591c271022ce99d834f4f7930a7c290fc56357839ff79a18e"
+    "digest": "255ebf73329f6e9591c271022ce99d834f4f7930a7c290fc56357839ff79a18e",
+    "evidence": "committed"
   },
   "focusforge-pomodoro": {
     "file": "focusforge-pomodoro.png",
     "source": "github:focusforge-pomodoro/app/assets/icons/logo.png",
     "kind": "repo",
     "bytes": 285363,
-    "digest": "d99ed8da67166221b010b3b8ce2a57053999c82c28db4438d90f15d8f3834e15"
+    "digest": "d99ed8da67166221b010b3b8ce2a57053999c82c28db4438d90f15d8f3834e15",
+    "evidence": "committed"
   },
   "flowtask-smart-todo-app": {
     "file": "flowtask-smart-todo-app.png",
     "source": "github:flowtask-smart-todo-app/landing_page/public/logo.png",
     "kind": "repo",
     "bytes": 257682,
-    "digest": "358be2ecd8c70c9211b05f04fee2334b6a126f6b41a242f9470403b92326b6e8"
+    "digest": "358be2ecd8c70c9211b05f04fee2334b6a126f6b41a242f9470403b92326b6e8",
+    "evidence": "committed"
   },
   "blockblast": {
     "file": "blockblast.svg",
     "source": "github:blockblast/public/logo.svg",
     "kind": "repo",
     "bytes": 5236,
-    "digest": "fc093d53019fa421e5ba39cda3bb0bddcacb0c2bd61947cb36a77a3ec518fe67"
+    "digest": "fc093d53019fa421e5ba39cda3bb0bddcacb0c2bd61947cb36a77a3ec518fe67",
+    "evidence": "committed"
   },
   "nng-tiktok-live-agent": {
     "file": "nng-tiktok-live-agent.png",
     "source": "github:NNG-TIKTOK-LIVE-AGENT/assets/images/LOGO.png",
     "kind": "repo",
     "bytes": 180238,
-    "digest": "aecd6896073028774b9b7bfb600505f64d91a7bb2fc7c1efd2885691e75e07b0"
+    "digest": "aecd6896073028774b9b7bfb600505f64d91a7bb2fc7c1efd2885691e75e07b0",
+    "evidence": "committed"
   },
   "movv-bmi": {
     "file": "movv-bmi.png",
     "source": "github:MOVV-BMI/assets/images/logo.png",
     "kind": "repo",
     "bytes": 139545,
-    "digest": "bdbeb7d23b5a019422776a7d77ed60c9eaf820b87367d73f6a1ad79d47d68fef"
+    "digest": "bdbeb7d23b5a019422776a7d77ed60c9eaf820b87367d73f6a1ad79d47d68fef",
+    "evidence": "committed"
   },
   "inspiraverse": {
     "file": "inspiraverse.png",
     "source": "github:InspiraVerse/assets/images/logo.png",
     "kind": "repo",
     "bytes": 420872,
-    "digest": "3c47f1605c2aecca76321ced8e06845a093f4c535b29f5d4372fb43594a5191f"
+    "digest": "3c47f1605c2aecca76321ced8e06845a093f4c535b29f5d4372fb43594a5191f",
+    "evidence": "committed"
   },
   "glyphra": {
     "file": "glyphra.svg",
     "source": "github:glyphra/public/mark.svg",
     "kind": "repo",
     "bytes": 1260,
-    "digest": "ee0958ab75ae4946ef1ccb5f5b0f54ef48e9567e2d464adbe9767c5d6729fdf4"
+    "digest": "ee0958ab75ae4946ef1ccb5f5b0f54ef48e9567e2d464adbe9767c5d6729fdf4",
+    "evidence": "committed"
   },
   "semester3dan4": {
     "file": "semester3dan4.png",
     "source": "github:semester3dan4/00agen/assets/img/logo.png",
     "kind": "repo",
     "bytes": 3432,
-    "digest": "0b4fd157a9f594f9c0f11da8e515863fef77ae534838a84d578b28a9e58787b8"
+    "digest": "0b4fd157a9f594f9c0f11da8e515863fef77ae534838a84d578b28a9e58787b8",
+    "evidence": "committed"
   }
 }
