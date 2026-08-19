@@ -87,6 +87,14 @@
     "digest": "2b16ce5043faf71cbcd5d3f34de6c7622d983146b1ae5d564403f75a0c55e1de",
     "evidence": "declared"
   },
+  "colonnade": {
+    "file": "colonnade.svg",
+    "source": "https://colonnade.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 2473,
+    "digest": "d7c8ec1cf256ea39e3809239d23efad760fc4a208bdc97b87c3b9bf90964a5d1",
+    "evidence": "named"
+  },
   "arbiter": {
     "file": "arbiter.svg",
     "source": "https://dashboard-web-gamma-peach.vercel.app (inline)",
@@ -94,6 +102,14 @@
     "bytes": 981,
     "digest": "9a8c6120ecc25abd80d883f432dfc413e4c8e2aa2b0c9852fb62858039f0d327",
     "evidence": "header"
+  },
+  "stele": {
+    "file": "stele.svg",
+    "source": "https://stele-gamma.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 3976,
+    "digest": "51af93617d63913050aa9b8a82d7ba1f0d6df7fc9548d473e2175373cbc2cc6d",
+    "evidence": "position"
   },
   "kanvara": {
     "file": "kanvara.svg",
@@ -141,14 +157,6 @@
     "kind": "inline",
     "bytes": 4326,
     "digest": "7b4cc774e58a5584f2d23eebd631e5d49e79066b905c32a8d4899e689ec3d471",
-    "evidence": "named"
-  },
-  "colonnade": {
-    "file": "colonnade.svg",
-    "source": "https://colonnade.vercel.app (inline)",
-    "kind": "inline",
-    "bytes": 2473,
-    "digest": "d7c8ec1cf256ea39e3809239d23efad760fc4a208bdc97b87c3b9bf90964a5d1",
     "evidence": "named"
   },
   "tokenwatt": {
@@ -255,14 +263,6 @@
     "digest": "0614712f82326dc5ee6a5562382bd76d5801750e18b91ff5881145bd774cb981",
     "evidence": "declared"
   },
-  "stele": {
-    "file": "stele.svg",
-    "source": "https://stele-gamma.vercel.app (inline)",
-    "kind": "inline",
-    "bytes": 3976,
-    "digest": "51af93617d63913050aa9b8a82d7ba1f0d6df7fc9548d473e2175373cbc2cc6d",
-    "evidence": "position"
-  },
   "keelstack-logistics": {
     "file": "keelstack-logistics.svg",
     "source": "https://keelstack-logistics.vercel.app/mark.svg",
@@ -311,6 +311,14 @@
     "digest": "cb99cf55848254a28a87b46a06ae02691a6606b21e484782a6260f223ee7a79c",
     "evidence": "lockup"
   },
+  "blockbite-tdp": {
+    "file": "blockbite-tdp.png",
+    "source": "https://blockbite-tdp.vercel.app/apple-icon.png?9d70fdebda2198c0",
+    "kind": "apple",
+    "bytes": 9809,
+    "digest": "08f028fc7fa090d04f676a8a574ff959052a014423828f9b5e1228755d14984a",
+    "evidence": "declared"
+  },
   "tallystick": {
     "file": "tallystick.svg",
     "source": "https://tallystick.vercel.app (inline)",
@@ -357,6 +365,14 @@
     "kind": "repo",
     "bytes": 552,
     "digest": "ed6a58b2deadcef7cac1ccbde968726c53cd4c85c60331022f43ac4e29ebebe4",
+    "evidence": "committed"
+  },
+  "antigravity-ide-frontend": {
+    "file": "antigravity-ide-frontend.svg",
+    "source": "github:antigravity-ide-frontend/jetski-logo-white.svg",
+    "kind": "repo",
+    "bytes": 342,
+    "digest": "74db5a99f783e1fa6d1c71c03bb165f3424c1e6c58e29d3cfaf8563790690e5a",
     "evidence": "committed"
   },
   "altercast": {
@@ -463,6 +479,14 @@
     "digest": "7758e84e32f749c840d6207f23168d2900dab57547a090a6cd92e843dedba562",
     "evidence": "committed"
   },
+  "agentpayos-proof-v2": {
+    "file": "agentpayos-proof-v2.svg",
+    "source": "https://agentpayos-proof-v2.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 656,
+    "digest": "65fdf2ec08877aa63314cd871a153c52eb6846defb229d2c152fd7c460f51b7b",
+    "evidence": "named"
+  },
   "tanki-request": {
     "file": "tanki-request.svg",
     "source": "https://tanki-request-87c0dd3.vercel.app (inline)",
@@ -494,6 +518,14 @@
     "bytes": 1044,
     "digest": "89f802e9da22df1c049425de9eb09477dbed5c353a01abf382886dba991bd692",
     "evidence": "lockup"
+  },
+  "aval": {
+    "file": "aval.svg",
+    "source": "https://aval-nayrbryangamings-projects.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1083,
+    "digest": "7127b0c20a144a2b69fc14fa149b02f39ec67f6c146d626fb14400268261d81b",
+    "evidence": "named"
   },
   "matchmind": {
     "file": "matchmind.svg",
@@ -671,116 +703,204 @@
     "digest": "600064e40086a8d602230e7a711f97f894b341ba9563518008416a179f3f15d8",
     "evidence": "position"
   },
+  "perfect-portfolio": {
+    "file": "perfect-portfolio.svg",
+    "source": "https://nayrbryangaming.vercel.app (inline)",
+    "kind": "inline",
+    "bytes": 1192,
+    "digest": "6e974e41239fa106238c5291444e10e48b827feb13e8944488f754e9e3f7610b",
+    "evidence": "header"
+  },
   "spigot": {
     "file": "spigot.svg",
     "source": "github:spigot/src/app/icon.svg",
     "kind": "repo",
     "bytes": 717,
-    "digest": "9d4caa2baa53dfbccf6660ab3b00a8eaad0517655f3f119c9362ab367862eab5"
-  },
-  "antigravity-ide-frontend": {
-    "file": "antigravity-ide-frontend.svg",
-    "source": "github:antigravity-ide-frontend/jetski-logo-white.svg",
-    "kind": "repo",
-    "bytes": 342,
-    "digest": "74db5a99f783e1fa6d1c71c03bb165f3424c1e6c58e29d3cfaf8563790690e5a"
+    "digest": "9d4caa2baa53dfbccf6660ab3b00a8eaad0517655f3f119c9362ab367862eab5",
+    "evidence": "committed"
   },
   "tollward": {
     "file": "tollward.svg",
     "source": "github:tollward/public/logo.svg",
     "kind": "repo",
     "bytes": 576,
-    "digest": "dd41ce1dda0b748efdc0c670c19b3c3a7ef73df0a85b3b64ad521563be5ae3b9"
+    "digest": "dd41ce1dda0b748efdc0c670c19b3c3a7ef73df0a85b3b64ad521563be5ae3b9",
+    "evidence": "committed"
   },
   "forewrit": {
     "file": "forewrit.svg",
     "source": "github:forewrit/public/logo.svg",
     "kind": "repo",
     "bytes": 911,
-    "digest": "4242c80b86c04b120ed6d421d11c861ebe685e8f0bc2b62260f1ba960a04df3c"
+    "digest": "4242c80b86c04b120ed6d421d11c861ebe685e8f0bc2b62260f1ba960a04df3c",
+    "evidence": "committed"
   },
   "glyphra": {
     "file": "glyphra.svg",
     "source": "github:glyphra/public/mark.svg",
     "kind": "repo",
     "bytes": 1260,
-    "digest": "ee0958ab75ae4946ef1ccb5f5b0f54ef48e9567e2d464adbe9767c5d6729fdf4"
+    "digest": "ee0958ab75ae4946ef1ccb5f5b0f54ef48e9567e2d464adbe9767c5d6729fdf4",
+    "evidence": "committed"
   },
   "verichain": {
     "file": "verichain.png",
     "source": "github:verichain/frontend/logo.png",
     "kind": "repo",
     "bytes": 904,
-    "digest": "0d69cc7c33b8c070a3ef68b194ddeb52e63012ddbc5c9568d4a04f0f87e2683a"
+    "digest": "0d69cc7c33b8c070a3ef68b194ddeb52e63012ddbc5c9568d4a04f0f87e2683a",
+    "evidence": "committed"
   },
   "semester3dan4": {
     "file": "semester3dan4.png",
     "source": "github:semester3dan4/00agen/assets/img/logo.png",
     "kind": "repo",
     "bytes": 3432,
-    "digest": "0b4fd157a9f594f9c0f11da8e515863fef77ae534838a84d578b28a9e58787b8"
+    "digest": "0b4fd157a9f594f9c0f11da8e515863fef77ae534838a84d578b28a9e58787b8",
+    "evidence": "committed"
   },
   "pocketledger-offline-expense-tracker": {
     "file": "pocketledger-offline-expense-tracker.png",
     "source": "github:pocketledger-offline-expense-tracker/branding/logo.png",
     "kind": "repo",
     "bytes": 528952,
-    "digest": "34bc6352cdb5113f191b212588812825126fc7cc5606b70f85db643a70372581"
+    "digest": "34bc6352cdb5113f191b212588812825126fc7cc5606b70f85db643a70372581",
+    "evidence": "committed"
   },
   "hydraflow-water-reminder": {
     "file": "hydraflow-water-reminder.png",
     "source": "github:hydraflow-water-reminder/assets/logo.png",
     "kind": "repo",
     "bytes": 272529,
-    "digest": "f10c4f9b4ced7b62fbaa70d7a6ea27181507ee40e75cce24741b4ea4000025b6"
+    "digest": "f10c4f9b4ced7b62fbaa70d7a6ea27181507ee40e75cce24741b4ea4000025b6",
+    "evidence": "committed"
   },
   "habitforge": {
     "file": "habitforge.png",
     "source": "github:habitforge/assets/logo/logo.png",
     "kind": "repo",
     "bytes": 648833,
-    "digest": "255ebf73329f6e9591c271022ce99d834f4f7930a7c290fc56357839ff79a18e"
+    "digest": "255ebf73329f6e9591c271022ce99d834f4f7930a7c290fc56357839ff79a18e",
+    "evidence": "committed"
   },
   "focusforge-pomodoro": {
     "file": "focusforge-pomodoro.png",
     "source": "github:focusforge-pomodoro/app/assets/icons/logo.png",
     "kind": "repo",
     "bytes": 285363,
-    "digest": "d99ed8da67166221b010b3b8ce2a57053999c82c28db4438d90f15d8f3834e15"
+    "digest": "d99ed8da67166221b010b3b8ce2a57053999c82c28db4438d90f15d8f3834e15",
+    "evidence": "committed"
   },
   "flowtask-smart-todo-app": {
     "file": "flowtask-smart-todo-app.png",
     "source": "github:flowtask-smart-todo-app/landing_page/public/logo.png",
     "kind": "repo",
     "bytes": 257682,
-    "digest": "358be2ecd8c70c9211b05f04fee2334b6a126f6b41a242f9470403b92326b6e8"
+    "digest": "358be2ecd8c70c9211b05f04fee2334b6a126f6b41a242f9470403b92326b6e8",
+    "evidence": "committed"
   },
   "blockblast": {
     "file": "blockblast.svg",
     "source": "github:blockblast/public/logo.svg",
     "kind": "repo",
     "bytes": 5236,
-    "digest": "fc093d53019fa421e5ba39cda3bb0bddcacb0c2bd61947cb36a77a3ec518fe67"
+    "digest": "fc093d53019fa421e5ba39cda3bb0bddcacb0c2bd61947cb36a77a3ec518fe67",
+    "evidence": "committed"
   },
   "nng-tiktok-live-agent": {
     "file": "nng-tiktok-live-agent.png",
     "source": "github:NNG-TIKTOK-LIVE-AGENT/assets/images/LOGO.png",
     "kind": "repo",
     "bytes": 180238,
-    "digest": "aecd6896073028774b9b7bfb600505f64d91a7bb2fc7c1efd2885691e75e07b0"
+    "digest": "aecd6896073028774b9b7bfb600505f64d91a7bb2fc7c1efd2885691e75e07b0",
+    "evidence": "committed"
   },
   "movv-bmi": {
     "file": "movv-bmi.png",
     "source": "github:MOVV-BMI/assets/images/logo.png",
     "kind": "repo",
     "bytes": 139545,
-    "digest": "bdbeb7d23b5a019422776a7d77ed60c9eaf820b87367d73f6a1ad79d47d68fef"
+    "digest": "bdbeb7d23b5a019422776a7d77ed60c9eaf820b87367d73f6a1ad79d47d68fef",
+    "evidence": "committed"
   },
   "inspiraverse": {
     "file": "inspiraverse.png",
     "source": "github:InspiraVerse/assets/images/logo.png",
     "kind": "repo",
     "bytes": 420872,
-    "digest": "3c47f1605c2aecca76321ced8e06845a093f4c535b29f5d4372fb43594a5191f"
+    "digest": "3c47f1605c2aecca76321ced8e06845a093f4c535b29f5d4372fb43594a5191f",
+    "evidence": "committed"
+  },
+  "cueline": {
+    "file": "cueline.svg",
+    "source": "github:cueline/public/mark.svg",
+    "kind": "repo",
+    "bytes": 370,
+    "digest": "37957d63acbdf95f49e517eb85e34fff77337113581438b4afdd67ab53f3cbe9",
+    "evidence": "committed"
+  },
+  "orbwave": {
+    "file": "orbwave.svg",
+    "source": "github:orbwave/src/app/icon.svg",
+    "kind": "repo",
+    "bytes": 2999,
+    "digest": "f6ff1d7b70f0e05fdcbe5a10c9645b5e17c4bc6c8df4e25d46ef901f141ddf89",
+    "evidence": "committed"
+  },
+  "parlore": {
+    "file": "parlore.svg",
+    "source": "local:parlore/public/logo-mark.svg",
+    "kind": "local",
+    "bytes": 1311,
+    "digest": "50c284d6f09089b452e0a2406b4e66d364bce20bd586eec2ae4cc132eddf5209",
+    "evidence": "local"
+  },
+  "vinbryyt-drip-revival": {
+    "file": "vinbryyt-drip-revival.svg",
+    "source": "local:vinbryyt/src/app/icon.svg",
+    "kind": "local",
+    "bytes": 847,
+    "digest": "883a8f989bb5f8b89a32d0c2a1ead044e6372734cf08aaaae4850a33d2ec585d",
+    "evidence": "local"
+  },
+  "velthoryn": {
+    "file": "velthoryn.svg",
+    "source": "local:ref-velthoryn/apps/web/public/brand/velthoryn-logo-sm.svg",
+    "kind": "local",
+    "bytes": 764,
+    "digest": "be8c6cd862560dca6aaf564ab7417f2a55f9f80b579b9a70e9fd5e6e82861d70",
+    "evidence": "local"
+  },
+  "kubantara": {
+    "file": "kubantara.svg",
+    "source": "local:kubantara/public/ikon.svg",
+    "kind": "local",
+    "bytes": 465,
+    "digest": "f10526d64dc97e84c2ed00f8f33f71cc8d88e32403b018152845e5e786082c73",
+    "evidence": "local"
+  },
+  "wayproof": {
+    "file": "wayproof.svg",
+    "source": "local:wayproof/public/brand/wayproof-mark.svg",
+    "kind": "local",
+    "bytes": 1603,
+    "digest": "60bd393efdbfedb788a8826dcaa2d444e1d20e58edac423c96586d8afb60d7d8",
+    "evidence": "local"
+  },
+  "cairin": {
+    "file": "cairin.svg",
+    "source": "local:cairin/public/brand/cairin-mark.svg",
+    "kind": "local",
+    "bytes": 1135,
+    "digest": "478bd118267abf66acaeeaf1ae7236dd5493046ab8344df2067f0fa83c7e42b3",
+    "evidence": "local"
+  },
+  "solq.my.id": {
+    "file": "solq.my.id.png",
+    "source": "local:solq.my.id/assets/logo_full.png",
+    "kind": "local",
+    "bytes": 92889,
+    "digest": "40103d894b7d57dca62e9c080234e60f22f6f244338ab0d3c38b4778755b3983",
+    "evidence": "local"
   }
 }

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Kubantara">
+  <rect width="512" height="512" rx="96" fill="#7dd3fc"/>
+  <!-- kubus isometrik: tiga sisi, warna rumput–tanah seperti di dalam permainan -->
+  <g transform="translate(256 268)">
+    <path d="M0-150 150-64 0 22-150-64Z" fill="#4ade80"/>
+    <path d="M-150-64 0 22V184L-150 98Z" fill="#a16207"/>
+    <path d="M150-64 0 22V184L150 98Z" fill="#ca8a04"/>
+  </g>
+</svg>

@@ -142,5 +142,50 @@
     "shelf": "tools",
     "category": "developer",
     "language": "TypeScript"
+  },
+  {
+    "slug": "agentpayos-proof-v2",
+    "name": "AgentPayOS",
+    "vercelProject": "agentpayos-proof-v2",
+    "tagline": "Otorisasi berbukti untuk pembelian yang dilakukan agen: tiap transaksi membawa alasan yang bisa diperiksa.",
+    "shelf": "tools",
+    "category": "agent-infra",
+    "language": "TypeScript"
+  },
+  {
+    "slug": "aval",
+    "name": "Aval",
+    "vercelProject": "aval",
+    "tagline": "Rel tanda tangan bersama untuk agen otonom, menahan aksi sampai pihak kedua ikut menyetujui.",
+    "shelf": "tools",
+    "category": "agent-infra",
+    "language": "TypeScript"
+  },
+  {
+    "slug": "blockbite-tdp",
+    "name": "BlockBite TDP",
+    "vercelProject": "blockbite-tdp",
+    "tagline": "Protokol distribusi token untuk BlockBite, berjalan di Solana.",
+    "shelf": "projects",
+    "category": "web3",
+    "language": "TypeScript"
+  },
+  {
+    "slug": "shipcatalog",
+    "name": "Ship Catalog",
+    "vercelProject": "shipcatalog",
+    "tagline": "Paket publikasi LinkedIn berisi 21 produk, disusun untuk dirilis berurutan.",
+    "shelf": "projects",
+    "category": "consumer",
+    "language": "TypeScript"
+  },
+  {
+    "slug": "perfect-portfolio",
+    "name": "Consolidated Portfolio",
+    "vercelProject": "perfect-portfolio",
+    "tagline": "Portofolio gabungan nayrbryan, dirangkum jadi satu halaman.",
+    "shelf": "projects",
+    "category": "consumer",
+    "language": "TypeScript"
   }
 ]
