@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { Hero } from "@/components/Hero";
+import { IndexBand } from "@/components/IndexBand";
+import { EvidenceStrip } from "@/components/EvidenceStrip";
 import { Rail, SectionHead } from "@/components/Rail";
 import { EntryCard, FeatureCard } from "@/components/EntryCard";
 import { featured, recentlyLive, shelves, byCategory, counts } from "@/lib/catalog";
@@ -55,7 +57,7 @@ export default function Home() {
     <>
       <Hero />
 
-      <section className="mx-auto w-[min(78rem,92vw)] py-16">
+      <section className="mx-auto w-[min(78rem,92vw)] pb-14 pt-20">
         <SectionHead
           title="Worth opening first"
           blurb="The pieces that best show what the rest of the shelf is doing."
@@ -85,27 +87,12 @@ export default function Home() {
         </div>
       </section>
 
+      <IndexBand />
+
       <ShelfBlock id="projects" />
 
-      <section className="mx-auto w-[min(78rem,92vw)] pb-8">
-        <div className="overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-shadow-800 to-shadow-900 p-8 sm:p-12">
-          <h2 className="max-w-2xl font-display text-[clamp(1.6rem,3.4vw,2.3rem)] font-light leading-tight tracking-[-0.02em] text-stone-50">
-            The shelf can prove it has not been quietly rewritten.
-          </h2>
-          <p className="mt-4 max-w-xl text-[0.93rem] leading-relaxed text-stone-200/85">
-            Every listing is folded into a single fingerprint, and that fingerprint can be written
-            to Solana devnet with a connected wallet. Anyone can recompute it in their own browser
-            and check it against the chain. If a listing changed, the numbers stop agreeing.
-          </p>
-          <Link
-            href="/verify"
-            className="group mt-7 inline-flex items-center gap-2 rounded-xl border border-brass-400/40 bg-brass-400/12 px-5 py-2.5 text-[0.9rem] text-brass-300 transition hover:bg-brass-400/20"
-          >
-            Check the fingerprint
-            <ArrowRight className="size-4 transition-transform duration-300 group-hover:translate-x-0.5" />
-          </Link>
-        </div>
-      </section>
+      <EvidenceStrip />
+
     </>
   );
 }

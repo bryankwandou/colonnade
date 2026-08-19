@@ -173,7 +173,7 @@ export function Header() {
   return (
     <>
       <header
-        className={`sticky top-0 z-50 transition-all duration-300 ${
+        className={`sticky top-0 z-50 [transition-property:background-color,border-color,backdrop-filter] duration-300 ${
           lifted ? "border-b border-white/8 bg-shadow-900/85 backdrop-blur-xl" : "border-b border-transparent"
         }`}
       >
