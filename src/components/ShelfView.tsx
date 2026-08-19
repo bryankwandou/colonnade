@@ -1,11 +1,14 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { EntryCard } from "@/components/EntryCard";
+import { ShelfRow } from "@/components/ShelfRow";
+import { LayoutGrid, Rows3 } from "lucide-react";
 import { byShelf, shelfOf, type Shelf } from "@/lib/catalog";
 
 type Sort = "recent" | "name" | "live";
+type Density = "cards" | "rows";
 
 const SORTS: { id: Sort; label: string }[] = [
   { id: "recent", label: "Recently moved" },
@@ -20,6 +23,12 @@ export function ShelfView({ shelf }: { shelf: Shelf }) {
   const [category, setCategory] = useState<string | null>(null);
   const [sort, setSort] = useState<Sort>("recent");
   const [liveOnly, setLiveOnly] = useState(false);
+  /*
+   * A shelf of eighty is a different object from a shelf of twelve, and wants a
+   * different density. Cards default because a first visit is browsing; rows are
+   * there for the second visit, when the reader is looking for one known name.
+   */
+  const [density, setDensity] = useState<Density>("cards");
 
   const visible = useMemo(() => {
     let list = category ? all.filter((e) => e.category === category) : all.slice();
@@ -83,6 +92,22 @@ export function ShelfView({ shelf }: { shelf: Shelf }) {
             />
             Live only
           </label>
+          <div className="flex items-center rounded-lg border border-white/10 p-0.5" role="group" aria-label="Display density">
+            {([["cards", LayoutGrid, "Cards"], ["rows", Rows3, "List"]] as const).map(([id, Icon, label]) => (
+              <button
+                key={id}
+                onClick={() => setDensity(id)}
+                aria-pressed={density === id}
+                title={label}
+                className={`grid size-7 place-items-center rounded-md [transition-property:background-color,color] duration-150 ${
+                  density === id ? "bg-white/8 text-stone-50" : "text-stone-400 hover:text-stone-200"
+                }`}
+              >
+                <Icon className="size-3.5" />
+                <span className="sr-only">{label}</span>
+              </button>
+            ))}
+          </div>
           <select
             value={sort}
             onChange={(e) => setSort(e.target.value as Sort)}
@@ -103,19 +128,25 @@ export function ShelfView({ shelf }: { shelf: Shelf }) {
         {category ? ` in ${group?.categories.find((c) => c.id === category)?.label}` : ""}.
       </p>
 
-      <AnimatePresence mode="popLayout">
-        <motion.div
-          key={`${category}-${sort}-${liveOnly}`}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.25 }}
-          className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
-        >
-          {visible.map((entry, i) => (
+      <motion.div
+        key={density}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
+        className={
+          density === "cards"
+            ? "grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+            : "border-t border-white/[0.06]"
+        }
+      >
+        {visible.map((entry, i) =>
+          density === "cards" ? (
             <EntryCard key={entry.slug} entry={entry} index={i} />
-          ))}
-        </motion.div>
-      </AnimatePresence>
+          ) : (
+            <ShelfRow key={entry.slug} entry={entry} />
+          )
+        )}
+      </motion.div>
 
       {visible.length === 0 ? (
         <p className="py-20 text-center text-[0.9rem] text-stone-300">
