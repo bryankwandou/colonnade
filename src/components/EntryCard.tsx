@@ -21,7 +21,7 @@ export function EntryCard({ entry, index = 0 }: { entry: Entry; index?: number }
     >
       <Link
         href={`/app/${entry.slug}`}
-        className="flex h-full flex-col gap-3.5 rounded-2xl border border-white/8 bg-shadow-800/70 p-4 transition-all duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1 hover:border-white/16 hover:bg-shadow-700/80 hover:shadow-[0_20px_45px_-28px_rgba(0,0,0,0.9)]"
+        className="flex h-full flex-col gap-3.5 rounded-2xl border border-white/8 bg-shadow-800/70 p-4 [transition-property:transform,border-color,background-color,box-shadow] duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1 hover:border-white/16 hover:bg-shadow-700/80 hover:shadow-[0_20px_45px_-28px_rgba(0,0,0,0.9)]"
       >
         <div className="flex items-start gap-3.5">
           <Tile entry={entry} />
@@ -88,7 +88,7 @@ export function FeatureCard({ entry, index = 0 }: { entry: Entry; index?: number
     >
       <Link
         href={`/app/${entry.slug}`}
-        className="flex h-full flex-col overflow-hidden rounded-2xl border border-white/8 bg-shadow-800 transition-all duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1 hover:border-white/16 hover:shadow-[0_24px_55px_-30px_rgba(0,0,0,0.95)]"
+        className="flex h-full flex-col overflow-hidden rounded-2xl border border-white/8 bg-shadow-800 [transition-property:transform,border-color,background-color,box-shadow] duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1 hover:border-white/16 hover:shadow-[0_24px_55px_-30px_rgba(0,0,0,0.95)]"
       >
         <div
           className="relative h-28 overflow-hidden"
