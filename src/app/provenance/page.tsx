@@ -62,6 +62,16 @@ const ORIGIN: Record<string, { label: string; note: string; tone: string }> = {
     note: "The same file the deployment returns at a public URL",
     tone: "text-verdigris-300",
   },
+  image: {
+    label: "Image on the page",
+    note: "An image element further down the page, named as the brand",
+    tone: "text-verdigris-300",
+  },
+  stylesheet: {
+    label: "Painted by the stylesheet",
+    note: "A background image the markup never mentions",
+    tone: "text-brass-300",
+  },
   repo: {
     label: "Committed to the repo",
     note: "A file in the repository, usually app/icon.svg or public/logo.svg",
