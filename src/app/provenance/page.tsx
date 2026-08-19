@@ -29,6 +29,9 @@ const EVIDENCE: Record<string, { label: string; tone: string; rank: number }> = 
   lockup: { label: "Sits inside the home link", tone: "text-brass-300", rank: 4 },
   header: { label: "Sits inside the page header", tone: "text-brass-300", rank: 5 },
   position: { label: "Position in the markup only", tone: "text-stone-400", rank: 6 },
+  // Deliberately last and deliberately plain. A file on the author's machine is
+  // the real mark, but a reader cannot open it, so it is never counted as proof.
+  local: { label: "Working folder only, not published", tone: "text-rust-300", rank: 7 },
 };
 const marks = marksData as Record<string, MarkRecord>;
 const blurbs = blurbData as Record<string, string[]>;
@@ -47,6 +50,16 @@ const ORIGIN: Record<string, { label: string; note: string; tone: string }> = {
   header: {
     label: "Header image",
     note: "An image in the header, labelled with the product name",
+    tone: "text-verdigris-300",
+  },
+  local: {
+    label: "From the working folder",
+    note: "A file in the project folder on the author's machine, copied unmodified",
+    tone: "text-rust-300",
+  },
+  published: {
+    label: "Served by the site",
+    note: "The same file the deployment returns at a public URL",
     tone: "text-verdigris-300",
   },
   repo: {
@@ -90,6 +103,12 @@ function originOf(slug: string) {
  * makes a mark checkable; what is dropped is the address to fetch it from.
  */
 function maskSource(source: string): string {
+  // A local path names a folder on one machine. Keep the file name, drop the
+  // route to it: it identifies the mark without pretending to be checkable.
+  if (source.startsWith("local:")) {
+    const rel = source.slice("local:".length);
+    return `working folder → ${rel.split("/").slice(1).join("/") || rel}`;
+  }
   if (source.startsWith("github:")) {
     const path = source.slice("github:".length);
     const cut = path.indexOf("/");

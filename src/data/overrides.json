@@ -254,7 +254,8 @@
   },
   "proofofplay": {
     "name": "Proof of Play",
-    "category": "games"
+    "category": "games",
+    "tagline": "Penjelajah ruang bawah tanah tanpa ujung yang seluruhnya berjalan di rantai Solana."
   },
   "smashgo": {
     "name": "SmashGO",
@@ -302,7 +303,9 @@
   },
   "computervision-project1": {
     "name": "Computer Vision Project 1",
-    "category": "coursework"
+    "category": "coursework",
+    "live": null,
+    "note": "Deployment sits behind Vercel authentication; there is no public door."
   },
   "coffeeshop-enterprisefinaltest": {
     "name": "Coffee Shop System",
@@ -567,5 +570,38 @@
     "name": "QR Code (gagal)",
     "tagline": "Percobaan yang tidak berhasil, disimpan apa adanya sebagai catatan kesalahan.",
     "category": "coursework"
+  },
+  "veilo-v01-report": {
+    "tagline": "Temuan V-01 di mainnet Veilo: batas slot pada alur keluar Phoenix."
+  },
+  "understudy": {
+    "tagline": "Pendamping siaran untuk streamer afiliasi, menjaga siaran tetap jalan saat host tidak bisa tampil penuh, dan terbuka soal itu ke penonton."
+  },
+  "altercast": {
+    "tagline": "Kembaran siaran berbasis AI yang menjaga stream tetap hidup saat Anda sakit, pergi, atau kehabisan tenaga."
+  },
+  "superteam-ukraine": {
+    "tagline": "Superteam Ukraine, dahulu Kumeka Team: komunitas yang membangun di Solana."
+  },
+  "blockbite": {
+    "tagline": "Arkade puzzle blok berbasis keterampilan di Solana: beli tiket, naiki papan peringkat bulanan, hadiahnya USDC sungguhan."
+  },
+  "antigravity-prime-hunter": {
+    "tagline": "Mesin pencari Lucas-Lehmer yang berjalan sepanjang hari memburu bilangan Mersenne di atas rekor dunia saat ini."
+  },
+  "chainshift": {
+    "tagline": "Dunia prosedural yang dibangkitkan di jaringan Avalanche."
+  },
+  "vericodeai": {
+    "tagline": "Latihan koding dengan bantuan AI, kemajuan yang tercatat, dan persiapan wawancara."
+  },
+  "deadmanswitch": {
+    "tagline": "Protokol pewarisan aset kripto yang berjalan sendiri tanpa perantara."
+  },
+  "voon": {
+    "tagline": "Konferensi video gratis tanpa batas untuk kampus Indonesia, dengan AI yang menyusun notulen, absensi, dan kuis."
+  },
+  "solqv2": {
+    "tagline": "Bayar QRIS dengan aset Solana, versi kedua yang berdiri di domainnya sendiri."
   }
 }

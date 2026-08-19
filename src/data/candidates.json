@@ -1,0 +1,294 @@
+{
+  "candidates": [
+    {
+      "name": "agentpayos-proof-v2",
+      "url": "https://agentpayos-proof-v2.vercel.app",
+      "title": "AgentPayOS | Proof-carrying authorization for agent purchases",
+      "description": "Bind human mandates, deterministic policy decisions, Solana payments, and delivered results into portable audit receipts.",
+      "prose": 2601,
+      "updatedAt": "2026-07-24T13:23:30.420Z"
+    },
+    {
+      "name": "aval",
+      "url": "https://aval-nayrbryangamings-projects.vercel.app",
+      "title": "Aval — the co-sign rail for autonomous agents",
+      "description": "ZeroClaw agents build Solana payments that wait for a human signature without expiring. Durable nonces underneath, a chain-side recheck at approval time, zero keys anywhere.",
+      "prose": 4000,
+      "updatedAt": "2026-07-20T13:22:58.578Z"
+    },
+    {
+      "name": "bb-frontend",
+      "url": "https://bb-frontend-beryl.vercel.app",
+      "title": "BlockBite TDP — Token Distribution Protocol on Solana",
+      "description": "Stop distributing tokens blindly. Programmable cliff, linear, and milestone vesting with gamified anti-bot verification. 100% on-chain on Solana.",
+      "prose": 3623,
+      "updatedAt": "2026-06-28T13:01:14.763Z"
+    },
+    {
+      "name": "blockbite-tdp",
+      "url": "https://blockbite-tdp.vercel.app",
+      "title": "BlockBite TDP — Token Distribution Protocol on Solana",
+      "description": "Stop distributing tokens blindly. Programmable cliff, linear, and milestone vesting with gamified anti-bot verification. 100% on-chain on Solana.",
+      "prose": 3231,
+      "updatedAt": "2026-08-11T04:25:56.953Z"
+    },
+    {
+      "name": "chainshift",
+      "url": "https://chainshift-iota.vercel.app",
+      "title": "CHAINSHIFT | NUCLEAR BUILD | LIVE",
+      "description": "",
+      "prose": 285,
+      "updatedAt": "2026-05-25T07:20:44.652Z"
+    },
+    {
+      "name": "compassionate-booth-470af2",
+      "url": "https://compassionate-booth-470af2.vercel.app",
+      "title": "SOLQ — Solana × QRIS",
+      "description": "",
+      "prose": 3274,
+      "updatedAt": "2026-05-13T04:46:27.629Z"
+    },
+    {
+      "name": "frontend",
+      "url": "https://frontend-two-taupe-57.vercel.app",
+      "title": "BlockBite TDP — Token Distribution Protocol on Solana",
+      "description": "Stop distributing tokens blindly. Programmable cliff, linear, and milestone vesting with gamified anti-bot verification. 100% on-chain on Solana.",
+      "prose": 3631,
+      "updatedAt": "2026-06-12T08:41:05.676Z"
+    },
+    {
+      "name": "getciviflow",
+      "url": "https://getciviflow.vercel.app",
+      "title": "CiviFlow - Public service in motion",
+      "description": "Explainable municipal request routing with public SLA tracking.",
+      "prose": 1195,
+      "updatedAt": "2026-07-30T09:42:19.736Z"
+    },
+    {
+      "name": "perfect-portfolio",
+      "url": "https://nayrbryangaming.vercel.app",
+      "title": "nayrbryan — Ultimate Consolidated Portfolio",
+      "description": "The synthesis of 4 legendary designs. Web3 Builder & Full-Stack Developer.",
+      "prose": 4000,
+      "updatedAt": "2026-05-21T22:06:13.086Z"
+    },
+    {
+      "name": "proofcast-live",
+      "url": "https://proofcast-live.vercel.app",
+      "title": "ProofCast — forecasts with collateral behind them",
+      "description": "Football analysts seal predictions before kickoff, stake USDC bonds behind a public accuracy floor, and get graded by TxLINE Merkle proofs on Solana. No self-reported track records, ever.",
+      "prose": 2797,
+      "updatedAt": "2026-07-18T09:20:05.865Z"
+    },
+    {
+      "name": "shipcatalog",
+      "url": "https://shipcatalog.vercel.app",
+      "title": "LinkedIn Publication Pack — 21 Products",
+      "description": "",
+      "prose": 4000,
+      "updatedAt": "2026-07-30T11:39:06.787Z"
+    },
+    {
+      "name": "skyseed-isles",
+      "url": "https://skyseed-isles.vercel.app",
+      "title": "Skyseed Isles — dunia terbuka kecil untuk dijelajahi anak",
+      "description": "Game petualangan gratis di browser: pulau melayang tanpa batas, berteman dengan slime dan tunggangi mereka sampai tumbuh sayap. Tanpa install, tanpa iklan. Bahasa Indonesia.",
+      "prose": 4000,
+      "updatedAt": "2026-07-22T16:02:18.904Z"
+    }
+  ],
+  "aliases": [
+    {
+      "name": "agentpayos",
+      "url": "https://agentpayos-nayrbryangamings-projects.vercel.app",
+      "sameAs": "computervision-project1"
+    },
+    {
+      "name": "agentpayos-app",
+      "url": "https://agentpayos-app-nayrbryangamings-projects.vercel.app",
+      "sameAs": "computervision-project1"
+    },
+    {
+      "name": "aval-rail",
+      "url": "https://aval-rail-nayrbryangamings-projects.vercel.app",
+      "sameAs": "computervision-project1"
+    },
+    {
+      "name": "basedrop-protocol",
+      "url": "https://basedrop-mu.vercel.app",
+      "sameAs": "basedrop"
+    },
+    {
+      "name": "blockbite-broken",
+      "url": "https://blockbite.vercel.app",
+      "sameAs": "blockbite"
+    },
+    {
+      "name": "blockbite-protocol",
+      "url": "https://blockbite-protocol-ruby.vercel.app",
+      "sameAs": "bb-frontend"
+    },
+    {
+      "name": "clinicflow-ai",
+      "url": "https://clinicflow-ai-nayrbryangamings-projects.vercel.app",
+      "sameAs": "computervision-project1"
+    },
+    {
+      "name": "escrowkita",
+      "url": "https://escrowkita-nayrbryangamings-projects.vercel.app",
+      "sameAs": "computervision-project1"
+    },
+    {
+      "name": "fluentia",
+      "url": "https://fluentia-virid.vercel.app",
+      "sameAs": "fluentia"
+    },
+    {
+      "name": "fti-uajm",
+      "url": "https://fti-uajm-nayrbryangamings-projects.vercel.app",
+      "sameAs": "computervision-project1"
+    },
+    {
+      "name": "getcatalog",
+      "url": "https://getcatalog-nayrbryangamings-projects.vercel.app",
+      "sameAs": "computervision-project1"
+    },
+    {
+      "name": "getgalleryos",
+      "url": "https://getgalleryos.vercel.app",
+      "sameAs": "galleryos"
+    },
+    {
+      "name": "kopedux",
+      "url": "https://kopedux.vercel.app",
+      "sameAs": "kopedu-nft-solana"
+    },
+    {
+      "name": "mettle",
+      "url": "https://mettle-chi.vercel.app",
+      "sameAs": "mettle"
+    },
+    {
+      "name": "nayrbryangaming",
+      "url": "https://nayrbryangaming-nayrbryangamings-projects.vercel.app",
+      "sameAs": "computervision-project1"
+    },
+    {
+      "name": "nusaharvest",
+      "url": "https://nusaharvest-nayrbryangamings-projects.vercel.app",
+      "sameAs": "computervision-project1"
+    },
+    {
+      "name": "nusaharvestid",
+      "url": "https://nusaharvestid-nayrbryangamings-projects.vercel.app",
+      "sameAs": "computervision-project1"
+    },
+    {
+      "name": "out",
+      "url": "https://out-nayrbryangamings-projects.vercel.app",
+      "sameAs": "computervision-project1"
+    },
+    {
+      "name": "phiechyan-lama",
+      "url": "https://phiechyan-arsip.vercel.app",
+      "sameAs": "phiechyan-arsip"
+    },
+    {
+      "name": "proofcast-app",
+      "url": "https://proofcast-app.vercel.app",
+      "sameAs": "proofcast"
+    },
+    {
+      "name": "proofofplay",
+      "url": "https://proofofplay-five.vercel.app",
+      "sameAs": "proofofplay"
+    },
+    {
+      "name": "solq-backend",
+      "url": "https://solq-backend-nayrbryangamings-projects.vercel.app",
+      "sameAs": "computervision-project1"
+    },
+    {
+      "name": "solq-demo",
+      "url": "https://solq-demo.vercel.app",
+      "sameAs": "solqv2"
+    },
+    {
+      "name": "ssfti-uajm-rusak",
+      "url": "https://ssfti-uajm-nayrbryangamings-projects.vercel.app",
+      "sameAs": "computervision-project1"
+    },
+    {
+      "name": "veristart-legacy",
+      "url": "https://veristart-six.vercel.app",
+      "sameAs": "veristart-agentic-feasibility"
+    },
+    {
+      "name": "veztra",
+      "url": "https://veztra-nayrbryangamings-projects.vercel.app",
+      "sameAs": "computervision-project1"
+    },
+    {
+      "name": "web-demo",
+      "url": "https://web-demo-kohl.vercel.app",
+      "sameAs": "solqv2"
+    },
+    {
+      "name": "zynqio-production-secure",
+      "url": "https://zynqio-production-secure.vercel.app",
+      "sameAs": "zynqio"
+    }
+  ],
+  "dead": [
+    {
+      "name": "app",
+      "url": "https://app-navy-three-88.vercel.app",
+      "status": "no content"
+    },
+    {
+      "name": "basedrop-mono",
+      "url": "https://basedrop-mono.vercel.app",
+      "status": 404
+    },
+    {
+      "name": "escrowkita.base",
+      "url": "https://escrowkitabase-nayrbryangamings-projects.vercel.app",
+      "status": 404
+    },
+    {
+      "name": "nayr-logger",
+      "url": "https://nayr-logger.vercel.app",
+      "status": "no content"
+    },
+    {
+      "name": "nayrbryangaming-escrow-kita",
+      "url": "https://nayrbryangaming-escrow-kita.vercel.app",
+      "status": 404
+    },
+    {
+      "name": "scripts",
+      "url": "https://scripts-lyart.vercel.app",
+      "status": 404
+    },
+    {
+      "name": "staketodone",
+      "url": "--",
+      "status": 0
+    },
+    {
+      "name": "tanki-request",
+      "url": "https://tanki-request-nayrbryangamings-projects.vercel.app",
+      "status": 404
+    },
+    {
+      "name": "taxmind-nexus",
+      "url": "https://taxmind-nexus.vercel.app",
+      "status": "no content"
+    },
+    {
+      "name": "vericodev2",
+      "url": "https://vericodev2.vercel.app",
+      "status": "no content"
+    }
+  ]
+}

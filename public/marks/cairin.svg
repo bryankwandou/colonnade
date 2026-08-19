@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Cairin">
+  <defs>
+    <linearGradient id="cairinRing" x1="8" y1="8" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2BE8A2"/>
+      <stop offset="0.5" stop-color="#00C48C"/>
+      <stop offset="1" stop-color="#00916E"/>
+    </linearGradient>
+    <linearGradient id="cairinDrop" x1="19" y1="17" x2="29" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#B8FFE4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- The C: an open ring with its mouth turned to the lower right, the
+       direction money leaves in. Round caps keep the terminals soft. -->
+  <path
+    d="M27.88 38.49 A15 15 0 1 1 38.77 21.40"
+    fill="none"
+    stroke="url(#cairinRing)"
+    stroke-width="6.5"
+    stroke-linecap="round"
+  />
+
+  <!-- The drop held in the counter: value, still yours, about to move. -->
+  <path
+    d="M24 16.6 C26.9 21.6 28.6 23.6 28.6 27.4 a4.6 4.6 0 0 1 -9.2 0 c0 -3.8 1.7 -5.8 4.6 -10.8 Z"
+    fill="url(#cairinDrop)"
+  />
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Wayproof">
+  <title>Wayproof</title>
+  <!--
+    The mark is a checkmark drawn the way OpenStreetMap draws a road: an ordered
+    polyline with visible vertex handles at every node. Read it small and it is a
+    tick, the universal sign for verified. Read it large and it is a road bending
+    through two survey points, centreline dashes and all. Same shape, two meanings.
+  -->
+  <defs>
+    <linearGradient id="wp-surface" x1="8" y1="52" x2="56" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2A2D33"/>
+      <stop offset="1" stop-color="#16181C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- road surface -->
+  <path d="M12 34 L26 48 L52 16"
+        fill="none" stroke="url(#wp-surface)" stroke-width="15"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- hi-vis edge line -->
+  <path d="M12 34 L26 48 L52 16"
+        fill="none" stroke="#FF8A1E" stroke-width="13" stroke-opacity="0.16"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- centreline: disappears at favicon size, leaving a clean tick -->
+  <path d="M12 34 L26 48 L52 16"
+        fill="none" stroke="#FF8A1E" stroke-width="2.2"
+        stroke-linecap="round" stroke-linejoin="round"
+        stroke-dasharray="5 5.5"/>
+
+  <!-- vertex handles, the way a map editor renders way nodes -->
+  <g fill="#0B0C0E" stroke="#FF8A1E" stroke-width="2.4">
+    <circle cx="12" cy="34" r="4"/>
+    <circle cx="52" cy="16" r="4"/>
+  </g>
+  <circle cx="26" cy="48" r="4.6" fill="#FF8A1E"/>
+</svg>

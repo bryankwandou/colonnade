@@ -28,6 +28,11 @@
   --color-verdigris-500: #3f8f7a;
   --color-verdigris-400: #57b195;
 
+  /* Oxidised copper. Reserved for what the catalogue cannot prove — never for
+     an error, and never for anything the reader is meant to act on. */
+  --color-rust-400: #c0685a;
+  --color-rust-300: #d4897c;
+
   --font-display: var(--font-fraunces), Georgia, serif;
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-mono: ui-monospace, "SF Mono", Menlo, monospace;
