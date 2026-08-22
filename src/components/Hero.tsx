@@ -85,9 +85,9 @@ export function Hero() {
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1], delay: 0.14 }}
           className="mt-6 max-w-xl text-[1.02rem] leading-relaxed text-stone-200/90"
         >
-          Work scatters across repositories until nobody can see the shape of it. Colonnade
-          puts {counts.listed} finished pieces on two shelves — tools you operate, and projects
-          with a thesis — and gives every one of them a door you can walk through.
+          Work scatters across repositories until nobody can see the shape of it. This puts
+          {counts.listed} finished pieces on two shelves and gives each one a door you can walk
+          through.
         </motion.p>
 
         <motion.div

@@ -154,14 +154,13 @@ export default function ProvenancePage() {
           Where every mark came from
         </h1>
         <p className="mt-3 max-w-2xl text-[0.95rem] leading-relaxed text-stone-200/85">
-          A logo is only worth showing if it belongs to the project. This names the exact file
-          behind each one, so any row here can be opened and checked against the deployment or the
-          repository it claims to come from.
+          A logo is only worth showing if it belongs to the project. Every row names the file it
+          came from, so you can go and check it.
         </p>
         <p className="mt-3 max-w-2xl text-[0.95rem] leading-relaxed text-stone-200/70">
           Marks worn by more than two listings are refused. A site that never set a favicon still
-          answers when asked for one, because the host serves its own — thirty-three listings once
-          wore the identical placeholder as though it were thirty-three logos.
+          answers when asked for one, because the host serves its own. Thirty-three listings once
+          wore the same placeholder as though it were thirty-three logos.
         </p>
       </header>
 

@@ -79,13 +79,12 @@ export function EvidenceStrip() {
             A logo is worth showing only if it belongs to the project.
           </h2>
           <p className="mt-5 text-[0.93rem] leading-relaxed text-stone-200/85">
-            {checkable} of {total} marks rest on something anyone can fetch and check for
-            themselves. The rest are listed too, in the same table, saying exactly what they rest
-            on instead.
+            {checkable} of {total} marks rest on something anyone can fetch and hash. The other
+            {total - checkable} sit in the same table, saying what they rest on instead.
           </p>
           <p className="mt-4 text-[0.88rem] leading-relaxed text-stone-300/80">
-            {generated} listings publish no mark anywhere, so the catalogue draws one from the slug
-            rather than borrowing somebody else&rsquo;s.
+            {generated} listings publish no mark at all. Those get a drawn one, rather than
+            somebody else&rsquo;s.
           </p>
           <Link
             href="/provenance"
