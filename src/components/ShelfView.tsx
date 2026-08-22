@@ -49,8 +49,8 @@ export function ShelfView({ shelf }: { shelf: Shelf }) {
         </h1>
         <p className="mt-3 max-w-xl text-[0.95rem] leading-relaxed text-stone-200/85">
           {shelf === "tools"
-            ? "Things you open and operate. Most of these run entirely in the browser, which means there is no account to make and nothing of yours leaves the machine."
-            : "Ventures, products, and studies. Each one was built to test a specific claim about how a job ought to be done."}
+            ? "Things you open and operate. Most run entirely in the browser: no account to make, nothing of yours leaves the machine."
+            : "Ventures, products, and studies. Each was built to test a claim about how a job ought to be done."}
         </p>
       </header>
 
